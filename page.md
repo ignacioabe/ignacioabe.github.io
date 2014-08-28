@@ -1,6 +1,6 @@
 ---
 title: holaa
-layout: default
+layout: nocss
 ---
 holi
 bas
