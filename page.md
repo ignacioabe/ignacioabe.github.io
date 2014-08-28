@@ -1,6 +1,5 @@
 ---
-title: holaa
-layout: default
+title: holaa2
 ---
 holi
 bas
