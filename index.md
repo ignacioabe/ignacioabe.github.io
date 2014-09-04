@@ -13,5 +13,3 @@ is-index: "TRUE"
 </li>
   {% endif %}
 {% endfor %}
-
-- [Pruebas de programación en Leaflet](leaflet/)
