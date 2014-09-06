@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+---
+title: "mapa santiago pedaleable 2.0"
+layout: empty
+---
 <html>
 
 <head>
 
 <meta charset="UTF-8">
+
+<title>mapa santiago pedaleable 2.0</title>
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>

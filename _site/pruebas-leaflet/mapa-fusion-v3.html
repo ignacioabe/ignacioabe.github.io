@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+
+        "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
 
 <head>
 
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
+
+<title>mapa fusión v2</title>
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
@@ -21,16 +26,26 @@
 
 <body>
 
-<div id='map'></div>
+<div id="map"></div>
 
 <script>
 
 
-//El problema de este método es que no sé cómo meter dos layers, porque la variable "gejson" tiene un ámbito limitado a la función $.getJSON
-$.getJSON("./geodatos-sectra/cicl-plan-maestro.geojson", function(data) {
+
+var plan_maestro = {};
+    $.ajax({
+    	url: "./geodatos-sectra/cicl-plan-maestro.geojson",
+    	async: false,
+    	dataType: 'json',
+    	success: function(data) {
+    		plan_maestro = data.plan_maestro;
+    	}
+    });
+
+// plan_maestro accessible here -- good!!
 
 //aquí se define el layer de ciclovías, para esto se le inyecta el geJSON de arriba con jQuery
-var plan_maestro = L.geoJson(data, {
+var plan_maestro = L.plan_maestro(data, {
   onEachFeature: function (feature, layer) {
   layer.bindPopup(
     "<b>VIA:</b> " + feature.properties.VIA +
@@ -74,10 +89,8 @@ var overlayMaps = {
 L.control.layers(baseMaps, overlayMaps).addTo(map);
 
 
-//cierre de $.getJSON
-});
-
 
 </script>
 
 </body>
+</html>

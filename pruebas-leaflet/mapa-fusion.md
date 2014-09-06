@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+---
+title: "mapa fusión v3"
+layout: empty
+---
 <html>
 
-<div id="contenidos">
-
 <meta charset="UTF-8">
+
+<title>mapa fusión v1</title>
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
