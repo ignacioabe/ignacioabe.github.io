@@ -1,5 +1,6 @@
 ---
 title: "mapa fusión v2"
+category: leaflet
 layout: empty
 ---
 <html>

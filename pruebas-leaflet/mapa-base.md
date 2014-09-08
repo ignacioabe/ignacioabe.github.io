@@ -1,5 +1,6 @@
 ---
 title: "mapa base"
+category: leaflet
 layout: empty
 ---
 <html>

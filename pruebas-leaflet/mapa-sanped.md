@@ -1,5 +1,6 @@
 ---
 title: "mapa santiago pedaleable 2.0"
+category: leaflet
 layout: empty
 ---
 <html>
