@@ -9,15 +9,19 @@ layout: nocss
 <ul> {% for post in site.posts %}
   <li>{{ post.date | | date: "%Y-%m-%d"  }} // <a href="{{ post.url }}">{{ post.title }}</a></li> {% endfor %}
 </ul>
+<!-- Tuve que desordenar un poco los loops para que el html resultante no tuviese líneas vacías -->
 
 ##Links
+- [twitter](http://twitter.com/ignacioabe)
 - [flickr](http://flickr.com/photos/ign)
 - [soundcloud](http://soundcloud.com/ignacioabe)
 - [github](https://github.com/ignacioabe)
 
 ##Pruebas de programación en Leaflet.js
-<ul>{% for page in site.pages %}{% if page.category == "leaflet" %}
-  <li><a href="{{ page.url }}">{{ page.title }}</a></li> {% endif %} {% endfor %}
+<ul>{% for page in site.pages %} {% if page.category == "leaflet" %}
+  <li><a href="{{ page.url }}">{{ page.title }}</a></li>{% endif %}{% endfor %}
 </ul>
+<!-- Aquí también desordené los loops -->
 
 El código fuente de esta página está disponible [aquí](https://github.com/ignacioabe/ignacioabe.github.io)
+

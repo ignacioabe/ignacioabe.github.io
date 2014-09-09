@@ -38,11 +38,15 @@ Poner ojo en que la cuenta gratis tiene un tope de 50 Mb. Para que lo que subimo
 
 Cuando hayan subido la foto, necesitan ID de su capa `usuario.capa` para ponerla en el url
 
-`http://a.tiles.mapbox.com/v3/(poner aquí su ID)/{z}/{x}/{y}.png>`
+`http://a.tiles.mapbox.com/v3/(poner aquí su ID)/{z}/{x}/{y}.png`
 
 Les debería quedar algo así:
 
-`http://a.tiles.mapbox.com/v3/ignacioabe.tmp_raster/{z}/{x}/{y}.png`
+`http://a.tiles.mapbox.com/v3/ignacioabe.tmp_raster/{z}/{x}/{y}.png` (Barrio República)
+
+o
+
+`http://a.tiles.mapbox.com/v3/ignacioabe.jskedn29/{z}/{x}/{y}.png` (Barrio Unidad vecinal Providencia)
 
 Cuando estén editando en OpenStreetMap, en el editor por defecto (iD) se puede poner su foto de fondo para dibujar, que tendrá mucho mejor resolución que la foto satelital que viene por defecto (bing maps). Para esto deben ver las capas, y en `PERSONALIZADO` colocar el url que generaron recién.
 
