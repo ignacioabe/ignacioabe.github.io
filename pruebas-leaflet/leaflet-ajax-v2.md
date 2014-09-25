@@ -1,5 +1,5 @@
 ---
-title: "stgo pedaleable"
+title: "leaflet ajax v2"
 category: leaflet
 layout: empty
 ---
@@ -15,7 +15,7 @@ var geojsonLayer = new L.GeoJSON.AJAX("geojson.json");
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>stgo pedaleable</title>
+<title>leaflet ajax v2</title>
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
