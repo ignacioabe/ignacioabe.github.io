@@ -1,7 +1,6 @@
 ---
 title: "de la sectra a openstreetmap"
 layout: nocss
-
 ---
 
 #Ocupando las fotos satelitales de SECTRA en OPENSTREETMAP.
