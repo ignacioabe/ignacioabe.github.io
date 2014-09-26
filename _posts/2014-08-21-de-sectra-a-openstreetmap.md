@@ -5,6 +5,8 @@ layout: nocss
 
 #Ocupando las fotos satelitales de SECTRA en OPENSTREETMAP.
 
+Las fotos están en <http://www.sectra.gob.cl/datos_e_informacion_espacial/gran_santiago/ortofoto_2012.html> pero es muy difícil saber cuál es la que les sirve.
+
 Lamentablemente, aunque la SECTRA es un organismo público y supuestamente el propósito de subir las fotos a internet es que la gente las ocupe, estas vienen en un formato propietario (ECW). Por esto, es bastante complicado abrirlas.
 
 Qgis es capaz de abrirlas, instalando el plugin ECW de GDAL. Las descargas necesarias y las explicaciones están en <http://www.kyngchaos.com/software/frameworks>
