@@ -24,8 +24,10 @@ var geojsonLayer = new L.GeoJSON.AJAX("geojson.json");
 
 <!-- leaflet markercluster -->
 
+<!--
 <link rel="stylesheet" href="http://rawgit.com/Leaflet/Leaflet.markercluster/master/dist/MarkerCluster.Default.css" />
 <script src="http://rawgit.com/Leaflet/Leaflet.markercluster/master/dist/leaflet.markercluster.js"></script>
+-->
 
 <!-- leaflet ajax -->
 
@@ -33,7 +35,9 @@ var geojsonLayer = new L.GeoJSON.AJAX("geojson.json");
 
 <!-- leaflet maki markers -->
 
+<!--
 <script src="http://rawgit.com/jseppi/Leaflet.MakiMarkers/master/Leaflet.MakiMarkers.js"></script>
+-->
 
 
 <style>
@@ -52,17 +56,101 @@ var geojsonLayer = new L.GeoJSON.AJAX("geojson.json");
 
 <script>
 
-var icon = L.MakiMarkers.icon({icon: "rocket", color: "#b0b", size: "m"});
+// la gran lata de este sistema es que hay que exportar tres archivos separados
+// desde overpass.turbo
 
-var cicleteros = new L.GeoJSON.AJAX("./cicleteros.geojson", {onEachFeature:function (feature, layer) {
+//estilo bicicleteros
+var estiloPark = {
+    radius: 4,
+    fillColor: "#1c1",
+    color: "#1c1",
+    weight: 1.5,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+//estilo bicicletas públicas
+var estiloRent = {
+    radius: 8,
+    fillColor: "#f33",
+    color: "#f33",
+    weight: 1.5,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+//estilo talleres
+var estiloShop = {
+    radius: 8,
+    fillColor: "#459dff",
+    color: "#459dff",
+    weight: 1.5,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+//estilo ciclovías plan maestro
+var estiloPm = {
+    color: "#f00",
+    weight: 3,
+    opacity: 0.7,
+    dashArray: "5, 8"
+};
+
+// var markers = new L.MarkerClusterGroup();
+// markers.addLayer(new L.Marker(getRandomLatLng(map)));
+// ... Add more layers ...
+// map.addLayer(markers);
+
+//layer bicicleteros
+var biciPark = new L.GeoJSON.AJAX("./geodatos-osm/bici-park.geojson", {
+
+pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng);
+    }
+,
+onEachFeature:function (feature, layer) {
 layer.bindPopup(
   "<b>NOMBRE:</b> " + feature.properties.name +
   "<br><b>Capacidad:</b> " + feature.properties.capacity
   );
 }
-});
+,style: estiloPark});
+
+//layer bicicletas públicas
+var biciRent = new L.GeoJSON.AJAX("./geodatos-osm/bici-rent.geojson", {
+
+pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng);
+    }
+,
+onEachFeature:function (feature, layer) {
+layer.bindPopup(
+  "<b>NOMBRE:</b> " + feature.properties.name +
+  "<br><b>Capacidad:</b> " + feature.properties.capacity +
+  "<br><b>Operador:</b> " + feature.properties.operator
+  );
+}
+,style: estiloRent});
+
+//layer talleres
+//me gustaría poner las direcciones pero tengo problemas con los keys compuestos
+//ej addr:street=
+var biciShop = new L.GeoJSON.AJAX("./geodatos-osm/bici-shop.geojson", {
+
+pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng);
+    }
+,
+onEachFeature:function (feature, layer) {
+layer.bindPopup(
+  "<b>NOMBRE:</b> " + feature.properties.name
+  );
+}
+,style: estiloShop});
 
 
+// layer plan maestro sectra
 var planMaestro = new L.GeoJSON.AJAX("./geodatos-sectra/cicl-plan-maestro.geojson",{onEachFeature:function (feature, layer) {
 layer.bindPopup(
   "<b>VIA:</b> " + feature.properties.VIA +
@@ -74,7 +162,11 @@ layer.bindPopup(
   "<br><b>Fallecidos:</b> " + feature.properties.FALLECIDOS
   );
 }
-});
+,style: estiloPm});
+
+//respaldo base clara
+//var base_cl		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.j74kak2h/{z}/{x}/{y}.png'),
+//http://otile[1234].mqcdn.com/tiles/1.0.0/osm/zoom/x/y.jpg
 
 var base_cl		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.j74kak2h/{z}/{x}/{y}.png'),
     base_os		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.map-srs3by8q/{z}/{x}/{y}.png'),
@@ -91,8 +183,6 @@ var map = L.map('map', {
     layers: [base_cl, ciclovias]
 });
 
-L.marker([-33.435, -70.635], {icon: icon}).addTo(map);
-
 var baseMaps = {
     "base_clara": base_cl,
     "base_oscura": base_os
@@ -101,10 +191,9 @@ var baseMaps = {
 var overlayMaps = {
     "flujos (strava)": strava,
     "ciclovias": ciclovias,
-    "talleres": bici_talleres,
-    "bicicletas públicas": bici_pub,
-    "estacionamientos": bici_est,
-    "cicleteros": cicleteros,
+    "__bici_est": biciPark,
+    "__bici_pub": biciRent,
+    "__bici_shop": biciShop,
     "plan maestro sectra": planMaestro
 };
 
