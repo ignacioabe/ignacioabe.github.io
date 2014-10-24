@@ -1,4 +1,7 @@
-#Ocupando datos de OSM via POSTGRES en TILEMILL.
+---
+title: "Ocupando datos de OSM via POSTGRES en TILEMILL"
+layout: post
+---
 
 ##Descarga e instalación de software:
 
