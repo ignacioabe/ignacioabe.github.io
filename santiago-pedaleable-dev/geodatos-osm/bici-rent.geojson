@@ -1,0 +1,1122 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2014-10-02T15:32:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/492189387",
+      "properties": {
+        "@id": "node/492189387",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Plaza Rio de Janeiro",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5939179,
+          -33.4323399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565471063",
+      "properties": {
+        "@id": "node/565471063",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Metro Pedro de Valdivia",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6135147,
+          -33.4255873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565471064",
+      "properties": {
+        "@id": "node/565471064",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Municipalidad de Providencia",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6115457,
+          -33.4325876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565471065",
+      "properties": {
+        "@id": "node/565471065",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Pocuro / Lyon",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6045793,
+          -33.4352742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565471066",
+      "properties": {
+        "@id": "node/565471066",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Plaza Ines de Suarez",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6117032,
+          -33.4373166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565471067",
+      "properties": {
+        "@id": "node/565471067",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Metro Parque Bustamante",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6319032,
+          -33.4429885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565471068",
+      "properties": {
+        "@id": "node/565471068",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Plaza Augusto Errazuriz",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.586248,
+          -33.430778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565471070",
+      "properties": {
+        "@id": "node/565471070",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "DUOC",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6153692,
+          -33.4335284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/702787553",
+      "properties": {
+        "@id": "node/702787553",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Plaza Las Lilas",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5940925,
+          -33.4278873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/711930275",
+      "properties": {
+        "@id": "node/711930275",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Metro Manuel Montt",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6195459,
+          -33.42862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/907578141",
+      "properties": {
+        "@id": "node/907578141",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Colegio Carmela Carvajal",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.625672,
+          -33.4439065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/907579843",
+      "properties": {
+        "@id": "node/907579843",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Plaza El Agilucho",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5940497,
+          -33.4428912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/907587654",
+      "properties": {
+        "@id": "node/907587654",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Metro Tobalaba",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.601067,
+          -33.419188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1292345623",
+      "properties": {
+        "@id": "node/1292345623",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Metro Baquedano",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6330584,
+          -33.4375431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1956814934",
+      "properties": {
+        "@id": "node/1956814934",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Plaza Caupolicán",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6151073,
+          -33.4464639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2519844581",
+      "properties": {
+        "@id": "node/2519844581",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Naciones Unidas",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6010364,
+          -33.4069398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2519844582",
+      "properties": {
+        "@id": "node/2519844582",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Nueva Costanera",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.598556,
+          -33.4033607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2519844583",
+      "properties": {
+        "@id": "node/2519844583",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Paul Claudel",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5974508,
+          -33.4049673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2519844584",
+      "properties": {
+        "@id": "node/2519844584",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Las Nieves",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5941134,
+          -33.4045928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2519844585",
+      "properties": {
+        "@id": "node/2519844585",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Alonso de Cordova",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5943647,
+          -33.4021182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2519844586",
+      "properties": {
+        "@id": "node/2519844586",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "El Ciruelillo",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5906277,
+          -33.4030682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2519844587",
+      "properties": {
+        "@id": "node/2519844587",
+        "amenity": "bicycle_rental",
+        "capacity": "19",
+        "name": "Bicentenario",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6013612,
+          -33.4003107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071969",
+      "properties": {
+        "@id": "node/2521071969",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Plaza Lo Castillo",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5928809,
+          -33.4007045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071973",
+      "properties": {
+        "@id": "node/2521071973",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Vespucio / Las Hualtatas",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5867274,
+          -33.402535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071979",
+      "properties": {
+        "@id": "node/2521071979",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Parque Arauco",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5792001,
+          -33.4007672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071982",
+      "properties": {
+        "@id": "node/2521071982",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Las Hualtatas / Luis Carrera",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5771955,
+          -33.3969546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071986",
+      "properties": {
+        "@id": "node/2521071986",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Plaza San Pio",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5824139,
+          -33.3970716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071989",
+      "properties": {
+        "@id": "node/2521071989",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Vespucio / Vitacura",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5879772,
+          -33.3986163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071992",
+      "properties": {
+        "@id": "node/2521071992",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Plaza Turquia",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5952316,
+          -33.3962536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071995",
+      "properties": {
+        "@id": "node/2521071995",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Mestizo",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5995553,
+          -33.3941294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521071998",
+      "properties": {
+        "@id": "node/2521071998",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Vespucio / Francisco de Aguirre",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.592683,
+          -33.392597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521072002",
+      "properties": {
+        "@id": "node/2521072002",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Vitacura / Luis Carrera",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5783062,
+          -33.3943802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521072004",
+      "properties": {
+        "@id": "node/2521072004",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Luis Pasteur / Luis Carrera",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5810301,
+          -33.3927755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521072006",
+      "properties": {
+        "@id": "node/2521072006",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Clinica Alemana",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5725129,
+          -33.3920017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521072008",
+      "properties": {
+        "@id": "node/2521072008",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Manquehue / Luis Pasteur",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5760042,
+          -33.3872211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521072010",
+      "properties": {
+        "@id": "node/2521072010",
+        "amenity": "bicycle_rental",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5490903,
+          -33.3830314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2521072013",
+      "properties": {
+        "@id": "node/2521072013",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Alejandro Serani",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5467761,
+          -33.3770867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521244",
+      "properties": {
+        "@id": "node/3102521244",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Los Trapenses",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5441544,
+          -33.344049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521245",
+      "properties": {
+        "@id": "node/3102521245",
+        "amenity": "bicycle_rental",
+        "capacity": "9",
+        "name": "El Abad",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5424995,
+          -33.347853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521246",
+      "properties": {
+        "@id": "node/3102521246",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "José Alcalde Délano",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5385014,
+          -33.355552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521247",
+      "properties": {
+        "@id": "node/3102521247",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "El Tranque / Los Castaños",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5349719,
+          -33.3597704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521248",
+      "properties": {
+        "@id": "node/3102521248",
+        "amenity": "bicycle_rental",
+        "capacity": "9",
+        "name": "Clinica Alemana",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5267291,
+          -33.3546919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521249",
+      "properties": {
+        "@id": "node/3102521249",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "El Rodeo / La Dehesa",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5188352,
+          -33.3526643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521250",
+      "properties": {
+        "@id": "node/3102521250",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "La Dehesa / Luis Bascuñan",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5179856,
+          -33.3549068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521251",
+      "properties": {
+        "@id": "node/3102521251",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Portal La Dehesa",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5165,
+          -33.3596026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521252",
+      "properties": {
+        "@id": "node/3102521252",
+        "amenity": "bicycle_rental",
+        "capacity": "9",
+        "name": "La Dehesa / Los Robles",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5150872,
+          -33.3622504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521253",
+      "properties": {
+        "@id": "node/3102521253",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Cuatro Vientos / Lo Barnechea",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5068348,
+          -33.357665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521254",
+      "properties": {
+        "@id": "node/3102521254",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Raul Labbe / La Pasarela",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5054102,
+          -33.3616295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521255",
+      "properties": {
+        "@id": "node/3102521255",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Municipalidad Lo Barnechea",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4939815,
+          -33.3637992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521256",
+      "properties": {
+        "@id": "node/3102521256",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Las Condes / San Jose de La Sierra",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5040722,
+          -33.3697032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521257",
+      "properties": {
+        "@id": "node/3102521257",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Las Condes / San Fco. de Asis",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5173614,
+          -33.37282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557495",
+      "properties": {
+        "@id": "node/3102557495",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Kennedy / Tabancura",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5348284,
+          -33.3839424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557496",
+      "properties": {
+        "@id": "node/3102557496",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Plaza chica Lo Gallo",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5555375,
+          -33.3783672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557497",
+      "properties": {
+        "@id": "node/3102557497",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Las Tranqueras / Vitacura",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5530854,
+          -33.3845833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557498",
+      "properties": {
+        "@id": "node/3102557498",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Alto Las Condes",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5482258,
+          -33.3893708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557499",
+      "properties": {
+        "@id": "node/3102557499",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Los Castaños",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5631031,
+          -33.3862351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557500",
+      "properties": {
+        "@id": "node/3102557500",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Lo Curro",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5696054,
+          -33.3766351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557501",
+      "properties": {
+        "@id": "node/3102557501",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Plaza Colombia",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5790135,
+          -33.3850527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557502",
+      "properties": {
+        "@id": "node/3102557502",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Luis Carrera / Candelaria Goyenechea",
+        "operator": "Bike Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5866102,
+          -33.3904433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102632337",
+      "properties": {
+        "@id": "node/3102632337",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Lyon / Lota",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6089204,
+          -33.4239157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102632338",
+      "properties": {
+        "@id": "node/3102632338",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Metro Salvador",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6261506,
+          -33.4324477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102632339",
+      "properties": {
+        "@id": "node/3102632339",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Plaza Mori",
+        "operator": "Providencia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6348269,
+          -33.4321101
+        ]
+      }
+    }
+  ]
+}

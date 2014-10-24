@@ -1,0 +1,19 @@
+# Permalinks
+permalink:        date
+relative_permalinks: false
+
+# Setup
+title:            Ignacio Abé
+tagline:          (siempre) en construcción
+url:              http://ignacioabe.cl
+paginate:         1
+baseurl:          /
+author:
+  name:           Ignacio Abé
+  url:            https://twitter.com/ignacioabe
+  email:          ignacio.abe@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/poole/poole
