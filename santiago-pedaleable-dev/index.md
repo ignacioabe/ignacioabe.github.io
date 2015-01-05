@@ -146,7 +146,7 @@ layer.bindPopup(
 
 var base_cl		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.j74kak2h/{z}/{x}/{y}.png'),
     base_os		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.map-srs3by8q/{z}/{x}/{y}.png'),
-    strava		= L.tileLayer('http://gometry.strava.com/tiles/cycling/color1/{z}/{x}/{y}.png', {opacity: 0.5}),
+    strava		= L.tileLayer('http://gometry.strava.com/tiles/cycling/color1/{z}/{x}/{y}.png', {opacity: 0.5, attribution:'<a href="http://labs.strava.com/heatmap/">strava heatmap</a>'}),
     ciclovias	= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.stgo-ciclovias/{z}/{x}/{y}.png');
 
 
