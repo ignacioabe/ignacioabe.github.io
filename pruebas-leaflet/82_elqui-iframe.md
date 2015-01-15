@@ -109,6 +109,7 @@ var map = L.map('map', {
     center: [-29.937, -70.939],
     zoom: 10,
     layers: [base_plana, trenFerrovia ],
+    scrollWheelZoom: false,
     fullscreenControl: true
 });
 
