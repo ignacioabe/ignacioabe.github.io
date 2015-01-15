@@ -92,7 +92,7 @@ layer.bindPopup(
 
 
 // layer línea férrea
-var trenFerrovia = new L.GeoJSON.AJAX("./geodatos-elqui/lineas.geojson",{style: estiloFerrovia});
+var trenFerrovia = new L.GeoJSON.AJAX("./lineas.geojson",{style: estiloFerrovia});
 
 // LAYERS RASTER
 
