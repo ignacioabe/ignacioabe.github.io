@@ -1,6 +1,6 @@
 ---
-title: "82 elqui iframe"
-category: leaflet
+title: "iframe elqui"
+category: iframe
 layout: empty
 ---
 
@@ -63,7 +63,7 @@ var estiloFerrovia = {
 // LAYERS GEOJSON
 
 //layer estaciones
-var trenEst = new L.GeoJSON.AJAX("./geodatos-elqui/estaciones.geojson", {
+var trenEst = new L.GeoJSON.AJAX("./estaciones.geojson", {
 
 pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng);
@@ -77,7 +77,7 @@ layer.bindPopup(
 ,style: estiloEst});
 
 //layer túneles
-var trenTun = new L.GeoJSON.AJAX("./geodatos-elqui/tuneles.geojson", {
+var trenTun = new L.GeoJSON.AJAX("./tuneles.geojson", {
 
 pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng);
@@ -110,7 +110,7 @@ var map = L.map('map', {
     zoom: 10,
     layers: [base_plana, trenFerrovia ],
     scrollWheelZoom: false,
-    fullscreenControl: true
+    fullscreenControl: true //conviene desactivar el scroll para que usarlo en otra página.
 });
 
 var baseMaps = {
