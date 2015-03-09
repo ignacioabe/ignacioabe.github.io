@@ -1,0 +1,17 @@
+---
+layout: default
+title: test with data directories
+---
+
+<div id="prueba">
+  <h2>HOLA</h2>
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+</div>

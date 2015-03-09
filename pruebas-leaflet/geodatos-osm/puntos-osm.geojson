@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2014-08-18T16:13:02Z",
+  "timestamp": "2015-01-27T15:04:02Z",
   "features": [
     {
       "type": "Feature",
@@ -114,10 +114,12 @@
       "properties": {
         "@id": "node/492189387",
         "amenity": "bicycle_rental",
-        "name": "Estación Plaza Rio de Janeiro",
-        "@timestamp": "2013-12-16T20:21:41Z",
-        "@version": "5",
-        "@changeset": "19488261",
+        "capacity": "11",
+        "name": "Plaza Rio de Janeiro",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:23:48Z",
+        "@version": "7",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
@@ -157,10 +159,12 @@
       "properties": {
         "@id": "node/565471063",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-10-06T05:30:05Z",
-        "@version": "2",
-        "@changeset": "5966288",
+        "capacity": "11",
+        "name": "Metro Pedro de Valdivia",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:23:48Z",
+        "@version": "4",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
@@ -178,18 +182,20 @@
       "properties": {
         "@id": "node/565471064",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2011-04-10T03:19:00Z",
-        "@version": "3",
-        "@changeset": "7818997",
-        "@user": "CATA",
-        "@uid": "435124"
+        "capacity": "11",
+        "name": "Municipalidad de Providencia",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-18T15:27:40Z",
+        "@version": "6",
+        "@changeset": "27552588",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6115457,
-          -33.4325876
+          -70.6113546,
+          -33.4324761
         ]
       }
     },
@@ -199,10 +205,12 @@
       "properties": {
         "@id": "node/565471065",
         "amenity": "bicycle_rental",
-        "name": "Estación Pocuro/Lyon",
-        "@timestamp": "2012-10-10T14:50:56Z",
-        "@version": "5",
-        "@changeset": "13442028",
+        "capacity": "11",
+        "name": "Ricardo Lyon / Pocuro",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:23:48Z",
+        "@version": "7",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
@@ -216,37 +224,18 @@
     },
     {
       "type": "Feature",
-      "id": "node/565471066",
-      "properties": {
-        "@id": "node/565471066",
-        "amenity": "bicycle_rental",
-        "name": "Estación Plaza Ines de Suarez",
-        "@timestamp": "2012-10-10T14:50:57Z",
-        "@version": "3",
-        "@changeset": "13442028",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6117032,
-          -33.4373166
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/565471067",
       "properties": {
         "@id": "node/565471067",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2013-03-02T00:58:34Z",
-        "@version": "3",
-        "@changeset": "15216630",
-        "@user": "madek",
-        "@uid": "39060"
+        "capacity": "10",
+        "name": "Metro Parque Bustamante",
+        "operator": "Providencia",
+        "@timestamp": "2014-09-29T20:06:26Z",
+        "@version": "4",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -262,10 +251,12 @@
       "properties": {
         "@id": "node/565471068",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-09-12T02:59:56Z",
-        "@version": "2",
-        "@changeset": "5755429",
+        "capacity": "11",
+        "name": "Parque Augusto Errazuriz",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:23:48Z",
+        "@version": "4",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
@@ -283,18 +274,20 @@
       "properties": {
         "@id": "node/565471070",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-02-09T06:46:05Z",
-        "@version": "2",
-        "@changeset": "3829364",
+        "capacity": "11",
+        "name": "Duoc (Antonio Varas)",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:23:48Z",
+        "@version": "5",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6153638,
-          -33.4335732
+          -70.6153692,
+          -33.4335284
         ]
       }
     },
@@ -338,33 +331,6 @@
         "coordinates": [
           -70.519732,
           -33.350814
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/610456794",
-      "properties": {
-        "@id": "node/610456794",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "wall_loops",
-        "capacity": "15",
-        "covered": "no",
-        "fee": "no",
-        "name": "Biblioteca de Providencia",
-        "opening_hours": "24/7",
-        "source": "Bicimapa UAHC",
-        "@timestamp": "2012-07-13T00:38:41Z",
-        "@version": "3",
-        "@changeset": "12201937",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6167195,
-          -33.4270969
         ]
       }
     },
@@ -446,27 +412,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/702787553",
-      "properties": {
-        "@id": "node/702787553",
-        "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-07-22T17:00:09Z",
-        "@version": "2",
-        "@changeset": "5289238",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5940925,
-          -33.4278873
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/703486649",
       "properties": {
         "@id": "node/703486649",
@@ -492,10 +437,12 @@
       "properties": {
         "@id": "node/711930275",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-04-29T12:50:58Z",
-        "@version": "1",
-        "@changeset": "4557687",
+        "capacity": "15",
+        "name": "Metro Manuel Montt",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:23:48Z",
+        "@version": "3",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
@@ -509,56 +456,16 @@
     },
     {
       "type": "Feature",
-      "id": "node/907578141",
-      "properties": {
-        "@id": "node/907578141",
-        "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-09-11T23:48:38Z",
-        "@version": "1",
-        "@changeset": "5754988",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.625672,
-          -33.4439065
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/907579843",
-      "properties": {
-        "@id": "node/907579843",
-        "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-09-11T23:54:12Z",
-        "@version": "1",
-        "@changeset": "5755007",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5940497,
-          -33.4428912
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/907587654",
       "properties": {
         "@id": "node/907587654",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2010-09-12T02:18:43Z",
-        "@version": "2",
-        "@changeset": "5755356",
+        "capacity": "11",
+        "name": "Metro Tobalaba",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:36:37Z",
+        "@version": "4",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
@@ -657,13 +564,18 @@
       "id": "node/991961397",
       "properties": {
         "@id": "node/991961397",
+        "addr:city": "Santiago",
+        "addr:housenumber": "4868",
+        "addr:postcode": "7630225",
+        "addr:street": "Avenida Vitacura",
         "name": "Bicimundo",
+        "phone": "+562 218 6543",
         "shop": "bicycle",
-        "@timestamp": "2010-11-16T21:58:50Z",
-        "@version": "1",
-        "@changeset": "6388872",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
+        "@timestamp": "2014-09-28T21:06:58Z",
+        "@version": "2",
+        "@changeset": "25734799",
+        "@user": "nicolecita",
+        "@uid": "2365664"
       },
       "geometry": {
         "type": "Point",
@@ -997,10 +909,12 @@
       "properties": {
         "@id": "node/1292345623",
         "amenity": "bicycle_rental",
-        "name": "Bicicletas Públicas de Providencia",
-        "@timestamp": "2011-07-04T14:01:09Z",
-        "@version": "2",
-        "@changeset": "8629540",
+        "capacity": "19",
+        "name": "Metro Plaza Italia",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:34:49Z",
+        "@version": "4",
+        "@changeset": "27539697",
         "@user": "Zambelli Limitada",
         "@uid": "30854"
       },
@@ -1315,12 +1229,14 @@
       "properties": {
         "@id": "node/1781314993",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "10",
         "name": "Bicicletas",
-        "@timestamp": "2012-12-27T12:17:28Z",
-        "@version": "2",
-        "@changeset": "14424530",
-        "@user": "felipeedwards",
-        "@uid": "337684"
+        "@timestamp": "2014-09-29T21:43:07Z",
+        "@version": "3",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -2354,58 +2270,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1833779613",
-      "properties": {
-        "@id": "node/1833779613",
-        "addr:city": "Providencia",
-        "addr:housenumber": "130",
-        "addr:state": "Region Metropolitana de Santiago",
-        "addr:street": "Orrego Luco",
-        "amenity": "bicycle_parking",
-        "bicimapa_acceso": "para clientes",
-        "bicimapa_ambiente": "fuera",
-        "bicimapa_calle": "Orrego Luco",
-        "bicimapa_capacidad": "9",
-        "bicimapa_comentario": "local de muebles, acceso para los clientes, pero no hay problema de utilizarlo",
-        "bicimapa_comuna": "Providencia",
-        "bicimapa_direccion": "-33.4232,-70.61292,Orrego Luco 130,Providencia,Region Metropolitana, Chile",
-        "bicimapa_edificio": "Casardi Muebles",
-        "bicimapa_fecha": "6-20-2012 22:12:07",
-        "bicimapa_horarios": "8##5 (horas habiles en dias habiles 9am a 5pm)",
-        "bicimapa_latitud": "-33.423200000000001",
-        "bicimapa_longitud": "-70.612920000000003",
-        "bicimapa_nombre": "Casardi",
-        "bicimapa_numero": "130",
-        "bicimapa_ocupacion": "10% a las 12:44 pm (1##9 en total)",
-        "bicimapa_precio": "$0 (gratuito)",
-        "bicimapa_precision": "5.600000000000000",
-        "bicimapa_proteccion": "aire libre",
-        "bicimapa_revision": "Por revisar",
-        "bicimapa_sector": "Casa de muebles casardi",
-        "bicimapa_seguridad": "sin seguridad alguna",
-        "bicimapa_tipo": "Triangular lineal",
-        "bicimapa_tooltip": "Casardi",
-        "bicimapa_uid": "EST_PRO_JA_028",
-        "capacity": "9",
-        "fee": "no",
-        "name": "Casardi",
-        "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:24:52Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.61292,
-          -33.4232
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1833779614",
       "properties": {
         "@id": "node/1833779614",
@@ -2555,59 +2419,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1833779617",
-      "properties": {
-        "@id": "node/1833779617",
-        "access": "yes",
-        "addr:city": "Providencia",
-        "addr:housenumber": "-",
-        "addr:state": "Region Metropolitana de Santiago",
-        "addr:street": "Lota c## Lyon",
-        "amenity": "bicycle_parking",
-        "bicimapa_acceso": "Publico",
-        "bicimapa_ambiente": "fuera",
-        "bicimapa_calle": "Lota c## Lyon",
-        "bicimapa_capacidad": "25",
-        "bicimapa_comentario": "Barrera de biciaestacionamientos de las bicicletas p?blicas, de calle Lota con",
-        "bicimapa_comuna": "Providencia",
-        "bicimapa_direccion": "-33.4239166,-70.6088833,Lota c## Lyon  -,Providencia,Region Metropolitana, Chi",
-        "bicimapa_edificio": "Arriendo de Bicicletas",
-        "bicimapa_fecha": "5-31-2012 16:12:55",
-        "bicimapa_horarios": "24##7 (dia y noche ## todos los dias... incluido, fin de semana)",
-        "bicimapa_latitud": "-33.423916599999998",
-        "bicimapa_longitud": "-70.608883300000002",
-        "bicimapa_nombre": "Bicicletas P?blicas Lyon",
-        "bicimapa_numero": "-",
-        "bicimapa_ocupacion": "0.8",
-        "bicimapa_precio": "$0 (gratuito)",
-        "bicimapa_precision": "0.000000000000000",
-        "bicimapa_proteccion": "aire libre",
-        "bicimapa_revision": "Por revisar",
-        "bicimapa_sector": "Intersecci?n de lota con Lyon, en la parte trasera de Almacenes Par?s.",
-        "bicimapa_seguridad": "semi custodiado",
-        "bicimapa_tipo": "Barrera de U invertida alargada",
-        "bicimapa_tooltip": "Bicicletas P?blicas Lyon",
-        "bicimapa_uid": "EST_PRO_FJ_001",
-        "capacity": "25",
-        "fee": "no",
-        "name": "Bicicletas P?blicas Lyon",
-        "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:24:27Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6088833,
-          -33.4239166
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1833779618",
       "properties": {
         "@id": "node/1833779618",
@@ -2719,11 +2530,11 @@
         "addr:city": "Providencia",
         "addr:housenumber": "1901",
         "addr:state": "Region Metropolitana de Santiago",
-        "addr:street": "11 de septiembre",
+        "addr:street": "Nueva Providencia",
         "amenity": "bicycle_parking",
         "bicimapa_acceso": "Lun a Sabad usuarios, domingo publico",
         "bicimapa_ambiente": "fuera",
-        "bicimapa_calle": "11 de septiembre",
+        "bicimapa_calle": "Nueva Providencia",
         "bicimapa_capacidad": "15",
         "bicimapa_comentario": "Corresponde a un biciestacionamiento de las bicicletas(azules) publicas de prov",
         "bicimapa_comuna": "Providencia",
@@ -2747,11 +2558,11 @@
         "capacity": "15",
         "name": "Biciestaci?n Pedro de Valdivia",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:24:28Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-08-18T21:01:17Z",
+        "@version": "6",
+        "@changeset": "24843954",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
@@ -2903,17 +2714,17 @@
         "fee": "no",
         "name": "Universidad Ucinf",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:30:09Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-08-27T20:59:13Z",
+        "@version": "6",
+        "@changeset": "25058902",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6105666,
-          -33.4274833
+          -70.6106042,
+          -33.4274632
         ]
       }
     },
@@ -3060,17 +2871,17 @@
         "fee": "no",
         "name": "normandie",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:30:21Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "6",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.62079,
-          -33.42913
+          -70.6208198,
+          -33.4291027
         ]
       }
     },
@@ -3322,7 +3133,9 @@
         "@id": "node/1833779640",
         "access": "yes",
         "addr:city": "Providencia",
+        "addr:housenumber": "0178",
         "addr:state": "Region Metropolitana de Santiago",
+        "addr:street": "Pasaje Fernando Márquez de La Plata",
         "amenity": "bicycle_parking",
         "bicimapa_acceso": "Publico",
         "bicimapa_ambiente": "Fuera",
@@ -3342,15 +3155,17 @@
         "bicimapa_seguridad": "sin seguridad alguna",
         "bicimapa_tooltip": "La Chascona, casa P.N",
         "bicimapa_uid": "Est_Pro_JA_005",
-        "capacity": "3",
+        "bicycle_parking": "stands",
+        "capacity": "4",
+        "covered": "no",
         "fee": "no",
-        "name": "La Chascona, casa P.N",
+        "name": "La Chascona, casa Pablo Neruda",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2012-07-23T02:37:05Z",
-        "@version": "4",
-        "@changeset": "12443284",
-        "@user": "vblanque",
-        "@uid": "30755"
+        "@timestamp": "2014-12-10T15:05:26Z",
+        "@version": "6",
+        "@changeset": "27378817",
+        "@user": "Javier-O",
+        "@uid": "2513639"
       },
       "geometry": {
         "type": "Point",
@@ -3512,53 +3327,6 @@
         "coordinates": [
           -70.592139,
           -33.4318323
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1833779649",
-      "properties": {
-        "@id": "node/1833779649",
-        "access": "no",
-        "addr:city": "Providencia",
-        "addr:housenumber": "195",
-        "addr:state": "Region Metropolitana de Santiago",
-        "addr:street": "Constitucion",
-        "amenity": "bicycle_parking",
-        "bicimapa_acceso": "Privado",
-        "bicimapa_ambiente": "Fuera",
-        "bicimapa_calle": "Constitucion",
-        "bicimapa_comentario": "solo para usuarios de Bicicletas Providencia ## solo de noche acceso publico",
-        "bicimapa_comuna": "Providencia",
-        "bicimapa_direccion": "-33.4321,-70.63484,Constitucion  195,Providencia,Region Metropolitana, Chile",
-        "bicimapa_edificio": "casa roja ##plaza mori",
-        "bicimapa_fecha": "7-4-2012 16:47:00",
-        "bicimapa_latitud": "-33.432099999999998",
-        "bicimapa_longitud": "-70.634839999999997",
-        "bicimapa_nombre": "Plaza Mori",
-        "bicimapa_numero": "195",
-        "bicimapa_precio": "$0 (gratuito)",
-        "bicimapa_precision": "4.700000000000000",
-        "bicimapa_revision": "Por revisar",
-        "bicimapa_seguridad": "media",
-        "bicimapa_tipo": "barra",
-        "bicimapa_tooltip": "Plaza Mori",
-        "bicimapa_uid": "Est_Pro_JA_006",
-        "fee": "no",
-        "name": "Plaza Mori",
-        "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:29:29Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.63484,
-          -33.4321
         ]
       }
     },
@@ -4980,17 +4748,17 @@
         "fee": "no",
         "name": "Torre Telefónica",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2014-05-22T20:56:14Z",
-        "@version": "7",
-        "@changeset": "22493809",
-        "@user": "ernestogon",
-        "@uid": "362078"
+        "@timestamp": "2014-11-24T12:32:15Z",
+        "@version": "8",
+        "@changeset": "26994419",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6326669,
-          -33.4370325
+          -70.6325867,
+          -33.4369304
         ]
       }
     },
@@ -5084,17 +4852,17 @@
         "capacity": "12 biciestacionamientos",
         "name": "biciEst. U. Finis Terrae",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:30:15Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-08-25T03:10:19Z",
+        "@version": "6",
+        "@changeset": "24993740",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.60732,
-          -33.4378
+          -70.6073455,
+          -33.4377698
         ]
       }
     },
@@ -5209,7 +4977,7 @@
         "@id": "node/1833779699",
         "access": "yes",
         "addr:city": "Providencia",
-        "addr:housenumber": "18448",
+        "addr:housenumber": "1848",
         "addr:state": "Región Metropolitana de Santiago",
         "addr:street": "ricardo lyon",
         "amenity": "bicycle_parking",
@@ -5226,7 +4994,7 @@
         "bicimapa_latitud": "-33.438000000000002",
         "bicimapa_longitud": "-70.603589999999997",
         "bicimapa_nombre": "big john`s",
-        "bicimapa_numero": "18448",
+        "bicimapa_numero": "1848",
         "bicimapa_ocupacion": "0 %",
         "bicimapa_precio": "$0 (gratuito)",
         "bicimapa_precision": "1.000000000000000",
@@ -5240,11 +5008,11 @@
         "fee": "no",
         "name": "big john`s",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:30:15Z",
-        "@version": "6",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-08-25T00:43:10Z",
+        "@version": "7",
+        "@changeset": "24991649",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
@@ -6887,17 +6655,17 @@
         "fee": "no",
         "name": "Cruz Verde",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:25:08Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-11-17T06:40:02Z",
+        "@version": "6",
+        "@changeset": "26837341",
+        "@user": "amonares",
+        "@uid": "250785"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6059,
-          -33.4455666
+          -70.6059108,
+          -33.4455373
         ]
       }
     },
@@ -7249,17 +7017,17 @@
         "fee": "no",
         "name": "Hospital de Carabineros",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:26:11Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-11-13T20:41:16Z",
+        "@version": "6",
+        "@changeset": "26764830",
+        "@user": "amonares",
+        "@uid": "250785"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6082,
-          -33.4508
+          -70.6086144,
+          -33.450654
         ]
       }
     },
@@ -7301,17 +7069,17 @@
         "fee": "no",
         "name": "Hospital de Carabineros",
         "source": "Bicimapa - UAHC",
-        "@timestamp": "2013-09-17T13:26:11Z",
-        "@version": "5",
-        "@changeset": "17886438",
-        "@user": "mrpulley",
-        "@uid": "67896"
+        "@timestamp": "2014-11-13T20:41:16Z",
+        "@version": "6",
+        "@changeset": "26764830",
+        "@user": "amonares",
+        "@uid": "250785"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6082833,
-          -33.4508
+          -70.6099244,
+          -33.4503053
         ]
       }
     },
@@ -7410,26 +7178,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1906207255",
-      "properties": {
-        "@id": "node/1906207255",
-        "amenity": "bicycle_rental",
-        "@timestamp": "2012-09-09T01:19:53Z",
-        "@version": "1",
-        "@changeset": "13039773",
-        "@user": "rndzvs",
-        "@uid": "621020"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6604929,
-          -33.4650296
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1912904703",
       "properties": {
         "@id": "node/1912904703",
@@ -7470,27 +7218,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1956814934",
-      "properties": {
-        "@id": "node/1956814934",
-        "amenity": "bicycle_rental",
-        "name": "Estación Plazuela Santa Isabel",
-        "@timestamp": "2012-10-10T14:50:55Z",
-        "@version": "1",
-        "@changeset": "13442028",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6151073,
-          -33.4464639
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1981495525",
       "properties": {
         "@id": "node/1981495525",
@@ -7499,17 +7226,17 @@
         "capacity": "18",
         "name": "Gimnasio Kiev",
         "operator": "Gimnasio Kiev",
-        "@timestamp": "2012-11-25T21:59:56Z",
-        "@version": "3",
-        "@changeset": "14037704",
-        "@user": "dintrans_g",
-        "@uid": "237777"
+        "@timestamp": "2014-09-11T22:24:23Z",
+        "@version": "7",
+        "@changeset": "25378816",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6157424,
-          -33.4273471
+          -70.6157743,
+          -33.4272597
         ]
       }
     },
@@ -7729,19 +7456,24 @@
       "id": "node/2449994053",
       "properties": {
         "@id": "node/2449994053",
+        "addr:city": "Providencia",
+        "addr:housenumber": "2815",
+        "addr:street": "Diego de Almagro",
         "name": "Traffik",
+        "phone": "+56228915214",
         "shop": "bicycle",
-        "@timestamp": "2013-09-07T23:05:30Z",
-        "@version": "1",
-        "@changeset": "17725194",
-        "@user": "felipeedwards",
-        "@uid": "337684"
+        "website": "http://www.traffik.cl/",
+        "@timestamp": "2014-12-18T03:02:34Z",
+        "@version": "2",
+        "@changeset": "27543139",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.5912647,
-          -33.4380601
+          -70.5912486,
+          -33.4380422
         ]
       }
     },
@@ -7779,17 +7511,17 @@
         "@id": "node/2459726705",
         "name": "Taller de bicicletas López",
         "shop": "bicycle",
-        "@timestamp": "2013-09-15T18:34:57Z",
-        "@version": "1",
-        "@changeset": "17855803",
-        "@user": "rndzvs",
-        "@uid": "621020"
+        "@timestamp": "2014-12-10T14:58:26Z",
+        "@version": "2",
+        "@changeset": "27378683",
+        "@user": "Javier-O",
+        "@uid": "2513639"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6356552,
-          -33.4309645
+          -70.6356737,
+          -33.4308956
         ]
       }
     },
@@ -7843,12 +7575,14 @@
       "properties": {
         "@id": "node/2519844581",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2014-06-10T14:28:53Z",
-        "@version": "2",
-        "@changeset": "22851609",
-        "@user": "ALE!",
-        "@uid": "40023"
+        "capacity": "15",
+        "name": "Naciones Unidas",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:26Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -7864,12 +7598,14 @@
       "properties": {
         "@id": "node/2519844582",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-04T14:34:50Z",
-        "@version": "1",
-        "@changeset": "18713078",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Nueva Costanera",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:26Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -7885,12 +7621,14 @@
       "properties": {
         "@id": "node/2519844583",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-04T14:34:50Z",
-        "@version": "1",
-        "@changeset": "18713078",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Paul Claudel",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:26Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -7906,12 +7644,14 @@
       "properties": {
         "@id": "node/2519844584",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-04T14:34:50Z",
-        "@version": "1",
-        "@changeset": "18713078",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "13",
+        "name": "Las Nieves",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -7927,12 +7667,14 @@
       "properties": {
         "@id": "node/2519844585",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-04T14:34:50Z",
-        "@version": "1",
-        "@changeset": "18713078",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Alonso de Cordova",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -7948,12 +7690,14 @@
       "properties": {
         "@id": "node/2519844586",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-04T14:34:50Z",
-        "@version": "1",
-        "@changeset": "18713078",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "El Ciruelillo",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -7969,12 +7713,14 @@
       "properties": {
         "@id": "node/2519844587",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-04T14:34:50Z",
-        "@version": "1",
-        "@changeset": "18713078",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "19",
+        "name": "Bicentenario",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -7990,12 +7736,14 @@
       "properties": {
         "@id": "node/2521071969",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "13",
+        "name": "Plaza Lo Castillo",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:27Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8011,12 +7759,14 @@
       "properties": {
         "@id": "node/2521071973",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Vespucio / Las Hualtatas",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:28Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8028,36 +7778,18 @@
     },
     {
       "type": "Feature",
-      "id": "node/2521071976",
-      "properties": {
-        "@id": "node/2521071976",
-        "amenity": "bicycle_rental",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5826907,
-          -33.4016169
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2521071979",
       "properties": {
         "@id": "node/2521071979",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "13",
+        "name": "Parque Arauco",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:26Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8073,12 +7805,14 @@
       "properties": {
         "@id": "node/2521071982",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Las Hualtatas / Luis Carrera",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8094,12 +7828,14 @@
       "properties": {
         "@id": "node/2521071986",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Plaza San Pio",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:27Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8115,12 +7851,14 @@
       "properties": {
         "@id": "node/2521071989",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Vespucio / Vitacura",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:28Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8136,12 +7874,14 @@
       "properties": {
         "@id": "node/2521071992",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "13",
+        "name": "Plaza Turquia",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:27Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8157,12 +7897,14 @@
       "properties": {
         "@id": "node/2521071995",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Mestizo",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:26Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8178,12 +7920,14 @@
       "properties": {
         "@id": "node/2521071998",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Vespucio / Francisco de Aguirre",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:13Z",
+        "@version": "2",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8199,12 +7943,14 @@
       "properties": {
         "@id": "node/2521072002",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2014-04-24T17:28:49Z",
-        "@version": "2",
-        "@changeset": "21913065",
-        "@user": "Zambelli Limitada",
-        "@uid": "30854"
+        "capacity": "15",
+        "name": "Vitacura / Luis Carrera",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:28Z",
+        "@version": "4",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8220,12 +7966,14 @@
       "properties": {
         "@id": "node/2521072004",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Luis Pasteur / Luis Carrera",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8241,12 +7989,14 @@
       "properties": {
         "@id": "node/2521072006",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Clinica Alemana",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8262,12 +8012,14 @@
       "properties": {
         "@id": "node/2521072008",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "13",
+        "name": "Manquehue / Luis Pasteur",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8283,12 +8035,12 @@
       "properties": {
         "@id": "node/2521072010",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:43Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:28Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8304,12 +8056,14 @@
       "properties": {
         "@id": "node/2521072013",
         "amenity": "bicycle_rental",
-        "operator": "bikesantiago",
-        "@timestamp": "2013-11-05T15:00:44Z",
-        "@version": "1",
-        "@changeset": "18730467",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "capacity": "15",
+        "name": "Alejandro Serani",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "3",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
@@ -8328,13 +8082,13 @@
         "bicycle_parking": "shed",
         "capacity": "0",
         "covered": "yes",
-        "fee": "Gratis",
+        "fee": "no",
         "name": "Estacionamiento bicicletas (Subterráneo)",
-        "@timestamp": "2013-11-11T15:23:25Z",
-        "@version": "2",
-        "@changeset": "18835822",
-        "@user": "DePelos",
-        "@uid": "616873"
+        "@timestamp": "2014-10-07T22:55:52Z",
+        "@version": "3",
+        "@changeset": "25929100",
+        "@user": "mdk",
+        "@uid": "178186"
       },
       "geometry": {
         "type": "Point",
@@ -8740,30 +8494,6 @@
         "coordinates": [
           -70.6482473,
           -33.4345275
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2750493982",
-      "properties": {
-        "@id": "node/2750493982",
-        "addr:city": "Ñuñoa",
-        "addr:housenumber": "3751-e",
-        "addr:street": "Simón Bolívar",
-        "name": "BICICLETAS",
-        "shop": "bicycle",
-        "@timestamp": "2014-03-28T19:39:47Z",
-        "@version": "1",
-        "@changeset": "21371558",
-        "@user": "diegogarq",
-        "@uid": "2006919"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.591638,
-          -33.4485259
         ]
       }
     },
@@ -9298,17 +9028,17 @@
         "amenity": "bicycle_parking",
         "capacity": "6",
         "manufacturer": "velópolis",
-        "@timestamp": "2014-05-19T21:42:20Z",
-        "@version": "1",
-        "@changeset": "22434198",
-        "@user": "ignacioabe",
-        "@uid": "1529288"
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "2",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6407166,
-          -33.4368593
+          -70.6407221,
+          -33.4368543
         ]
       }
     },
@@ -9563,6 +9293,1280 @@
         "coordinates": [
           -70.5986887,
           -33.4652728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3052904323",
+      "properties": {
+        "@id": "node/3052904323",
+        "name": "Taller de Bicicletas",
+        "shop": "bicycle",
+        "@timestamp": "2014-09-01T03:18:30Z",
+        "@version": "1",
+        "@changeset": "25151480",
+        "@user": "Chilestreet",
+        "@uid": "843439"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7308531,
+          -33.444262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521244",
+      "properties": {
+        "@id": "node/3102521244",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Los Trapenses",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5441544,
+          -33.344049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521245",
+      "properties": {
+        "@id": "node/3102521245",
+        "amenity": "bicycle_rental",
+        "capacity": "9",
+        "name": "El Abad",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5424995,
+          -33.347853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521246",
+      "properties": {
+        "@id": "node/3102521246",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "José Alcalde Délano",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5385014,
+          -33.355552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521247",
+      "properties": {
+        "@id": "node/3102521247",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "El Tranque / Los Castaños",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T20:06:25Z",
+        "@version": "2",
+        "@changeset": "25753972",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5349719,
+          -33.3597704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521248",
+      "properties": {
+        "@id": "node/3102521248",
+        "amenity": "bicycle_rental",
+        "capacity": "9",
+        "name": "Clinica Alemana",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5267291,
+          -33.3546919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521249",
+      "properties": {
+        "@id": "node/3102521249",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "El Rodeo / La Dehesa",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5188352,
+          -33.3526643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521250",
+      "properties": {
+        "@id": "node/3102521250",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "La Dehesa / Luis Bascuñan",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5179856,
+          -33.3549068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521251",
+      "properties": {
+        "@id": "node/3102521251",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Portal La Dehesa",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5165,
+          -33.3596026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521252",
+      "properties": {
+        "@id": "node/3102521252",
+        "amenity": "bicycle_rental",
+        "capacity": "9",
+        "name": "La Dehesa / Los Robles",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5150872,
+          -33.3622504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521253",
+      "properties": {
+        "@id": "node/3102521253",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Cuatro Vientos / Lo Barnechea",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5068348,
+          -33.357665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521254",
+      "properties": {
+        "@id": "node/3102521254",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Raul Labbe / La Pasarela",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5054102,
+          -33.3616295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521255",
+      "properties": {
+        "@id": "node/3102521255",
+        "amenity": "bicycle_rental",
+        "capacity": "13",
+        "name": "Municipalidad Lo Barnechea",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:54Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4939815,
+          -33.3637992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521256",
+      "properties": {
+        "@id": "node/3102521256",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Las Condes / San Jose de La Sierra",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:55Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5040722,
+          -33.3697032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102521257",
+      "properties": {
+        "@id": "node/3102521257",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Las Condes / San Fco. de Asis",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T18:51:55Z",
+        "@version": "1",
+        "@changeset": "25753185",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5173614,
+          -33.37282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557495",
+      "properties": {
+        "@id": "node/3102557495",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Kennedy / Tabancura",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5348284,
+          -33.3839424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557496",
+      "properties": {
+        "@id": "node/3102557496",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Plaza chica Lo Gallo",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5555375,
+          -33.3783672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557497",
+      "properties": {
+        "@id": "node/3102557497",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Las Tranqueras / Vitacura",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5530854,
+          -33.3845833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557498",
+      "properties": {
+        "@id": "node/3102557498",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Alto Las Condes",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5482258,
+          -33.3893708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557499",
+      "properties": {
+        "@id": "node/3102557499",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Los Castaños",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5631031,
+          -33.3862351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557500",
+      "properties": {
+        "@id": "node/3102557500",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Lo Curro",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5696054,
+          -33.3766351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557501",
+      "properties": {
+        "@id": "node/3102557501",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Plaza Colombia",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5790135,
+          -33.3850527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102557502",
+      "properties": {
+        "@id": "node/3102557502",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Luis Carrera / Candelaria Goyenechea",
+        "operator": "Bike Santiago",
+        "@timestamp": "2014-09-29T19:20:12Z",
+        "@version": "1",
+        "@changeset": "25753790",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5866102,
+          -33.3904433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102632337",
+      "properties": {
+        "@id": "node/3102632337",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "name": "Lyon / Lota",
+        "operator": "Providencia",
+        "@timestamp": "2014-09-29T20:14:06Z",
+        "@version": "1",
+        "@changeset": "25754975",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6089204,
+          -33.4239157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102632338",
+      "properties": {
+        "@id": "node/3102632338",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Metro Salvador",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:29:02Z",
+        "@version": "2",
+        "@changeset": "27539697",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6261506,
+          -33.4324477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823084",
+      "properties": {
+        "@id": "node/3102823084",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "10",
+        "covered": "no",
+        "name": "El Túnel",
+        "operator": "Velópolis",
+        "@timestamp": "2014-09-29T21:43:05Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6437537,
+          -33.4361201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823085",
+      "properties": {
+        "@id": "node/3102823085",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "22",
+        "covered": "no",
+        "name": "Biblioteca Municipal",
+        "@timestamp": "2014-09-29T21:43:05Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6167531,
+          -33.4270843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823086",
+      "properties": {
+        "@id": "node/3102823086",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "covered": "no",
+        "@timestamp": "2014-09-29T21:43:05Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6219535,
+          -33.4297178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823087",
+      "properties": {
+        "@id": "node/3102823087",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6204317,
+          -33.4288683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823088",
+      "properties": {
+        "@id": "node/3102823088",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6193593,
+          -33.4284961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823089",
+      "properties": {
+        "@id": "node/3102823089",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6178188,
+          -33.4277602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823090",
+      "properties": {
+        "@id": "node/3102823090",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6147103,
+          -33.4256015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823091",
+      "properties": {
+        "@id": "node/3102823091",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.613543,
+          -33.4244126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823092",
+      "properties": {
+        "@id": "node/3102823092",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6123404,
+          -33.42356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823093",
+      "properties": {
+        "@id": "node/3102823093",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.611701,
+          -33.4229898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823094",
+      "properties": {
+        "@id": "node/3102823094",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6110934,
+          -33.4225524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823095",
+      "properties": {
+        "@id": "node/3102823095",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6096131,
+          -33.4215836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823096",
+      "properties": {
+        "@id": "node/3102823096",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6086545,
+          -33.4209956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823097",
+      "properties": {
+        "@id": "node/3102823097",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6032055,
+          -33.4188156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823098",
+      "properties": {
+        "@id": "node/3102823098",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6104067,
+          -33.4220692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3102823099",
+      "properties": {
+        "@id": "node/3102823099",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-29T21:43:06Z",
+        "@version": "1",
+        "@changeset": "25756665",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6156999,
+          -33.4264027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3104075663",
+      "properties": {
+        "@id": "node/3104075663",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "6",
+        "@timestamp": "2014-09-30T17:10:50Z",
+        "@version": "1",
+        "@changeset": "25772523",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5804684,
+          -33.4480191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3104075664",
+      "properties": {
+        "@id": "node/3104075664",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "10",
+        "name": "You Bike",
+        "@timestamp": "2014-09-30T17:10:50Z",
+        "@version": "1",
+        "@changeset": "25772523",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5831932,
+          -33.4483473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3104075665",
+      "properties": {
+        "@id": "node/3104075665",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "4",
+        "name": "Semilla",
+        "@timestamp": "2014-09-30T17:10:50Z",
+        "@version": "1",
+        "@changeset": "25772523",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5765963,
+          -33.4463162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3104622566",
+      "properties": {
+        "@id": "node/3104622566",
+        "access": "permissive",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "capacity": "10",
+        "name": "Museo Vicuña Mackenna",
+        "@timestamp": "2014-09-30T22:25:14Z",
+        "@version": "1",
+        "@changeset": "25779342",
+        "@user": "TomásEchiburú",
+        "@uid": "2151838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6337242,
+          -33.4411202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3108349415",
+      "properties": {
+        "@id": "node/3108349415",
+        "amenity": "bicycle_parking",
+        "capacity": "5",
+        "covered": "no",
+        "@timestamp": "2014-10-02T23:52:01Z",
+        "@version": "1",
+        "@changeset": "25821809",
+        "@user": "ignacioabe",
+        "@uid": "1529288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6259136,
+          -33.4438659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3108380086",
+      "properties": {
+        "@id": "node/3108380086",
+        "amenity": "bicycle_parking",
+        "capacity": "10",
+        "covered": "no",
+        "@timestamp": "2014-10-02T23:55:21Z",
+        "@version": "1",
+        "@changeset": "25821838",
+        "@user": "Simonmaker",
+        "@uid": "2374417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6262046,
+          -33.4424891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3108388633",
+      "properties": {
+        "@id": "node/3108388633",
+        "amenity": "bicycle_parking",
+        "capacity": "7",
+        "covered": "no",
+        "@timestamp": "2014-10-02T23:59:24Z",
+        "@version": "1",
+        "@changeset": "25821877",
+        "@user": "Simonmaker",
+        "@uid": "2374417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6263333,
+          -33.4422127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3191088172",
+      "properties": {
+        "@id": "node/3191088172",
+        "addr:city": "Ñuñoa",
+        "addr:housenumber": "3571",
+        "addr:street": "Avenida Presidente Battle y Ordoñez",
+        "name": "BiciRevolución",
+        "opening_hours": "Mo-Fr 12:00-20:00;Sa 10:00-16:00",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "shop": "bicycle",
+        "@timestamp": "2014-11-17T04:54:28Z",
+        "@version": "1",
+        "@changeset": "26836438",
+        "@user": "amonares",
+        "@uid": "250785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5921386,
+          -33.4482556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3217340387",
+      "properties": {
+        "@id": "node/3217340387",
+        "amenity": "bicycle_parking",
+        "covered": "no",
+        "@timestamp": "2014-12-03T13:22:29Z",
+        "@version": "1",
+        "@changeset": "27199781",
+        "@user": "ignacioabe",
+        "@uid": "1529288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.592643,
+          -33.4292865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3228223511",
+      "properties": {
+        "@id": "node/3228223511",
+        "addr:city": "Recoleta",
+        "addr:housenumber": "25",
+        "addr:street": "Dominica",
+        "name": "Bicicentro Bellavista",
+        "opening_hours": "Lunes a Viernes 14:00 a 20:00 / Sábado y Domingo: de 11:00 a 14:00",
+        "operator": "Nación Pedal",
+        "shop": "bicycle",
+        "@timestamp": "2014-12-10T14:58:26Z",
+        "@version": "1",
+        "@changeset": "27378683",
+        "@user": "Javier-O",
+        "@uid": "2513639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6365786,
+          -33.4302667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3240227210",
+      "properties": {
+        "@id": "node/3240227210",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Metro Colón",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:23:47Z",
+        "@version": "1",
+        "@changeset": "27539697",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5911784,
+          -33.4265751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3240233906",
+      "properties": {
+        "@id": "node/3240233906",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "name": "Metro Santa Isabel",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:29:02Z",
+        "@version": "1",
+        "@changeset": "27539697",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6310228,
+          -33.4471582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3240243200",
+      "properties": {
+        "@id": "node/3240243200",
+        "amenity": "bicycle_rental",
+        "capacity": "31",
+        "name": "Costanera Center",
+        "operator": "Bikesantiago",
+        "@timestamp": "2014-12-17T21:36:37Z",
+        "@version": "1",
+        "@changeset": "27539697",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6053481,
+          -33.4172625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3277421485",
+      "properties": {
+        "@id": "node/3277421485",
+        "amenity": "bicycle_parking",
+        "capacity": "5",
+        "covered": "no",
+        "@timestamp": "2015-01-08T19:42:13Z",
+        "@version": "1",
+        "@changeset": "28004352",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.591104,
+          -33.4356247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3281410723",
+      "properties": {
+        "@id": "node/3281410723",
+        "amenity": "bicycle_parking",
+        "@timestamp": "2015-01-11T03:23:21Z",
+        "@version": "1",
+        "@changeset": "28054613",
+        "@user": "Zambelli Limitada",
+        "@uid": "30854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5932471,
+          -33.4359964
         ]
       }
     }

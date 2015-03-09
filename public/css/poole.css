@@ -433,3 +433,8 @@ a.pagination-item:hover {
 #noticias { background: #ffff99}
 #leaflet {background: #99ffff}
 #redes {background: #ff99ff}
+.category{background: #ff99ff}
+.mapcontainer{
+  margin-left: 8px;
+  margin-right: 8px
+}
