@@ -1,5 +1,5 @@
 ---
-title: "iframe elqui"
+title: "iframe mapocho 2015"
 category: iframe
 layout: empty
 ---
@@ -14,14 +14,14 @@ layout: empty
 <script>
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
-var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+var map = L.mapbox.map('map', 'ignacioabe.map-srs3by8q')
     .setView([-33.432, -70.634], 15);
     
+map.scrollWheelZoom.disable();
+
 // -33.432, -70.634, 15 
-
-// la gran lata de este sistema es que hay que exportar tres archivos separados
-// desde overpass.turbo
-
+// ignacioabe.map-srs3by8q
+// examples.map-i86nkdio
 
 // LAYER GEOJSON MAPOCHO
 
