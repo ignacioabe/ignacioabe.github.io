@@ -13,9 +13,11 @@
 <script>
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
-var map = L.mapbox.map('map', 'ignacioabe.map-srs3by8q')
+var map = L.mapbox.map('map', 'ignacioabe.map-srs3by8q', { zoomControl: false })
     .setView([-33.432, -70.634], 15);
-    
+
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
 map.scrollWheelZoom.disable();
 
 // -33.432, -70.634, 15 
