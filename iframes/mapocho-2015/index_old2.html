@@ -31,12 +31,9 @@ map.scrollWheelZoom.disable();
 // So the CSV file must be on the same domain as the Javascript, or the server
 // delivering it should support CORS.
 var featureLayer = L.mapbox.featureLayer()
-    .loadURL('mapocho-points.geojson')
+    .loadURL('mapocho.geojson')
     .addTo(map);
 
-var featureLayer = L.mapbox.featureLayer()
-    .loadURL('mapocho-poly.geojson')
-    .addTo(map);
 
 </script>
 
