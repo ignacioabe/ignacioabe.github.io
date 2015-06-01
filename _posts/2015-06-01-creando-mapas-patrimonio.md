@@ -1,5 +1,5 @@
 ---
-title: "taller Creando Mapas Libres"
+title: "Taller Creando Mapas Libres"
 layout: post
 ---
 
