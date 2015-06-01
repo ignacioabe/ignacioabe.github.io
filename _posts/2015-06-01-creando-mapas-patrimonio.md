@@ -9,7 +9,7 @@ layout: post
 - Popularización del GPS (está en todos lados).
 - SATÉLITES: [USGS earth explorer](http://earthexplorer.usgs.gov/).
 - DRONES: ver este [video](https://www.mapbox.com/blog/drone-imagery-openstreetmap/).
-- DATOS LIBRES en muchos gobiernos: <http://datos.gob.cl>.
+- DATOS LIBRES en muchos gobiernos: <http://datos.gob.cl>, buscar `monumento`.
 - SOFTWARE LIBRE, o gratis: google earth, [QGIS](http://www.qgis.org/), [cartoDB](https://cartodb.com/).
 - [OPENSTREETMAP](http://osm.org), enorme plataforma con datos de todo el mundo, como wikipedia pero de mapas.
 
@@ -29,7 +29,7 @@ Algunos ejemplos de [PEDALEABLE.org](http://pedaleable.org):
 - [WIKI](http://wiki.openstreetmap.org).
 - Hay muchas maneras de usarlo.
 - Hay muchas maneras de editarlo: apps, aplicaciones, web, papel, gps, etc).
-- [Field Papers]. http://fieldpapers.org/
+- Edición en papel! con [Field Papers](http://fieldpapers.org/).
 - Atlas de este campus [AQUÍ](http://fieldpapers.org/atlases/14hc1nee). 
 
 ### A mapear!
