@@ -16,7 +16,8 @@ layout: post
 ### Qué permite esto?
 - Pasar de CONSUMIDORES a CREADORES.
 - Ahorrar.
-- Ayudar a los demás: Tibet, [Valparaíso](http://tasks.hotosm.org/project/508).
+- Ayudar a los demás: Tibet, [Valparaíso](http://tasks.hotosm.org/project/508).  
+
 Algunos ejemplos de [PEDALEABLE.org](http://pedaleable.org): 
 - http://ignacioabe.cl/santiago-pedaleable-dev/index.html
 - http://mapocho.pedaleable.org/#mapa-y-servicios
