@@ -18,11 +18,11 @@ layout: post
 - Ahorrar.
 - Ayudar a los demás: Tibet, [Valparaíso](http://tasks.hotosm.org/project/508).  
 
-Algunos ejemplos de [PEDALEABLE.org](http://pedaleable.org): 
-- http://ignacioabe.cl/santiago-pedaleable-dev/index.html
-- http://mapocho.pedaleable.org/#mapa-y-servicios
-- http://ignacioabe.cl/pruebas-leaflet/80_vias-verdes.html
-- http://pedaleable.org/elqui-pedaleable/
+### Algunos ejemplos de [PEDALEABLE.org](http://pedaleable.org): 
+- <http://ignacioabe.cl/santiago-pedaleable-dev/index.html>
+- <http://mapocho.pedaleable.org/#mapa-y-servicios>
+- <http://ignacioabe.cl/pruebas-leaflet/80_vias-verdes.html>
+- <http://pedaleable.org/elqui-pedaleable/>
 
 ##Ahora de vuelta a OpenStreetMap.
 - Conceptos Básicos: OSM (no) es un MAPA.
