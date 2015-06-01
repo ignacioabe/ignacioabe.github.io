@@ -26,7 +26,7 @@ Algunos ejemplos de [PEDALEABLE.org](http://pedaleable.org):
 
 ##Ahora de vuelta a OpenStreetMap.
 - Conceptos Básicos: OSM (no) es un MAPA.
-- [WIKI](wiki.openstreetmap.org).
+- [WIKI](http://wiki.openstreetmap.org).
 - Hay muchas maneras de usarlo.
 - Hay muchas maneras de editarlo: apps, aplicaciones, web, papel, gps, etc).
 - [Field Papers]. http://fieldpapers.org/
