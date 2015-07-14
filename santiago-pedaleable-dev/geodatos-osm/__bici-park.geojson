@@ -2,468 +2,8 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2015-07-14T20:47:02Z",
+  "timestamp": "2014-10-02T15:29:02Z",
   "features": [
-    {
-      "type": "Feature",
-      "id": "way/274716781",
-      "properties": {
-        "@id": "way/274716781",
-        "amenity": "bicycle_parking"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6229909,
-              -33.4462174
-            ],
-            [
-              -70.6230573,
-              -33.4462327
-            ],
-            [
-              -70.6230171,
-              -33.4463511
-            ],
-            [
-              -70.6229528,
-              -33.4463422
-            ],
-            [
-              -70.6229909,
-              -33.4462174
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/319580035",
-      "properties": {
-        "@id": "way/319580035",
-        "access": "permissive",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no",
-        "operator": "Municipio"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.681897,
-              -33.5046115
-            ],
-            [
-              -70.6818769,
-              -33.5045751
-            ],
-            [
-              -70.681889,
-              -33.5045695
-            ],
-            [
-              -70.6819105,
-              -33.5046059
-            ],
-            [
-              -70.681897,
-              -33.5046115
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/319583743",
-      "properties": {
-        "@id": "way/319583743",
-        "access": "permissive",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6799127,
-              -33.5007198
-            ],
-            [
-              -70.6799202,
-              -33.5007346
-            ],
-            [
-              -70.6799155,
-              -33.5007363
-            ],
-            [
-              -70.6799079,
-              -33.5007215
-            ],
-            [
-              -70.6799127,
-              -33.5007198
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/319583911",
-      "properties": {
-        "@id": "way/319583911",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6792738,
-              -33.4995174
-            ],
-            [
-              -70.679253,
-              -33.4994779
-            ],
-            [
-              -70.6792685,
-              -33.4994722
-            ],
-            [
-              -70.6792893,
-              -33.4995118
-            ],
-            [
-              -70.6792738,
-              -33.4995174
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/319603608",
-      "properties": {
-        "@id": "way/319603608",
-        "access": "permissive",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6751119,
-              -33.4914804
-            ],
-            [
-              -70.6751009,
-              -33.4914843
-            ],
-            [
-              -70.6750853,
-              -33.4914541
-            ],
-            [
-              -70.6750958,
-              -33.4914504
-            ],
-            [
-              -70.6751119,
-              -33.4914804
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/320320085",
-      "properties": {
-        "@id": "way/320320085",
-        "access": "permissive",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6724849,
-              -33.4862077
-            ],
-            [
-              -70.6725057,
-              -33.4862451
-            ],
-            [
-              -70.6724909,
-              -33.4862519
-            ],
-            [
-              -70.6724695,
-              -33.4862127
-            ],
-            [
-              -70.6724849,
-              -33.4862077
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/320320088",
-      "properties": {
-        "@id": "way/320320088",
-        "access": "permissive",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6719717,
-              -33.485165
-            ],
-            [
-              -70.6719549,
-              -33.4851706
-            ],
-            [
-              -70.6719401,
-              -33.4851359
-            ],
-            [
-              -70.6719562,
-              -33.485132
-            ],
-            [
-              -70.6719717,
-              -33.485165
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/320320089",
-      "properties": {
-        "@id": "way/320320089",
-        "access": "permissive",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6715599,
-              -33.4845823
-            ],
-            [
-              -70.6715432,
-              -33.4845879
-            ],
-            [
-              -70.6715244,
-              -33.4845465
-            ],
-            [
-              -70.6715418,
-              -33.484542
-            ],
-            [
-              -70.6715599,
-              -33.4845823
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/320320090",
-      "properties": {
-        "@id": "way/320320090",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6710892,
-              -33.4832915
-            ],
-            [
-              -70.6711254,
-              -33.4833664
-            ],
-            [
-              -70.6710919,
-              -33.4833787
-            ],
-            [
-              -70.6710543,
-              -33.4833038
-            ],
-            [
-              -70.6710892,
-              -33.4832915
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/320320091",
-      "properties": {
-        "@id": "way/320320091",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6703825,
-              -33.4820588
-            ],
-            [
-              -70.6703979,
-              -33.4820885
-            ],
-            [
-              -70.6703838,
-              -33.4820935
-            ],
-            [
-              -70.670369,
-              -33.4820633
-            ],
-            [
-              -70.6703825,
-              -33.4820588
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/320324339",
-      "properties": {
-        "@id": "way/320324339",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6693146,
-              -33.4798678
-            ],
-            [
-              -70.6692972,
-              -33.4798331
-            ],
-            [
-              -70.6693173,
-              -33.479827
-            ],
-            [
-              -70.6693347,
-              -33.4798611
-            ],
-            [
-              -70.6693146,
-              -33.4798678
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/328031944",
-      "properties": {
-        "@id": "way/328031944",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "rack",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -70.6824104,
-              -33.5055471
-            ],
-            [
-              -70.6824234,
-              -33.5055721
-            ],
-            [
-              -70.682416,
-              -33.505575
-            ],
-            [
-              -70.6824032,
-              -33.5055497
-            ],
-            [
-              -70.6824104,
-              -33.5055471
-            ]
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "id": "node/473167846",
@@ -1102,6 +642,24 @@
     },
     {
       "type": "Feature",
+      "id": "node/1824809367",
+      "properties": {
+        "@id": "node/1824809367",
+        "amenity": "bicycle_parking",
+        "capacity": "15",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9017965,
+          -33.7536637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1830064536",
       "properties": {
         "@id": "node/1830064536",
@@ -1645,6 +1203,53 @@
     },
     {
       "type": "Feature",
+      "id": "node/1833779613",
+      "properties": {
+        "@id": "node/1833779613",
+        "addr:city": "Providencia",
+        "addr:housenumber": "130",
+        "addr:state": "Region Metropolitana de Santiago",
+        "addr:street": "Orrego Luco",
+        "amenity": "bicycle_parking",
+        "bicimapa_acceso": "para clientes",
+        "bicimapa_ambiente": "fuera",
+        "bicimapa_calle": "Orrego Luco",
+        "bicimapa_capacidad": "9",
+        "bicimapa_comentario": "local de muebles, acceso para los clientes, pero no hay problema de utilizarlo",
+        "bicimapa_comuna": "Providencia",
+        "bicimapa_direccion": "-33.4232,-70.61292,Orrego Luco 130,Providencia,Region Metropolitana, Chile",
+        "bicimapa_edificio": "Casardi Muebles",
+        "bicimapa_fecha": "6-20-2012 22:12:07",
+        "bicimapa_horarios": "8##5 (horas habiles en dias habiles 9am a 5pm)",
+        "bicimapa_latitud": "-33.423200000000001",
+        "bicimapa_longitud": "-70.612920000000003",
+        "bicimapa_nombre": "Casardi",
+        "bicimapa_numero": "130",
+        "bicimapa_ocupacion": "10% a las 12:44 pm (1##9 en total)",
+        "bicimapa_precio": "$0 (gratuito)",
+        "bicimapa_precision": "5.600000000000000",
+        "bicimapa_proteccion": "aire libre",
+        "bicimapa_revision": "Por revisar",
+        "bicimapa_sector": "Casa de muebles casardi",
+        "bicimapa_seguridad": "sin seguridad alguna",
+        "bicimapa_tipo": "Triangular lineal",
+        "bicimapa_tooltip": "Casardi",
+        "bicimapa_uid": "EST_PRO_JA_028",
+        "capacity": "9",
+        "fee": "no",
+        "name": "Casardi",
+        "source": "Bicimapa - UAHC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.61292,
+          -33.4232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1833779614",
       "properties": {
         "@id": "node/1833779614",
@@ -1906,7 +1511,7 @@
         "bicimapa_tooltip": "Biciestaci?n Pedro de Valdivia",
         "bicimapa_uid": "EST_PRO_JA_023",
         "capacity": "15",
-        "name": "Biciestacion Pedro de Valdivia",
+        "name": "Biciestaci?n Pedro de Valdivia",
         "source": "Bicimapa - UAHC"
       },
       "geometry": {
@@ -2423,9 +2028,7 @@
         "@id": "node/1833779640",
         "access": "yes",
         "addr:city": "Providencia",
-        "addr:housenumber": "0178",
         "addr:state": "Region Metropolitana de Santiago",
-        "addr:street": "Pasaje Fernando Márquez de La Plata",
         "amenity": "bicycle_parking",
         "bicimapa_acceso": "Publico",
         "bicimapa_ambiente": "Fuera",
@@ -2445,18 +2048,16 @@
         "bicimapa_seguridad": "sin seguridad alguna",
         "bicimapa_tooltip": "La Chascona, casa P.N",
         "bicimapa_uid": "Est_Pro_JA_005",
-        "bicycle_parking": "stands",
-        "capacity": "4",
-        "covered": "no",
+        "capacity": "3",
         "fee": "no",
-        "name": "La Chascona, casa Pablo Neruda",
+        "name": "La Chascona, casa P.N",
         "source": "Bicimapa - UAHC"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6343979,
-          -33.4312566
+          -70.63448,
+          -33.43128
         ]
       }
     },
@@ -2745,6 +2346,53 @@
     },
     {
       "type": "Feature",
+      "id": "node/1833779653",
+      "properties": {
+        "@id": "node/1833779653",
+        "access": "yes",
+        "addr:city": "Providencia",
+        "addr:housenumber": "880",
+        "addr:state": "Region Metropolitana de Santiago",
+        "addr:street": "Marchant Pereira",
+        "amenity": "bicycle_parking",
+        "bicimapa_acceso": "Publico",
+        "bicimapa_ambiente": "fuera",
+        "bicimapa_calle": "Marchant Pereira",
+        "bicimapa_capacidad": "25",
+        "bicimapa_comentario": "Barrera de biciaestacionamientos de las bicicletas p?blicas, de la Municipalida",
+        "bicimapa_comuna": "Providencia",
+        "bicimapa_direccion": "-33.4325166,-70.6112166,Marchant Pereira 880,Providencia,Region Metropolitana",
+        "bicimapa_edificio": "Municipalidad",
+        "bicimapa_fecha": "5-31-2012 16:26:57",
+        "bicimapa_horarios": "24##7 (dia y noche ## todos los dias... incluido, fin de semana)",
+        "bicimapa_latitud": "-33.432516600000000",
+        "bicimapa_longitud": "-70.611216600000006",
+        "bicimapa_nombre": "Bicicletas P?blicas Municipalidad de Providencia",
+        "bicimapa_numero": "880",
+        "bicimapa_ocupacion": "0.7",
+        "bicimapa_precio": "$0 (gratuito)",
+        "bicimapa_precision": "1.000000000000000",
+        "bicimapa_proteccion": "aire libre",
+        "bicimapa_revision": "Por revisar",
+        "bicimapa_seguridad": "semi custodiado",
+        "bicimapa_tipo": "Barrera de U invertida alargada",
+        "bicimapa_tooltip": "Bicicletas P?blicas Municipalidad de Providencia",
+        "bicimapa_uid": "EST_PRO_FJ_004",
+        "capacity": "25",
+        "fee": "no",
+        "name": "Bicicletas P?blicas Municipalidad de Providencia",
+        "source": "Bicimapa - UAHC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6112166,
+          -33.4325166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1833779654",
       "properties": {
         "@id": "node/1833779654",
@@ -2919,8 +2567,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6146274,
-          -33.4329531
+          -70.6146,
+          -33.4329666
         ]
       }
     },
@@ -3840,8 +3488,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6325867,
-          -33.4369304
+          -70.6326669,
+          -33.4370325
         ]
       }
     },
@@ -4069,7 +3717,7 @@
         "bicimapa_uid": "EST_POR_CW_001",
         "capacity": "4 aprox",
         "fee": "no",
-        "name": "Big John`s",
+        "name": "big john`s",
         "source": "Bicimapa - UAHC"
       },
       "geometry": {
@@ -4620,7 +4268,7 @@
         "bicimapa_uid": "EST_PRO_EN_004",
         "capacity": "4",
         "fee": "no",
-        "name": "Bicicletero Galería Madrir",
+        "name": "biciEst. mall P. de Valdivia",
         "source": "Bicimapa - UAHC"
       },
       "geometry": {
@@ -5562,8 +5210,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6059108,
-          -33.4455373
+          -70.6059,
+          -33.4455666
         ]
       }
     },
@@ -5889,8 +5537,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6086144,
-          -33.450654
+          -70.6082,
+          -33.4508
         ]
       }
     },
@@ -5936,8 +5584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6099244,
-          -33.4503053
+          -70.6082833,
+          -33.4508
         ]
       }
     },
@@ -6158,7 +5806,7 @@
         "bicycle_parking": "shed",
         "capacity": "0",
         "covered": "yes",
-        "fee": "no",
+        "fee": "Gratis",
         "name": "Estacionamiento bicicletas (Subterráneo)"
       },
       "geometry": {
@@ -6869,23 +6517,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/3094957122",
-      "properties": {
-        "@id": "node/3094957122",
-        "amenity": "bicycle_parking",
-        "capacity": "8",
-        "name": "Bicicletero"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6126451,
-          -33.4282992
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/3102823084",
       "properties": {
         "@id": "node/3102823084",
@@ -7231,152 +6862,6 @@
         "coordinates": [
           -70.6337242,
           -33.4411202
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3108349415",
-      "properties": {
-        "@id": "node/3108349415",
-        "amenity": "bicycle_parking",
-        "capacity": "5",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6259136,
-          -33.4438659
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3108380086",
-      "properties": {
-        "@id": "node/3108380086",
-        "amenity": "bicycle_parking",
-        "capacity": "10",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6262046,
-          -33.4424891
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3108388633",
-      "properties": {
-        "@id": "node/3108388633",
-        "amenity": "bicycle_parking",
-        "capacity": "7",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6263333,
-          -33.4422127
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3217340387",
-      "properties": {
-        "@id": "node/3217340387",
-        "amenity": "bicycle_parking",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.592643,
-          -33.4292865
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3277421485",
-      "properties": {
-        "@id": "node/3277421485",
-        "amenity": "bicycle_parking",
-        "capacity": "5",
-        "covered": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.591104,
-          -33.4356247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3281410723",
-      "properties": {
-        "@id": "node/3281410723",
-        "amenity": "bicycle_parking"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5932471,
-          -33.4359964
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3331853461",
-      "properties": {
-        "@id": "node/3331853461",
-        "amenity": "bicycle_parking",
-        "capacity": "50",
-        "name": "Universidad de Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.6642956,
-          -33.4580576
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3420105373",
-      "properties": {
-        "@id": "node/3420105373",
-        "amenity": "bicycle_parking"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5939658,
-          -33.4565392
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3420105374",
-      "properties": {
-        "@id": "node/3420105374",
-        "amenity": "bicycle_parking"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5936748,
-          -33.4564128
         ]
       }
     }
