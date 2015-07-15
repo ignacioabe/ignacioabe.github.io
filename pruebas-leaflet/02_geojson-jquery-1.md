@@ -7,8 +7,8 @@ El problema de este método es que tengo que escoger entre tener dos capas y pod
 
 <div id="map" style="top:0; bottom:0; width:100%; height:400px">
 
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 
 </div>
@@ -34,8 +34,7 @@ var plan_maestro = L.geoJson(data, {
 
 //aquí se definen los layers, pero no puedo meter la capa gejson...
 var base_cl		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.j74kak2h/{z}/{x}/{y}.png'),
-    base_os		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.map-srs3by8q/{z}/{x}/{y}.png'),
-    strava		= L.tileLayer('http://gometry.strava.com/tiles/cycling/color1/{z}/{x}/{y}.png', {opacity: 0.5});
+    base_os		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.map-srs3by8q/{z}/{x}/{y}.png')
 
 //inicio del mapa
 var map = L.map('map', {
@@ -52,7 +51,6 @@ var baseMaps = {
 
 //capas que se encienden de modo recurrente
 var overlayMaps = {
-    "strava": strava,
     "Plan maestro": plan_maestro
 };
 

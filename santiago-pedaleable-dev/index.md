@@ -8,8 +8,8 @@ Versión de desarrollo para santiago pedaleable
 
 <div id="map" style="top:0; bottom:0; width:100%; height:400px">
 
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
 
 <!-- leaflet markercluster -->
 
