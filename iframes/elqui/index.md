@@ -96,14 +96,16 @@ var trenFerrovia = new L.GeoJSON.AJAX("./lineas.geojson",{style: estiloFerrovia}
 
 // LAYERS RASTER
 
+// L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
+
 var base_plana		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.k4p2jedn/{z}/{x}/{y}.png'),
     base_topo		= L.tileLayer('http://{s}.tiles.mapbox.com/v3/ignacioabe.map-shkgkvg6/{z}/{x}/{y}.png'),
-	base_sat		= L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png',{maxZoom: 11, attribution: '<a href="http://www.mapquest.com/" target="_blank">MapQuest</a>'}),
-//    http://otile1.mqcdn.com/tiles/1.0.0/sat
+	  base_sat		= L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png',{maxZoom: 11, attribution: '<a href="http://www.mapquest.com/" target="_blank">MapQuest</a>'}),
+    base_sat_mapbox = L.tileLayer('https://api.mapbox.com/v4/ignacioabe.o5epf1cn/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA'),
     strava		= L.tileLayer('http://globalheat.strava.com/tiles/both/color1/{z}/{x}/{y}.png', {opacity: 0.5, attribution:'<a href="http://labs.strava.com/heatmap/">Strava Heatmap</a>'})
     ;
 
-// DEFINICIÓN Y CONTROLES MAPA 
+// DEFINICIÓN Y CONTROLES MAPA
 
 var map = L.map('map', {
     center: [-29.937, -70.939],
@@ -116,7 +118,9 @@ var map = L.map('map', {
 var baseMaps = {
     "base plana": base_plana,
     "base topografica": base_topo,
+  "base sat mapbox": base_sat_mapbox,
     "base satelital": base_sat
+
 };
 
 var overlayMaps = {
