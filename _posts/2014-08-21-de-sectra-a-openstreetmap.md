@@ -41,14 +41,6 @@ Cuando hayan subido la foto, necesitan ID de su capa `usuario.capa` para ponerla
 
 Les debería quedar algo así:
 
-`http://a.tiles.mapbox.com/v3/ignacioabe.tmp_raster/{z}/{x}/{y}.png` (Barrio República)
-
-o
-
-`http://a.tiles.mapbox.com/v3/ignacioabe.jskedn29/{z}/{x}/{y}.png` (Barrio Unidad vecinal Providencia)
-
-o
-
 `http://a.tiles.mapbox.com/v3/ignacioabe.6f765lau/{z}/{x}/{y}.png` (Zona cívica en el centro de Maipú)
 
 Cuando estén editando en OpenStreetMap, en el editor por defecto (iD) se puede poner su foto de fondo para dibujar, que tendrá mucho mejor resolución que la foto satelital que viene por defecto (bing maps). Para esto deben ver las capas, y en `PERSONALIZADO` colocar el url que generaron recién.
