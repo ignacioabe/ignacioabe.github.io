@@ -1,5 +1,5 @@
 ---
-title: "Algunas etiquetas útiles para el FMB%"
+title: "Algunas etiquetas útiles para el FMB5"
 layout: post
 ---
 
