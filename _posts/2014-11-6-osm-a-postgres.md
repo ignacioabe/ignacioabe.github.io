@@ -13,12 +13,13 @@ layout: post
 
 ###Postgres
 
-Crear una base de datos:
+Abrir la aplicación`postgres.app`.
 
-- Abrir `psql` en el terminal o en ícono del elefante arriba a la izquierda.
+En el terminal:
+- `psql`
+(abre la línea de comandos de postgres)
 
-Ocupar los siguientes comandos:
-
+En postgres
 - `create database <nombre-db>;`
 (crea la base de datos)
 - `\connect <nombre-db>`
@@ -37,6 +38,7 @@ Ocupar los siguientes comandos:
 - Cargarlos en la base de datos ocupando `osm2pgsql`
  
 - `osm2pgsql <archivo .osm> -d <nombre-db>`
+(si hay algún problema agregar la opción `-H localhost`
  
 - Debiese salir un texto aclarando que cargó los datos que termina-  en:
 
