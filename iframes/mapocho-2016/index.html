@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <body style="margin: 0px;" >
+
+<div id="map" style="top:0; bottom:0; width:100%; height:500px">
+
+<script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css" rel="stylesheet" />
+
+</div>
+
+<script>
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
+var map = L.mapbox.map('map', 'ignacioabe.map-srs3by8q', { zoomControl: false })
+    .setView([-33.432, -70.634], 15);
+
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
+map.scrollWheelZoom.disable();
+
+// -33.432, -70.634, 15 
+// ignacioabe.map-srs3by8q
+// examples.map-i86nkdio
+
+// LAYER GEOJSON MAPOCHO
+
+// As with any other AJAX request, this technique is subject to the Same Origin Policy:
+// http://en.wikipedia.org/wiki/Same_origin_policy
+// So the CSV file must be on the same domain as the Javascript, or the server
+// delivering it should support CORS.
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('mapocho-points.geojson')
+    .addTo(map);
+
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('mapocho-poly.geojson')
+    .addTo(map);
+
+</script>
+
+
+
+  </body>
+</html>
