@@ -3,7 +3,7 @@ title: "Taller Creando Mapas Libres"
 layout: post
 ---
 
-#Creando mapas libres.
+# Creando mapas libres.
 
 ## Democratización del acceso a la información geográfica:
 - Popularización del GPS (está en todos lados).
@@ -24,7 +24,7 @@ layout: post
 - <http://ignacioabe.cl/pruebas-leaflet/80_vias-verdes.html>
 - <http://pedaleable.org/elqui-pedaleable/>
 
-##Ahora de vuelta a OpenStreetMap.
+## Ahora de vuelta a OpenStreetMap.
 - Conceptos Básicos: OSM (no) es un MAPA.
 - [WIKI](http://wiki.openstreetmap.org).
 - Hay muchas maneras de usarlo.
