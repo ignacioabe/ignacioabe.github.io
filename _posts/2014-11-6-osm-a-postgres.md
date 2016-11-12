@@ -3,15 +3,15 @@ title: "Ocupando datos de OSM via POSTGRES en TILEMILL"
 layout: post
 ---
 
-##Descarga e instalación de software:
+## Descarga e instalación de software:
 
 - Instalar la aplicación de postgres (buscar `postgres.app`)
 
 - Instalar `osm2pgsql` (la manera más fácil es con brew)
 
-##Procedimiento
+## Procedimiento
 
-###Postgres
+### Postgres
 
 Abrir la aplicación`postgres.app`.
 
@@ -29,11 +29,11 @@ En postgres
 - `\quit`
 (se sale y vuelve al terminal)
 
-###Descarga datos
+### Descarga datos
 
 - Bajar datos de OPENSTREETMAP como .osm (ocupar la exportación directa de <http://openstreetmap.org> o la opción de <http://overpass.turbo.eu> Ocupar un encuadre pequeño para las primeras pruebas.
 
-###osm2pgsql
+### osm2pgsql
 
 - Cargarlos en la base de datos ocupando `osm2pgsql`
  
@@ -44,11 +44,11 @@ En postgres
 
 - `Osm2pgsql took Ns overall`
 
-###Tilemill
+### Tilemill
 
 - Abrir tilemill, agregar tres capas de POSTGIS con los siguientes datos:
 
-####osm-point
+#### osm-point
 
 - name: `osm-point`
 - conection: `dbname=osm host=localhost port=5432`
@@ -58,7 +58,7 @@ En postgres
 - extent_ `dynamic`(o pueden ponerle el encuadre si lo saben)
 - SRS: `900913`
 
-####osm-line
+#### osm-line
 
 - name: `osm-line`
 - conection: `igual que arriba`
@@ -68,7 +68,7 @@ En postgres
 - extent_ `igual que arriba`
 - SRS: `igual que arriba`
 
-####osm-polygon
+#### osm-polygon
 
 - name: `osm-polygon`
 - conection: `igual que arriba`
