@@ -67,7 +67,7 @@ Profundización y demostración de algunas herramientas prácticas mencionadas e
 
 - Fotos Satelitales LANDSAT -  [libra](https://libra.developmentseed.org/)
 - Modelos de elevación de terreno DEM - [Earth Explorer](http://earthexplorer.usgs.gov/)
-- OPENSTREETMAP
+- [OpenStreetMap](https://www.openstreetmap.org)
 
 ## Cómo usar OpenStreetMap
 
