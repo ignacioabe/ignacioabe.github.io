@@ -37,8 +37,8 @@ layout: post
 ## Algunos casos mapas creados en PEDALEABLE.org:
 
 - [Santiago Pedaleable](http://ignacioabe.cl/santiago-pedaleable/)
-- [Yo Vivo Mapocho 2015](http://mapocho.pedaleable.org/#mapa-y-servicios)
--  [Vías Verdes](https://api.mapbox.com/v4/ignacioabe.map-nsl02430/page.html?access_token=pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA#8/-32.266/-70.263)
+- [Yo Vivo Mapocho 2015](http://www.yovivomapocho.cl/#acceso-y-horarios)
+-  [Vías Verdes](http://ignacioabe.cl/vias-verdes/)
 - [Elqui Pedaleable](http://www.elquipedaleable.cl/mapa/)
 
 ---
