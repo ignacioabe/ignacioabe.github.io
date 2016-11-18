@@ -56,7 +56,7 @@ Profundización y demostración de algunas herramientas prácticas mencionadas e
 
 ## Software
 
-- Qué es la filosofía Open Source
+- Qué es la filosofía Open Source [leer a Richard Stallman](https://www.gnu.org/philosophy/fsfs/free_software.es.pdf)
 - Que son los sistemas de información geográfica (SIG)
 - [Qgis](http://qgis.org/es/site/)
 - [Mapbox](https://www.mapbox.com/)
@@ -67,6 +67,7 @@ Profundización y demostración de algunas herramientas prácticas mencionadas e
 
 - Fotos Satelitales LANDSAT -  [libra](https://libra.developmentseed.org/)
 - Modelos de elevación de terreno DEM - [Earth Explorer](http://earthexplorer.usgs.gov/)
+- Datos libres <http://datos.gob.cl/>
 - [OpenStreetMap](https://www.openstreetmap.org)
 
 ## Cómo usar OpenStreetMap
