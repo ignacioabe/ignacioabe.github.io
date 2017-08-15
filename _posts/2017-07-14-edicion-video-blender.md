@@ -2,9 +2,6 @@
 layout: post
 title: "Cómo editar video 4K con Blender?"
 ---
-
-# Cómo editar video 4K con Blender?
-
 Aunque en realidad está pensado para modelado y renderizado 3d, Blender es un programa bastante versátil que también sirve para editar video. Y en este aspecto es bastante capaz, aunque algo complejo.
 
 Un problema del programa es que es inutilizable con video 4K, pero hay una solución bastante efectiva al problema, el programa puede crear versiones reducidas del material que sirven para trabajar, pero al renderizar (exportar el video final) utiliza los archivos originales.
