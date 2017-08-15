@@ -15,9 +15,7 @@ Temario:
 - Cuáles son los límites prácticos de OSM y cómo complementarlo (carto, Qgis, javascript, etc)
 -->
 
-# Tutorial de OpenStreetMap
-
-## Qué es OpenStreetMap
+## ¿Qué es OpenStreetMap?
 
 OpenStreetMap es mucho más que un plano, es una base de información geográfica abierta, que nació hace más de diez años de la mano de Steve Coast con una simple plaza y actualmente es por mucho la fuente más vasta de información sobre los elementos naturales y construídos por el hombre que conforman nuestro planeta.
 
@@ -27,7 +25,7 @@ Además, el ser abierto permite que **cualquiera pueda usar o reutilizar los dat
 
 En otras palabras, existen muchos mapas, y muchas enciclopedias, pero Openstreetmap, al igual que Wikipedia, crecieron vertiginosamente por democratizar el acceso y la creación de información.
 
-## Qué tipo de información aparece en OpenStreetMap?
+## ¿Qué tipo de información aparece en OpenStreetMap?
 
 Principalmente elementos naturales y antrópicos que tengan las siguientes características:
 - Tener una relativa permanencia en el tiempo (Una construcción, o incluso una feria libre semanal, pero no un evento puntual).
@@ -38,14 +36,14 @@ Principalmente elementos naturales y antrópicos que tengan las siguientes carac
 
 En un principio, venía solamente de voluntarios, pero gracias a la gran cantidad de información disponibles, gobiernos, empresas y ONGs han aportado con gran cantidad de datos. Los datos pueden venir de cualquier fuente libre. Esto excluye otros mapas privados, análogos o digitales cuyas licencias de uso no permitan su libre reutilización (como Google Maps, por ejemplo). Los datos pueden recolectarse con diversos medios, algunos de los cuales son: Satélites, Drones, GPS, papel, mapas preexistentes, la memoria, etc.
 
-## Cómo se estructuran los datos?
+## ¿Cómo se estructuran los datos?
 
 La información geográfica se puede representar como nodos (puntos), vías (polilíneas) o áreas (polígonos). Además existen relaciones, que describen elementos más complejos que son la suma (o resta) de elementos básicos.
 Estos elementos geométricos se describen a través de pares **clave=valor**, en general la clave habla de la categoría y el valor del tipo específico. Algunos ejemplos simples son: `highway=motorway` (autopistas), `amenity=hospital` (hospital) o `name=Valparaíso`.
 
-## Cómo se denominan (llaman) las cosas del mundo?
+## ¿Cómo se denominan (llaman) las cosas del mundo?
 
 A través de una convención colaborativa, que puede encontrarse en http://wiki.openstreetmap.org/wiki/Map_Features. Esta convención está en Inglés, es no es fija, existen discusiones y cambios, pero en general se mantiene estable y permite coherencia a través de todo el mundo. Los tags de nombre pueden escribirse en diversos idiomas, por ejemplo: `name=Chile`y `name:fr=Chili`.
 
-## Qué se necesita para editar?
+## ¿Qué se necesita para editar?
 Una cuenta de usuario y una conexión a internet.
