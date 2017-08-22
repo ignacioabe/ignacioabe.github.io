@@ -1,5 +1,5 @@
 ---
-title: "Ocupando datos de OSM via POSTGRES en TILEMILL"
+title: "Ocupando datos de OSM via POSTGRES en TILEMILL (en osx)"
 layout: post
 ---
 
@@ -36,10 +36,10 @@ En postgres
 ### osm2pgsql
 
 - Cargarlos en la base de datos ocupando `osm2pgsql`
- 
+
 - `osm2pgsql <archivo .osm> -d <nombre-db>`
 (si hay algún problema agregar la opción `-H localhost`
- 
+
 - Debiese salir un texto aclarando que cargó los datos que termina-  en:
 
 - `Osm2pgsql took Ns overall`
@@ -87,4 +87,4 @@ También es posible ocupar un subconjunto de los datos, para que sea más fácil
 	waterway IS NOT NULL)  
 	AS subquery
 
-- **Ahora pueden darle el estilo que quieran (si saben ocupar [tilemill](https://www.mapbox.com/tilemill/))**
+- Ahora pueden darle el estilo que quieran, si saben ocupar [tilemill](https://www.mapbox.com/tilemill/))
