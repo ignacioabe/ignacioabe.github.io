@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Planes
 
 Quiero hacer una página web que me sirva como plataforma para mostrar las cosas que hago profesionalmente y poner en práctica lo que he aprendido de programación, sobre todo HTML, CSS y JS.
