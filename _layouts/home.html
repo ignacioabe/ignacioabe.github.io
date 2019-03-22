@@ -4,27 +4,37 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Proyectos:</h1>
+    <h1 class="page-heading">Proyectos:</h1>
 
-  <ul class="post-list">
-      <li>
-      <h2>
-        
-        <p> <a  href="/mapa-ciclovias/">Mapa</a> de ciclovías de Santiago </p>
-        <p> <a  href="/mapa-pim-santiago/">Mapa</a> Desarrollado para el departamento de movilidad de Santiago</p>
-        <a class="post-link" href="/mapa-vias-verdes/">Mapa de las ferrovías en Chile, diferenciadas por su situación</a>
-        <a class="post-link" href="/mapa-ladera-sur/ladera-sur-2.html">Mapa para Ladera Sur</a>
-        <a class="post-link" href="/mapa-siria/mapas/1_conflicto.html">Mapas del conflicto en Siria para Interferencia.cl (1)</a>
-        <a class="post-link" href="/mapa-siria/mapas/2_refugiados.html">Mapas del conflicto en Siria para Interferencia.cl (2)</a>
-        <a class="post-link" href="/mapa-siria/mapas/3_patrimonio.html">Mapas del conflicto en Siria para Interferencia.cl (3)</a>
-        <a class="post-link" href="/mapa-zonas-sacrificio/">Mapas de zonas de sacrificio ambiental para Interferencia.cl</a>
-        <a class="post-link" href="/mapa-elqui-pedaleable/">Mapa del proyecto Elqui Pedaleable</a>
-        <a class="post-link" href="/mapa-caminar-el-agua/">Mapa del proyecto "caminar el agua" de Camila Kuncar et al</a>
-      </h2>
-    </li>
-  </ul>
+    <ul class="post-list">
+        <li>
+            <h2>
 
-  <!-- loop para mostrar las publicaciones con categoría "proyecto"
+                <p> <a href="/mapa-ciclovias/">Mapa</a> de ciclovías de Santiago </p>
+                <p> <a href="/mapa-pim-santia`go/">Mapa</a> Desarrollado para el departamento de movilidad de Santiago
+                </p>
+
+                <span class="post-meta">2015</span>
+                <a class="post-link" href="/mapa-vias-verdes/">Mapa de las ferrovías en Chile, diferenciadas por su
+                    situación</a>
+                <a class="post-link" href="/mapa-ladera-sur/ladera-sur-2.html">Mapa para Ladera Sur</a>
+                <span class="post-meta">2018</span>
+                <a class="post-link" href="/mapa-siria/mapas/1_conflicto.html">Mapas del conflicto en Siria para
+                    Interferencia.cl (1)</a>
+                <a class="post-link" href="/mapa-siria/mapas/2_refugiados.html">Mapas del conflicto en Siria para
+                    Interferencia.cl (2)</a>
+                <a class="post-link" href="/mapa-siria/mapas/3_patrimonio.html">Mapas del conflicto en Siria para
+                    Interferencia.cl (3)</a>
+                <a class="post-link" href="/mapa-zonas-sacrificio/">Mapas de zonas de sacrificio ambiental para
+                    Interferencia.cl</a>
+                <a class="post-link" href="/mapa-elqui-pedaleable/">Mapa del proyecto Elqui Pedaleable</a>
+                <a class="post-link" href="/mapa-caminar-el-agua/">Mapa del proyecto "caminar el agua" de Camila Kuncar
+                    et al</a>
+            </h2>
+        </li>
+    </ul>
+
+    <!-- loop para mostrar las publicaciones con categoría "proyecto"
     <ul class="post-list">
     {% for post in site.posts %}
     {% if post.categories contains "proyecto" %}
@@ -39,24 +49,24 @@ layout: default
 
 
 
-  <h1 class="page-heading">Publicaciones recientes:</h1>
+    <h1 class="page-heading">Publicaciones recientes:</h1>
 
-  {{ content }}
+    {{ content }}
 
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-      {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </h2>
-    </li>
-    {% endfor %}
-  </ul>
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">suscribirse <a href="{{ "/feed.xml" | relative_url }}">por RSS</a></p>
+    <p class="rss-subscribe">suscribirse <a href="{{ "/feed.xml" | relative_url }}">por RSS</a></p>
 
 </div>
