@@ -119,6 +119,7 @@ Para esto vamos a usar la librería de mapas web llamada Leaflet.
 
 - Crear un archivo HTML en algún editor de texto (recomiendo VSCode)
 - Pegarle la base:
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -133,6 +134,7 @@ Para esto vamos a usar la librería de mapas web llamada Leaflet.
 </body>
 </html>
 ```
+
 - Seguir las instrucciones en <https://leafletjs.com/examples/quick-start/>
 - Para no tener que abrir una cuenta en mapbox se pueden usar los siguientes tiles `https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`
 - Llegar hasta el punto en el que añade un marcador
