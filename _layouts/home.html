@@ -30,7 +30,8 @@ layout: default
   <h2>bucle para páginas en una colección</h2>
   {% for proyecto in site.proyectos %}
   <h2><a href="{{ proyecto.url }}">{{ proyecto.nombre }} - {{ proyecto.agno }}</a></h2>
-  <p>{{ proyecto.content | markdownify }}</p>
+  <p>{{ proyecto.resumen }}</p>
+  <!-- <p>{{ proyecto.content | markdownify }}</p> -->
   {% endfor %}
 
 </div>
