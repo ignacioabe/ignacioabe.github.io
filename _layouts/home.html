@@ -8,7 +8,7 @@ layout: default
 
     {{ content }}
 
-    <h2>LOOP 1</h2>
+    <h2>bucle de todas las publicaciones</h2>
     <ul>
         {% for post in site.posts %}
           <li>
@@ -17,13 +17,17 @@ layout: default
         {% endfor %}
       </ul>
 
-      <h2>LOOP 2</h2>
+      <h2>bucle de publicaciones con categoría Foo</h2>
       <ul>
           {% assign posts = site.posts | where_exp: "post", "post.categories contains 'foo'" %}
           {% for post in posts %}
-          <li>{{ post.title }}</li>
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
           {% endfor %}
       </ul>
+
+      
 
 </div>
 
