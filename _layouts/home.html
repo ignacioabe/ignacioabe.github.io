@@ -4,30 +4,33 @@ layout: default
 
 <div class="home">
 
-    <h1 class="page-heading">Publicaciones recientes:</h1>
+  <h1 class="page-heading">Publicaciones recientes:</h1>
 
-    {{ content }}
+  {{ content }}
 
-    <h2>bucle de todas las publicaciones</h2>
-    <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+  <h2>bucle de todas las publicaciones</h2>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
-      <h2>bucle de publicaciones con categoría Foo</h2>
-      <ul>
-          {% assign posts = site.posts | where_exp: "post", "post.categories contains 'foo'" %}
-          {% for post in posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-      </ul>
+  <h2>bucle de publicaciones con categoría Foo</h2>
+  <ul>
+    {% assign posts = site.posts | where_exp: "post", "post.categories contains 'foo'" %}
+    {% for post in posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
-      
+  <h2>bucle para páginas en una colección</h2>
+  {% for proyecto in site.proyectos %}
+  <h2><a href="{{ proyecto.url }}">{{ proyecto.nombre }} - {{ proyecto.agno }}</a></h2>
+  <p>{{ proyecto.content | markdownify }}</p>
+  {% endfor %}
 
 </div>
-
