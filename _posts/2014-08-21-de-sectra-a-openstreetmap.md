@@ -1,6 +1,7 @@
 ---
 title: "Ocupando las fotos satelitales de SECTRA en OPENSTREETMAP"
 layout: post
+categories: [foo, otro]
 ---
 
 Las fotos están en <http://www.sectra.gob.cl/datos_e_informacion_espacial/gran_santiago/ortofoto_2012.html> pero es muy difícil saber cuál es la que les sirve.
