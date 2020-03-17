@@ -2,36 +2,77 @@
 layout: default
 ---
 
-<div class="home">
+<!-- <h1 class="page-heading">Publicaciones recientes:</h1>
 
-  <h1 class="page-heading">Publicaciones recientes:</h1>
+{{ content }}
 
-  {{ content }}
-
-  <h2>bucle de todas las publicaciones</h2>
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h2>bucle de publicaciones con categoría Foo</h2>
-  <ul>
-    {% assign posts = site.posts | where_exp: "post", "post.categories contains 'foo'" %}
-    {% for post in posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h2>bucle para páginas en una colección</h2>
-  {% for proyecto in site.proyectos %}
-  <h2><a href="{{ proyecto.url }}">{{ proyecto.nombre }} - {{ proyecto.agno }}</a></h2>
-  <p>{{ proyecto.resumen }}</p>
-  <!-- <p>{{ proyecto.content | markdownify }}</p> -->
+<h2>bucle de todas las publicaciones</h2>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
   {% endfor %}
+</ul>
 
+<h2>bucle de publicaciones con categoría Foo</h2>
+<ul>
+  {% assign posts = site.posts | where_exp: "post", "post.categories contains 'foo'" %}
+  {% for post in posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>bucle para páginas en una colección</h2>
+{% for proyecto in site.proyectos %}
+<h2><a href="{{ proyecto.url }}">{{ proyecto.nombre }} - {{ proyecto.agno }}</a></h2>
+<p>{{ proyecto.resumen }}</p>
+{% endfor %} -->
+
+
+<div class="contenedor">
+  <div class="grilla">
+    <div class="ficha" id="encabezado">
+      <div class="rectangulo">
+        <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
+      </div>
+      <h3>Hola!</h3>
+      <p>soy Ignacio Abé, arquitecto especializado en movilidad sostenible e información geográfica.
+        Este es mi portafolio.
+      </p>
+    </div>
+    <div class="ficha-relleno"></div>
+
+    <!-- ficha tipo -->
+    {% for proyecto in site.proyectos %}
+    <div class="ficha">
+      <div class="rectangulo">
+        <img src="{{ proyecto.foto }}" alt="">
+      </div>
+      <h3><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></h3>
+      <p>{{ proyecto.resumen }}</p>
+    </div>
+    {% endfor %}
+
+
+    <!-- <div class="ficha-tipo">
+      <div class="rectangulo">
+        <img src="url imagen" alt="">
+      </div>
+      <h3><a href="url">nombre proyecto</a></h3>
+      <p>resumen</p>
+    </div> -->
+
+    <div class="ficha" id="sitios">
+      <div class="rectangulo"></div>
+      <h3>REDES:</h3>
+      <p><a href="https://www.instagram.com/ignacioabe/">instagram</a></p>
+      <p><a href="https://github.com/ignacioabe/">github</a></p>
+      <p><a href="https://twitter.com/ignacioabe">twitter</a></p>
+      <p>otros</p>
+    </div>
+
+  </div>
 </div>

@@ -4,4 +4,5 @@ title: "Ignacio Abé" # the name of your site, e.g. ACME Corp.
 collections:
   proyectos:
     output: true
+    sort_by: agno
     
