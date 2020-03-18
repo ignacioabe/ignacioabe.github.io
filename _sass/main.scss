@@ -8,7 +8,7 @@ body {
   font-family: $bodyFont;
 }
 
-.contenedor {}
+// .contenedor {}
 
 .grilla {
   margin: 20px;
@@ -24,7 +24,7 @@ body {
 
 .ficha {
   color: white;
-  background: gray;
+  background: #777;
   padding: 20px;
   /* margin-bottom: 10px */
 }
@@ -43,12 +43,11 @@ body {
   /* grid-column: 1 / -1; */
   color: black;
   padding: 20px;
-  background: rgb(34, 193, 195);
   background: white;
 }
 
-.relleno {
-  background: white;
+.ficha a {
+  color: white;
 }
 
 .ficha#sitios {
@@ -60,6 +59,10 @@ body {
   /* background: linear-gradient(0deg, rgba(128,128,128,1) 0%, rgba(120,64,128,1) 100%); */
 }
 
+.relleno {
+  background: white;
+}
+
 /* .ficha h3 {
   margin-top: 0px
 } */
@@ -67,9 +70,6 @@ body {
 .rectangulo {
   height: 260px;
   background: #caa472;
-}
-
-.rectangulo-libre {
 }
 
 img {
@@ -85,6 +85,6 @@ img {
   object-fit: cover;
 }
 
-a {
-  color: #000;
-}
+// a {
+//   color: #000;
+// }
