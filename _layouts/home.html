@@ -34,19 +34,20 @@ layout: default
 
 <div class="contenedor">
   <div class="grilla">
-    <div class="ficha" id="encabezado">
+    <div class="ficha-blanca" id="encabezado">
       <div class="rectangulo">
         <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
       </div>
-      <h3>Hola!</h3>
+      <h1>Hola!</h1>
       <p>soy Ignacio Abé, arquitecto especializado en movilidad sostenible e información geográfica.
         Este es mi portafolio.</p>
     </div>
-    <div class="ficha-relleno"></div>
+
+    <div class="ficha-blanca relleno" ></div>
 
     <!-- ficha tipo -->
     {% for proyecto in site.proyectos %}
-    <div class="ficha">
+    <div class="ficha-gris">
       <div class="rectangulo">
         <img src="{{ proyecto.foto }}" alt="">
       </div>
@@ -55,21 +56,12 @@ layout: default
     </div>
     {% endfor %}
 
-
-    <!-- <div class="ficha-tipo">
-      <div class="rectangulo">
-        <img src="url imagen" alt="">
-      </div>
-      <h3><a href="url">nombre proyecto</a></h3>
-      <p>resumen</p>
-    </div> -->
-
-    <div class="ficha" id="sitios">
+    <div class="ficha-blanca" id="sitios">
       <div class="rectangulo"></div>
       <h3>REDES:</h3>
-      <p><a href="https://www.instagram.com/ignacioabe/">instagram</a></p>
-      <p><a href="https://github.com/ignacioabe/">github</a></p>
-      <p><a href="https://twitter.com/ignacioabe">twitter</a></p>
+      <p><a href="https://www.instagram.com/ignacioabe/" target="_blank">instagram</a></p>
+      <p><a href="https://github.com/ignacioabe/" target="_blank">github</a></p>
+      <p><a href="https://twitter.com/ignacioabe" target="_blank">twitter</a></p>
       <p>otros</p>
     </div>
 

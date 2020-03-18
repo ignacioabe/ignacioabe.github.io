@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<!-- <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+ -->
+
+<div class="contenedor">
+  <div class="grilla">
+    <div id="encabezado" class="ficha-blanca">
+      <div class="rectangulo">
+        <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
+      </div>
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p>uno: autoencargo</p>
+      <p>dos: 2011 - </p>
+      <p>tres: corporación pedaleable</p>
+    </div>
+    <div class="ficha-blanca relleno"></div>
+    <div class="ficha-texto">
+      {{ content }}
+    </div>
+    <div class="ficha-blanca">
+      <div class="rectangulo">
+        <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
+      </div>
+    </div>
+    <div class="ficha-blanca">
+      <div class="rectangulo">
+        <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
+      </div>
+    </div>
+
+    <!-- <div class="ficha-gris">
+      <p>hola</p>
+    </div>
+    <div class="ficha-gris">
+      <p>hola</p>
+    </div>
+    <div class="ficha-gris">
+      <p>hola</p>
+    </div>
+    <div class="ficha-gris">
+      <p>hola</p>
+    </div> -->
+
+  </div>
+</div>
+
+
+</div>
+</article>
