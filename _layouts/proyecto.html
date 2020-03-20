@@ -20,42 +20,36 @@ layout: default
 
 <div class="contenedor">
   <div class="grilla">
-    <div id="encabezado" class="ficha-blanca">
+    <!-- micro menu -->
+    <div class="ficha" id="menu">
+      <h1>inicio</h1>
+      <p>proyectos</p>
+      <p>contacto</p>
+      <p>etc</p>
+      <p>~~~</p>
+    </div>
+    <div id="encabezado" class="ficha fondo-gris">
       <div class="rectangulo">
         <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
       </div>
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
       <p>uno: autoencargo</p>
       <p>dos: 2011 - </p>
       <p>tres: corporación pedaleable</p>
     </div>
-    <div class="ficha-blanca relleno"></div>
-    <div class="ficha-texto">
+    <!-- <div class="ficha-blanca relleno"></div> -->
+    <div class="ficha">
+      <h1>>>></h1>
+    </div>
+    <div class="ancho-completo">
       {{ content }}
     </div>
-    <div class="ficha-blanca">
-      <div class="rectangulo">
-        <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
-      </div>
+    <div class="ancho-completo">
+      <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
     </div>
-    <div class="ficha-blanca">
-      <div class="rectangulo">
-        <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
-      </div>
+    <div class="ancho-completo">
+      <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
     </div>
-
-    <!-- <div class="ficha-gris">
-      <p>hola</p>
-    </div>
-    <div class="ficha-gris">
-      <p>hola</p>
-    </div>
-    <div class="ficha-gris">
-      <p>hola</p>
-    </div>
-    <div class="ficha-gris">
-      <p>hola</p>
-    </div> -->
 
   </div>
 </div>

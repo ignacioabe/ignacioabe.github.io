@@ -1,5 +1,5 @@
 $colorFondo: #ffffff;
-$colorGris: #777;
+$colorGris: rgb(82, 82, 82);
 $colorLetra: #000000;
 $fuente: 'IBM Plex Mono', monospace;
 
@@ -20,37 +20,26 @@ body {
   position: relative;
 }
 
-.ficha-blanca {
-  background: $colorFondo;
-  color: $colorLetra;
+.ficha {
   padding: 20px;
 }
 
-.ficha-blanca#sitios {
-  grid-column: -2 / -1;
-}
-
-// .ficha-blanca a {
-//   color: $colorLetra;
-// }
-
-.ficha-gris {
+.fondo-gris {
   background: $colorGris;
   color: $colorFondo;
-  padding: 20px;
 }
 
-.ficha-gris a {
-  color: #ffd7d7;
+.fondo-gris a {
+  color: #ffffff;
 }
 
-.ficha-blanca.relleno {
+.just-derecha {
   grid-column-end: -1;
 }
 
-.ficha-texto {
+.ancho-completo {
   grid-column: 1 / -1;
-  padding: 20px;
+  // padding: 20px;
 }
 
 .rectangulo {
