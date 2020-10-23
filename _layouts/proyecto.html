@@ -1,28 +1,12 @@
 ---
 layout: default
 ---
-<!-- <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
- -->
 
 <div class="contenedor">
   <div class="grilla">
     <!-- micro menu -->
     <div class="ficha" id="menu">
-      <h1>inicio</h1>
+      <h1><a href="/">Ignacio Abé</a></h1>
       <p>proyectos</p>
       <p>contacto</p>
       <p>etc</p>
@@ -32,25 +16,17 @@ layout: default
       <div class="rectangulo">
         <img src="{{ page.foto }}" alt="">
       </div>
-      <h3 class="post-title" itemprop="name headline">{{ page.title | escape }}</h3>
-      <p>uno: autoencargo</p>
-      <p>dos: 2011 - </p>
-      <p>tres: corporación pedaleable</p>
+      <h3 class="post-title" itemprop="name headline">{{ page.nombre | escape }}</h3>
+      <p>cliente: {{ page.cliente }}</p>
+      <p>año: {{ page.agno }}</p>
     </div>
-    <!-- <div class="ficha-blanca relleno"></div> -->
     <div class="ficha">
       <h1>>>></h1>
     </div>
     <div class="ancho-completo">
+      <!-- <img src="{{ page.foto }}" alt=""> -->
       {{ content }}
     </div>
-    <div class="ancho-completo">
-      <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
-    </div>
-    <div class="ancho-completo">
-      <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
-    </div>
-
   </div>
 </div>
 

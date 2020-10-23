@@ -2,42 +2,12 @@
 layout: default
 ---
 
-<!-- <h1 class="page-heading">Publicaciones recientes:</h1>
-
-{{ content }}
-
-<h2>bucle de todas las publicaciones</h2>
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-
-<h2>bucle de publicaciones con categoría Foo</h2>
-<ul>
-  {% assign posts = site.posts | where_exp: "post", "post.categories contains 'foo'" %}
-  {% for post in posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-
-<h2>bucle para páginas en una colección</h2>
-{% for proyecto in site.proyectos %}
-<h2><a href="{{ proyecto.url }}">{{ proyecto.nombre }} - {{ proyecto.agno }}</a></h2>
-<p>{{ proyecto.resumen }}</p>
-{% endfor %} -->
-
-
 <div class="contenedor">
   <div class="grilla">
 
     <!-- micro menu -->
     <div class="ficha" id="menu">
-      <h1>inicio</h1>
+      <h1>ignacioabe.cl</h1>
       <p>proyectos</p>
       <p>contacto</p>
       <p>etc</p>
@@ -47,15 +17,15 @@ layout: default
     <!-- presentación -->
     <div class="ficha" id="encabezado">
       <div class="rectangulo">
-        <img src="https://dummyimage.com/600x400/66ff66/000" alt="">
+        <img src="/assets/img/carnet.jpg" alt="">
       </div>
       <h1>hola!</h1>
       <p>soy Ignacio Abé, arquitecto especializado en movilidad sostenible e información geográfica.
         Este es mi portafolio.</p>
     </div>
 
-    <div class="ficha">
-      <h1>>>></h1>
+    <div class="ficha just-derecha">
+      <!-- <h1>PROYECTOS -></h1> -->
     </div>
     <!-- relleno -->
     <!-- <div class="ficha just-derecha"></div> -->
@@ -71,8 +41,8 @@ layout: default
     </div>
     {% endfor %}
 
-    <div class="ficha">
-      <h1>>>></h1>
+    <div class="ficha just-derecha">
+      <!-- <h1>>>></h1> -->
     </div>
 
 
