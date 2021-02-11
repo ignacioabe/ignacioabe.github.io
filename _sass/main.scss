@@ -1,42 +1,54 @@
-$colorFondo: #ffffff;
-$colorFicha: #757575;
-$colorLetraOscura: #000000;
-$colorLetraClara: #ffffff;
+$colorFondo: #212121;
+$colorFicha: #424242;
+$colorTexto: #eeeeee;
 $fuente: 'IBM Plex Mono', monospace;
 
 body {
   background: $colorFondo;
-  color: $colorLetraOscura;
+  color: $colorTexto;
   font-family: $fuente;
 }
-
-// .contenedor {}
 
 .grilla {
   margin: 20px;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, 300px);
-  // grid-template-rows: 1000px;
+  // grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
   position: relative;
 }
 
 .ficha {
   padding: 20px;
-}
-
-.fondo-gris {
   background: $colorFicha;
-  color: $colorLetraClara;
+  color: $colorTexto;
 }
 
-.fondo-gris a {
+.ficha a {
   color: #ffffff;
 }
 
-.just-derecha {
-  grid-column-end: -1;
+// colores etiquetas secciones
+
+#bio {
+  background-color: #1A237E;
+}
+
+#proyectos {
+  background-color: #311B92;
+}
+
+#contacto {
+  background-color: #880E4F;
+}
+
+#redes {
+  background-color: #B71C1C;
+}
+
+.menu p {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .ancho-completo {

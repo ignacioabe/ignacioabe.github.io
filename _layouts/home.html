@@ -5,32 +5,31 @@ layout: default
 <div class="contenedor">
   <div class="grilla">
 
-    <!-- micro menu -->
-    <div class="ficha" id="menu">
-      <h1>ignacioabe.cl</h1>
+    <!-- ficha menu principal -->
+    <div class="ficha menu" id="nav-principal">
+      <h1><a href="ignacioabe.cl">Ignacio Abé</a></h1>
+      <p>bio</p>
       <p>proyectos</p>
       <p>contacto</p>
-      <p>etc</p>
-      <p>~~~</p>
+      <p>redes</p>
     </div>
 
-    <!-- presentación -->
-    <div class="ficha" id="encabezado">
-      <div class="rectangulo">
-        <img src="/assets/img/carnet.jpg" alt="">
-      </div>
-      <h1>hola!</h1>
+    <!-- bio -->
+    <div id="bio" class="ficha">
+      <h2>bio</h2>
+    </div>
+    <div class="ficha">
       <p>soy Ignacio Abé, arquitecto especializado en movilidad sostenible e información geográfica.
         Este es mi portafolio.</p>
+        <p>**completar!**</completar></p>
     </div>
 
-    <div class="ficha just-derecha">
-      <!-- <h1>PROYECTOS -></h1> -->
+    <!-- proyectos -->
+    <div id="proyectos" class="ficha">
+      <h2>proyectos</h2>
     </div>
-    <!-- relleno -->
-    <!-- <div class="ficha just-derecha"></div> -->
 
-    <!-- ficha tipo -->
+    <!-- bucle proyectos -->
     {% for proyecto in site.proyectos %}
     <div class="ficha fondo-gris">
       <div class="rectangulo">
@@ -41,13 +40,17 @@ layout: default
     </div>
     {% endfor %}
 
-    <div class="ficha just-derecha">
-      <!-- <h1>>>></h1> -->
+    <!-- contacto -->
+    <div id="contacto" class="ficha">
+      <h2>contacto</h2>
+      <p>tel: +39 3313117722</p>
+      <p>correo: ignacio.abe@gmail.com</p>
+      <p>dir: Venecia, Italia</p>
     </div>
 
-
-    <div class="ficha">
-      <h1>redes:</h1>
+    <!-- redes -->
+    <div id="redes" class="ficha">
+      <h2>redes:</h2>
       <p><a href="https://instagram.com/ignacioabe/" target="_blank">instagram</a></p>
       <p><a href="https://github.com/ignacioabe/" target="_blank">github</a></p>
       <p><a href="https://twitter.com/ignacioabe" target="_blank">twitter</a></p>
