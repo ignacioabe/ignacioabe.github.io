@@ -40,22 +40,21 @@ Estas fases no son estrictamente secuenciales y generalmente se está volviendo 
 
 | herramienta/fase | obtención y creación | depuración | análisis y visualiz. | distribución   |
 |------------------|----------------------|------------|----------------------|----------------|
-| QGIS             | ***                  | ***        | ***                  | ** (pdf)       |
-| Openstreetmap    | ***                  |            |                      | *** (osm)      |
-| GPS              | ***                  |            |                      | ** (gpx)       |
-| Celular intelig. | **                   | *          |                      | *** (apps)     |
-| Leaflet          |                      |            | *                    | *** (web)      |
-| Mapbox           | *                    | *          | ***                  | *** (web)      |
-| Open Refine      |                      | **         | *                    |                |
-| KeplerGL         |                      | *          | ***                  | **             |
-| Python + Pandas  |                      | ***        | ***                  | ** (pdf o web) |
+| QGIS             | +++                  | +++        | +++                  | ++ (pdf)       |
+| Openstreetmap    | +++                  |            |                      | +++ (osm)      |
+| GPS              | +++                  |            |                      | ++ (gpx)       |
+| Celular intelig. | ++                   | +          |                      | +++ (apps)     |
+| Leaflet          |                      |            | +                    | +++ (web)      |
+| Mapbox           | +                    | +          | +++                  | +++ (web)      |
+| Open Refine      |                      | ++         | +                    |                |
+| KeplerGL         |                      | +          | +++                  | ++             |
+| Python + Pandas  |                      | +++        | +++                  | ++ (pdf o web) |
 
-
-## Práctica:
+## Práctica
 
 El ejercicio consiste en revisar cómo se distribuyen los distintos tipos de intersecciones viales en Santiago, y cómo se relaciona esta distribución con los atropellos. Vamos a obtener los datos de la CONASET Y Openstreetmap/Overpass, revisarlos y ordenarlos con Open Refine, y visualizarlos con KeplerGL. Si alcanza el tiempo vamos a ver cómo hacer un mapa web básico con Geojson.io y Leaflet.
 
-### Paso 1, obtención de la información.
+### Paso 1, obtención de la información
 
 #### Intersecciones semaforizadas
 
@@ -120,7 +119,7 @@ Para esto vamos a usar la librería de mapas web llamada Leaflet.
 - Crear un archivo HTML en algún editor de texto (recomiendo VSCode)
 - Pegarle la base:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
