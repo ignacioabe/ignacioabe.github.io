@@ -11,42 +11,21 @@ body {
   font-family: $fuenteBase;
 }
 
+#página {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 20px;
+}
+
 h1, h2, h3 {
   font-family: $fuenteTitulos;
 }
 
-#página {
-  display: grid;
-  gap: 20px;
-  width: 100%;
-}
-
-#contenedor-encabezado {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 300px 300px 300px;
-  width: 100%;
-  grid-template-areas: 
-  "m .";
-}
-
-#contenedor-biografía {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 300px 600px;
-  grid-template-rows: 100px 300px;
-  grid-template-areas: 
-  "m f"
-  ". f";
-
-}
-
-.menu {
-  grid-area: m;
+.nombre-sección {
+  margin-top: 0;
 }
 
 .ficha {
-  // grid-area: f;
   padding: 10px;
   background: $colorFicha;
   color: $colorTexto;
@@ -54,54 +33,58 @@ h1, h2, h3 {
   a {
     color: #ffffff;
   }
+}
 
-  // h1 {
-  //   margin-top: 0;
+.vacío {
+ background-color: $colorFondo;
+}
+
+  // colores etiquetas secciones
+
+  #menu {
+    background-color: #424242;
+  }
+
+  #biografía {
+    background-color: #1A237E;
+  }
+  
+  #proyectos {
+    background-color: #311B92;
+    grid-column-start: 1;
+  }
+
+  // #proyectos + .proyecto {
+  //   grid-column-start: 2;
   // }
+  
+  #contacto {
+    grid-column-start: 1;
+    background-color: #880E4F;
+  }
+  
+  #redes {
+    grid-column-start: 1;
+    background-color: #B71C1C;
+  }
 
-}
+  .menu p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 
-// .nombre-seccion {
-//   margin-top: 0;
-//   margin-bottom: 0;
-// }
+  .ancho-completo {
+    grid-column: 1 / -1;
+    // padding: 20px;
+  }
 
+  .rectangulo {
+    height: 280px;
+    background: #caa472;
+  }
 
-// colores etiquetas secciones
-
-#título-biografía {
-  background-color: #1A237E;
-}
-
-#proyectos {
-  background-color: #311B92;
-}
-
-#contacto {
-  background-color: #880E4F;
-}
-
-#redes {
-  background-color: #B71C1C;
-}
-
-.menu p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.ancho-completo {
-  grid-column: 1 / -1;
-  // padding: 20px;
-}
-
-.rectangulo {
-  height: 280px;
-  background: #caa472;
-}
-
-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }

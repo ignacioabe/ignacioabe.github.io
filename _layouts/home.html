@@ -3,66 +3,58 @@ layout: default
 ---
 
 <div id="página">
-  <div id="contenedor-encabezado">
-    <!-- ficha menu principal -->
-    <div class="ficha menu">
+
+  <!-- ficha menu principal
+  <div class="vacío">
+    <div id="menu" class="ficha">  
       <h1><a href="ignacioabe.cl">Ignacio Abé</a></h1>
-      <p>bio</p>
-      <p>proyectos</p>
-      <p>contacto</p>
-      <p>redes</p>
     </div>
+  </div> -->
+
+<!-- biografía -->
+  <div id="biografía" class="ficha">
+    <h1 class="nombre-sección">Ignacio Abé</h1>
+    <p>soy Ignacio Abé, arquitecto especializado en movilidad sostenible e información geográfica.
+      Este es mi portafolio.</p>
+    <p>**completar!**</p>
+    <p>**completar!**</p>
+    <p>**completar!**</p>
+    <p>**completar!**</p>
+    <p>**completar!**</p>
+    <p>**completar!**</p>
   </div>
 
-
-  <!-- bio -->
-  <div id="contenedor-biografía">
-    <div id="título-biografía" class="ficha menu">
-      <h2 class="nombre-seccion">bio ✏️</h2>
-    </div>
-    <div class="ficha">
-      <p>soy Ignacio Abé, arquitecto especializado en movilidad sostenible e información geográfica.
-        Este es mi portafolio.</p>
-      <p>**completar!**</p>
-      <p>**completar!**</p>
-      <p>**completar!**</p>
-      <p>**completar!**</p>
-      <p>**completar!**</p>
-      <p>**completar!**</p>
-      </p>
-    </div>
-  </div>
-
-  <!-- proyectos -->
+<!-- proyectos -->
   <div id="proyectos" class="ficha">
-    <h2 class="nombre-seccion">proyectos 📐</h2>
+    <h2 class="nombre-sección">proyectos 📐</h2>
+    <p>Breve texto sobre el tipo de proyectos que he realizado</p>
   </div>
 
-  <!-- bucle proyectos -->
-  {% for proyecto in site.proyectos %}
-  <div class="ficha fondo-gris">
-    <div class="rectangulo">
-      <img src="{{ proyecto.foto }}" alt="">
-    </div>
-    <h3><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></h3>
-    <p>{{ proyecto.resumen }}</p>
-  </div>
-  {% endfor %}
 
-  <!-- contacto -->
+<!-- bucle proyectos -->
+{% for proyecto in site.proyectos %}
+<div class="ficha proyecto">
+  <div class="rectangulo">
+    <img src="{{ proyecto.foto }}" alt="">
+  </div>
+  <h3><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></h3>
+  <p>{{ proyecto.resumen }}</p>
+</div>
+{% endfor %}
+
+<!-- contacto -->
   <div id="contacto" class="ficha">
-    <h2 class="nombre-seccion">contacto ✉️</h2>
+    <h2 class="nombre-sección">contacto ✉️</h2>
     <p>tel: +39 3313117722</p>
     <p>correo: ignacio.abe@gmail.com</p>
     <p> dir: Venecia, Italia</p>
   </div>
 
-  <!-- redes -->
+<!-- redes -->
   <div id="redes" class="ficha">
-    <h2 class="nombre-seccion">redes 🔗</h2>
+    <h2 class="nombre-sección">redes 🔗</h2>
     <p><a href="https://instagram.com/ignacioabe/" target="_blank">instagram</a></p>
     <p><a href="https://github.com/ignacioabe/" target="_blank">github</a></p>
     <p><a href="https://twitter.com/ignacioabe" target="_blank">twitter</a></p>
     <p>otros</p>
-  </div>
 </div>
