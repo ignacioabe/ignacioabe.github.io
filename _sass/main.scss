@@ -1,36 +1,75 @@
 $colorFondo: #212121;
 $colorFicha: #424242;
 $colorTexto: #eeeeee;
-$fuente: 'IBM Plex Mono', monospace;
+$fuente: 'IBM Plex Mono';
+$fuenteTitulos: 'Space Mono', monospace;
+$fuenteBase: 'Work Sans', sans-serif;
 
 body {
   background: $colorFondo;
   color: $colorTexto;
-  font-family: $fuente;
+  font-family: $fuenteBase;
 }
 
-.grilla {
-  margin: 20px;
+h1, h2, h3 {
+  font-family: $fuenteTitulos;
+}
+
+#página {
   display: grid;
-  grid-gap: 20px;
-  // grid-template-columns: repeat(auto-fit, 300px);
-  justify-content: center;
-  position: relative;
+  gap: 20px;
+  width: 100%;
+}
+
+#contenedor-encabezado {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 300px 300px 300px;
+  width: 100%;
+  grid-template-areas: 
+  "m .";
+}
+
+#contenedor-biografía {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 300px 600px;
+  grid-template-rows: 100px 300px;
+  grid-template-areas: 
+  "m f"
+  ". f";
+
+}
+
+.menu {
+  grid-area: m;
 }
 
 .ficha {
-  padding: 20px;
+  // grid-area: f;
+  padding: 10px;
   background: $colorFicha;
   color: $colorTexto;
+
+  a {
+    color: #ffffff;
+  }
+
+  // h1 {
+  //   margin-top: 0;
+  // }
+
 }
 
-.ficha a {
-  color: #ffffff;
-}
+// .nombre-seccion {
+//   margin-top: 0;
+//   margin-bottom: 0;
+// }
+
 
 // colores etiquetas secciones
 
-#bio {
+#título-biografía {
   background-color: #1A237E;
 }
 
@@ -57,7 +96,7 @@ body {
 }
 
 .rectangulo {
-  height: 260px;
+  height: 280px;
   background: #caa472;
 }
 
