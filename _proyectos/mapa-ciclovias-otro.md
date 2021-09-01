@@ -1,12 +1,11 @@
 ---
-nombre: Elqui Pedaleable
-permalink: elqui-pedaleable
+nombre: Mapa ciclovías de Chile
+permalink: mapa-ciclovias-cl
 cliente: Pedaleable.org
 agno: 2013
 foto: "/assets/img/elqui-pedaleable/elqui-fm-puente-yungay.jpg"
 layout: proyecto
-url: "https://www.pedaleable.org/proyectos/elqui-pedaleable/"
-resumen: "Recuperación de una ferrovía en desuso para crear un corredor de movilidad activa en el valle del elqui, región de Coquimbo"
+resumen: "Mapa de ciclovías para bla bla bla"
 ---
 
 ## ES
@@ -21,8 +20,3 @@ To highlight the potential of the route as a sustainable mobility corridor, Peda
 ## Imágenes
 
 ![](/assets/img/elqui-pedaleable/elqui-fm-puclaro.jpg)
-
-![](/assets/img/elqui-pedaleable/elqui-evento-cicletada.jpg)
-
-![](/assets/img/elqui-pedaleable/elqui-croquis-perfiles.jpg)
-

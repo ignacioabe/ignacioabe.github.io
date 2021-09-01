@@ -2,31 +2,22 @@
 layout: default
 ---
 
-<div class="contenedor">
-  <div class="grilla">
-    <!-- micro menu -->
-    <div class="ficha" id="menu">
-      <h1><a href="/">Ignacio Abé</a></h1>
-      <p>proyectos</p>
-      <p>contacto</p>
-      <p>etc</p>
-      <p>~~~</p>
+<div class="grilla">
+  <div class="tarjeta">
+    <h2><a href="/">Ignacio Abé</a></h2>
+  </div>
+
+  <div class="tarjeta ficha">
+    <h3 class="post-title" itemprop="name headline">{{ page.nombre | escape }}</h3>
+    <p>cliente: {{ page.cliente }}</p>
+    <p>año: {{ page.agno }}</p>
+    <p><a href="{{ page.url}}">SITIO WEB</a></p>
+  </div>
+  <div class="ancho-completo">
+    <div class="fotoportada">
+      <img src="{{page.foto}}" alt="">
     </div>
-    <div id="encabezado" class="ficha fondo-gris">
-      <div class="rectangulo">
-        <img src="{{ page.foto }}" alt="">
-      </div>
-      <h3 class="post-title" itemprop="name headline">{{ page.nombre | escape }}</h3>
-      <p>cliente: {{ page.cliente }}</p>
-      <p>año: {{ page.agno }}</p>
-    </div>
-    <div class="ficha">
-      <h1>>>></h1>
-    </div>
-    <div class="ancho-completo">
-      <!-- <img src="{{ page.foto }}" alt=""> -->
-      {{ content }}
-    </div>
+    {{ content }}
   </div>
 </div>
 

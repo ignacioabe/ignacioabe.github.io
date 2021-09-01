@@ -1,9 +1,11 @@
 $colorFondo: #212121;
-$colorFicha: #424242;
+$colorTarjeta: #424242;
 $colorTexto: #eeeeee;
 $fuente: 'IBM Plex Mono';
-$fuenteTitulos: 'Space Mono', monospace;
-$fuenteBase: 'Work Sans', sans-serif;
+$fuenteTitulos: 'Space Mono',
+monospace;
+$fuenteBase: 'Work Sans',
+sans-serif;
 
 body {
   background: $colorFondo;
@@ -11,23 +13,26 @@ body {
   font-family: $fuenteBase;
 }
 
-#página {
-  display:grid;
+.grilla {
+  display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, 300px);
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 0.75fr));
   grid-gap: 20px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: $fuenteTitulos;
 }
 
-.nombre-sección {
+.nombre-sección h2 {
   margin-top: 0;
 }
 
-.ficha {
+.tarjeta {
   padding: 10px;
-  background: $colorFicha;
   color: $colorTexto;
 
   a {
@@ -35,56 +40,64 @@ h1, h2, h3 {
   }
 }
 
-.vacío {
- background-color: $colorFondo;
+.proyecto {
+  background: $colorTarjeta;
 }
 
-  // colores etiquetas secciones
+.vacío {
+  background-color: $colorFondo;
+}
 
-  #menu {
-    background-color: #424242;
-  }
+// colores etiquetas secciones
 
-  #biografía {
-    background-color: #1A237E;
-  }
-  
-  #proyectos {
-    background-color: #311B92;
-    grid-column-start: 1;
-  }
+#biografía {
+  background-color: $colorFondo;
+}
 
-  // #proyectos + .proyecto {
-  //   grid-column-start: 2;
-  // }
-  
-  #contacto {
-    grid-column-start: 1;
-    background-color: #880E4F;
-  }
-  
-  #redes {
-    grid-column-start: 1;
-    background-color: #B71C1C;
-  }
+#proyectos {
+  // background-color: #311B92;
+  grid-column-start: 1;
+}
 
-  .menu p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
+#proyectos+.proyecto {
+  grid-column-start: 1;
+}
 
-  .ancho-completo {
-    grid-column: 1 / -1;
-    // padding: 20px;
-  }
+#contacto {
+  grid-column-start: 1;
+  // background-color: #880E4F;
+}
 
-  .rectangulo {
-    height: 280px;
-    background: #caa472;
-  }
+#redes {
+  // grid-column-start: 1;
+  // background-color: #B71C1C;
+}
 
-  img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
+.rectangulo {
+  height: 280px;
+  background: #caa472;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+// proyecto
+
+
+.ficha {
+  grid-column-start: 1;
+}
+
+.ancho-completo {
+  padding: 10px;
+  grid-column: 1 / -1;
+  display:grid
+}
+
+.fotoportada {
+  // position: absolute;
+  // opacity: 20%;
+}

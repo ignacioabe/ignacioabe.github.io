@@ -5,12 +5,13 @@ agno: 2020
 foto: "/assets/img/mapa-ciclovias-port.jpg"
 resumen: "Mapa web para identificar las ciclovías y planificar los viajes en bici"
 layout: proyecto
+url: https://ignacioabe.cl/mapa-ciclovias
 # imagenes: ["/assets/img/mapa-ciclovias-1.jpg", "/assets/img/mapa-ciclovias-2.jpg", "/assets/img/mapa-ciclovias-3.jpg"]
 ---
 
 HOLA!
 
-![mapa-1](/assets/img/mapa-ciclovias-1.jpg)
+![mapa-1](/assets/img/mapa-ciclovias-chile.png)
 
 Esta es una imágen del mapa
 

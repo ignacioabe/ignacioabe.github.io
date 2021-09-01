@@ -1,0 +1,14 @@
+---
+nombre:
+permalink:
+cliente:
+agno:
+foto:
+layout:
+url:
+resumen:
+texto-es:
+texto-en:
+carpeta-img:
+galeria-img: []
+---
