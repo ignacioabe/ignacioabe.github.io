@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="grilla">
+
   <div class="tarjeta">
     <h2><a href="/">Ignacio Abé</a></h2>
   </div>
@@ -11,16 +12,36 @@ layout: default
     <h3 class="post-title" itemprop="name headline">{{ page.nombre | escape }}</h3>
     <p>cliente: {{ page.cliente }}</p>
     <p>año: {{ page.agno }}</p>
-    <p><a href="{{ page.url}}">SITIO WEB</a></p>
+    <p><a href="{{ page.enlace-ext }}">SITIO WEB</a></p>
   </div>
+
+  <div class="ancho-completo fotoportada">
+    <img src="{{page.foto}}" alt="">
+  </div>
+
+  <div class="descripcion">
+    <h2>ES:</h2>
+    {{page.texto-es}}
+  </div>
+
+  <div class="descripcion en">
+    <h2>EN:</h2>
+    {{page.texto-en}}
+  </div>
+
+  <h2 class="celda-izquierda">GALERÍA:</h2>
+
+  <!-- bucle proyectos -->
+  {% for imagen in page.galeria-img %}
   <div class="ancho-completo">
-    <div class="fotoportada">
-      <img src="{{page.foto}}" alt="">
-    </div>
+    <img src="{{page.carpeta-img}}/{{ imagen }}" alt="">
+  </div>
+  {% endfor %}
+
+  <div class="contenido-proy">
     {{ content }}
   </div>
-</div>
-
 
 </div>
+
 </article>
