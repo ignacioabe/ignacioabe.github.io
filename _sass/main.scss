@@ -48,6 +48,10 @@ h3 {
   background-color: $colorFondo;
 }
 
+.celda-izquierda {
+  grid-column-start: 1;
+}
+
 // colores etiquetas secciones
 
 #biografía {
@@ -92,12 +96,18 @@ img {
 }
 
 .ancho-completo {
-  padding: 10px;
+  // padding: 10px;
   grid-column: 1 / -1;
-  display:grid
+}
+
+.ancho-medio {
+  grid-column: 1 / -2;
 }
 
 .fotoportada {
-  // position: absolute;
-  // opacity: 20%;
+
+}
+
+.en {
+  font-style: italic;
 }

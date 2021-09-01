@@ -1,11 +1,10 @@
 ---
 nombre:
-permalink:
 cliente:
 agno:
 foto:
 layout:
-url:
+enlace-ext:
 resumen:
 texto-es:
 texto-en:
