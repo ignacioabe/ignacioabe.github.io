@@ -7,10 +7,22 @@ monospace;
 $fuenteBase: 'Work Sans',
 sans-serif;
 
+// todo el sitio
+
 body {
   background: $colorFondo;
   color: $colorTexto;
   font-family: $fuenteBase;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $fuenteTitulos;
+}
+
+a {
+  color: #ffea75;
 }
 
 .grilla {
@@ -21,11 +33,6 @@ body {
   grid-gap: 20px;
 }
 
-h1,
-h2,
-h3 {
-  font-family: $fuenteTitulos;
-}
 
 .nombre-sección h2 {
   margin-top: 0;
@@ -34,10 +41,6 @@ h3 {
 .tarjeta {
   padding: 10px;
   color: $colorTexto;
-
-  a {
-    color: #ffffff;
-  }
 }
 
 .proyecto {

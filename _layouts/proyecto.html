@@ -4,7 +4,7 @@ layout: default
 
 <div class="grilla">
 
-  <div class="tarjeta">
+  <div id="titulo-sitio" class="tarjeta">
     <h2><a href="/">Ignacio Abé</a></h2>
   </div>
 
@@ -13,6 +13,7 @@ layout: default
     <p>cliente: {{ page.cliente }}</p>
     <p>año: {{ page.agno }}</p>
     <p><a href="{{ page.enlace-ext }}">SITIO WEB</a></p>
+    <!-- <p>herramientas: {{ page.herramientas }}</p> -->
   </div>
 
   <div class="ancho-completo fotoportada">
@@ -21,12 +22,12 @@ layout: default
 
   <div class="descripcion">
     <h2>ES:</h2>
-    {{page.texto-es}}
+      {{page.texto-largo-es | markdownify }}
   </div>
 
   <div class="descripcion en">
     <h2>EN:</h2>
-    {{page.texto-en}}
+      {{page.texto-largo-en | markdownify }}
   </div>
 
   <h2 class="celda-izquierda">GALERÍA:</h2>
@@ -41,6 +42,9 @@ layout: default
   <div class="contenido-proy">
     {{ content }}
   </div>
+
+  <!-- volver al inicio -->
+  <a class="celda-izquierda" href="#titulo-sitio">Volver arriba</a>
 
 </div>
 

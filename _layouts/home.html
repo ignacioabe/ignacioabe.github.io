@@ -31,13 +31,14 @@ layout: default
 
 
   <!-- bucle proyectos -->
-  {% for proyecto in site.proyectos %}
+  {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
+  {% for proyecto in proyectos %}
   <div class="tarjeta proyecto">
     <div class="rectangulo">
       <img src="{{ proyecto.foto }}" alt="">
     </div>
     <h3><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></h3>
-    <p>{{ proyecto.resumen }}</p>
+    <p>{{ proyecto.texto-corto-es }}</p>
   </div>
   {% endfor %}
 
