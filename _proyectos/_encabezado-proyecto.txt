@@ -5,9 +5,16 @@ agno:
 foto:
 layout:
 enlace-ext:
-resumen:
-texto-es:
-texto-en:
+texto-corto-es: "xxx"
+texto-corto-en: "xxx"
+texto-largo-es: |
+  xxx xxx
+
+  xxx xxx
+texto--largo-en: |
+  xxx xxx
+
+  xxx xxx
 carpeta-img:
 galeria-img: []
 ---
