@@ -1,3 +1,5 @@
+# Instrucciones
+
 ## Ejecutar el sitio
 
 - `bundle exec jekyll serve --livereload`
@@ -7,5 +9,13 @@
 ## Para importar nuevas imágenes
 
 - meterlas en carpeta `assets/img/_import/`
-- ejecutar `sips -s formatOptions normal -Z 1500 *.jpg`
+
+- ejecutar:
+
+- `for i in *.png; do sips -s format jpeg -s formatOptions 70 "${i}" --out "${i%png}jpg"; done` transforma PNG a JPG.
+
+-`% find . -name '*png' -delete` borra copias en PNG
+
+- `sips -s formatOptions normal -Z 1500 *.jpg`  Achica las imágenes a 1500 pixeles de (ancho? dimensión mayor?)
+
 - moverlas a la carpeta del proyecto que corresponda.
