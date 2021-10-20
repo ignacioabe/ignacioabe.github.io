@@ -17,16 +17,16 @@ layout: default
       <img src="assets/img/carnet.jpg" alt="">
     </div>
     <h1 class="nombre-sección">Hola!</h1>
-    <p>Soy Ignacio Abé, arquitecto y master en urbanismo, especializado en movilidad sostenible e información
-      geográfica.
-      Este es mi portafolio.</p>
-    <p>**completar!**</p>
+    <p>Soy Ignacio Abé, arquitecto y master en urbanismo, 
+      especializado en movilidad sostenible, mapas y análisis de información geoespacial.</p>
+    <p>Bienvenido a mi sitio web.</p>
+    <!-- <p>**completar!**</p> -->
   </div>
 
   <!-- proyectos -->
   <div id="proyectos" class="tarjeta">
     <h2 class="nombre-sección">proyectos: 📐</h2>
-    <p>Breve texto sobre el tipo de proyectos que he realizado</p>
+    <!-- <p>La selección de proyectos aquí presente cubre un</p> -->
   </div>
 
 
@@ -35,7 +35,9 @@ layout: default
   {% for proyecto in proyectos %}
   <div class="tarjeta proyecto">
     <div class="rectangulo">
-      <img src="{{ proyecto.foto }}" alt="">
+      <a href="{{ proyecto.url }}">
+        <img src="{{ proyecto.foto }}" alt="">
+      </a>
     </div>
     <h3><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></h3>
     <p>{{ proyecto.texto-corto-es }}</p>
@@ -46,8 +48,8 @@ layout: default
   <div id="contacto" class="tarjeta">
     <h2 class="nombre-sección">contacto: ✉️</h2>
     <p>tel: +39 3313117722</p>
-    <p>correo: ignacio.abe@gmail.com</p>
-    <p> dir: Venecia, Italia</p>
+    <p>correo: <a href="mailto:ignacio.abe@gmail.com">ignacio.abe@gmail.com</a></p>
+    <p> ubicación: Venecia, Italia</p>
   </div>
 
   <!-- redes -->
