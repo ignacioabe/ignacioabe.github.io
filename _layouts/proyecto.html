@@ -35,7 +35,7 @@ layout: default
   <!-- bucle proyectos -->
   {% for imagen in page.galeria-img %}
   <div class="ancho-completo">
-    <img src="{{page.carpeta-img}}/{{ imagen }}" alt="">
+    <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
   </div>
   {% endfor %}
 
