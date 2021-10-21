@@ -4,11 +4,14 @@ layout: default
 
 <div class="grilla">
 
-  <div id="titulo-sitio" class="tarjeta">
-    <h2><a href="/">Ignacio Abé</a></h2>
+  <div id="titulo-sitio" class="celda-izquierda">
+    <h2><a href="/">Ignacio Abé/</a></h2>
   </div>
 
-  <div class="tarjeta ficha">
+  <div>
+    <h2>PROYECTOS/</h2>
+  </div>
+  <div class="">
     <h3 class="post-title" itemprop="name headline">{{ page.nombre | escape }}</h3>
     <p>cliente: {{ page.cliente }}</p>
     <p>año: {{ page.agno }}</p>
@@ -21,20 +24,22 @@ layout: default
   </div>
 
   <div class="descripcion">
-    <h2>ES:</h2>
-      {{page.texto-largo-es | markdownify }}
+    <h2>txt.ES:</h2>
+    {{page.texto-largo-es | markdownify }}
   </div>
 
   <div class="descripcion en">
-    <h2>EN:</h2>
-      {{page.texto-largo-en | markdownify }}
+    <h2>txt.EN:</h2>
+    {{page.texto-largo-en | markdownify }}
   </div>
 
-  <h2 class="celda-izquierda">GALERÍA:</h2>
+  <div class="título-sección">
+    <h2 class="celda-izquierda">GALERÍA/</h2>
+  </div>
 
-  <!-- bucle proyectos -->
+  <!-- bucle galería -->
   {% for imagen in page.galeria-img %}
-  <div class="ancho-completo">
+  <div class="galeria">
     <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
   </div>
   {% endfor %}
@@ -43,9 +48,21 @@ layout: default
     {{ content }}
   </div>
 
-  <!-- volver al inicio -->
-  <a class="celda-izquierda" href="#titulo-sitio">Volver arriba</a>
+  <!-- bucle otros proyectos -->
+  <div class="celda-izquierda">
+    <h2>OTROS PROYECTOS/</h2>
+    {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
+    {% for proyecto in proyectos %}
+    <p><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></p>
+    <!-- <p>{{ proyecto.texto-corto-es }}</p> -->
+    {% endfor %}
+    <!-- volver al inicio -->
+  </div>
 
-</div>
+  <div class="celda-izquierda">
+    <h3>
+      <a href="#titulo-sitio">↑ Volver arriba</a>
+    </h3>
+  </div>
 
-</article>
+  </article>

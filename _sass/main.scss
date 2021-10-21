@@ -23,16 +23,22 @@ h3 {
 
 a {
   color: #ffea75;
+  // color: $colorTexto;
+  // text-decoration-color: yellow;
+  // text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba($color: #ffea75, $alpha: 0.15);
 }
 
 .grilla {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 280px);
   // grid-template-columns: repeat(auto-fit, minmax(300px, 0.75fr));
   grid-gap: 20px;
 }
-
 
 .nombre-sección h2 {
   margin-top: 0;
@@ -41,6 +47,21 @@ a {
 .tarjeta {
   padding: 10px;
   color: $colorTexto;
+  // border: 2px solid white
+}
+
+//esto está raro
+.título-sección {
+  grid-column-start: 1;
+  // color:red
+}
+
+.título-sección+.galeria {
+  grid-column-start: 1;
+
+}
+.título-sección+.proyecto {
+  grid-column-start: 1;
 }
 
 .proyecto {
@@ -55,6 +76,18 @@ a {
   grid-column-start: 1;
 }
 
+.galeria {
+  grid-column-end: span 2;
+}
+
+.galeria img {
+  // background-color: white;
+  background-color: $colorTarjeta;
+  padding: 10px;
+  box-sizing:border-box;
+  object-fit: scale-down;
+}
+
 // colores etiquetas secciones
 
 #biografía {
@@ -66,9 +99,9 @@ a {
   grid-column-start: 1;
 }
 
-#proyectos+.proyecto {
-  grid-column-start: 1;
-}
+// #proyectos+.proyecto {
+//   grid-column-start: 1;
+// }
 
 #contacto {
   grid-column-start: 1;
@@ -94,9 +127,9 @@ img {
 // proyecto
 
 
-.ficha {
-  grid-column-start: 1;
-}
+// .ficha {
+//   grid-column-start: 1;
+// }
 
 .ancho-completo {
   // padding: 10px;
@@ -105,10 +138,6 @@ img {
 
 .ancho-medio {
   grid-column: 1 / -2;
-}
-
-.fotoportada {
-
 }
 
 .en {

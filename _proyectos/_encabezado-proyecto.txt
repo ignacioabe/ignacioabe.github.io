@@ -11,7 +11,7 @@ texto-largo-es: |
   xxx xxx
 
   xxx xxx
-texto--largo-en: |
+texto-largo-en: |
   xxx xxx
 
   xxx xxx
