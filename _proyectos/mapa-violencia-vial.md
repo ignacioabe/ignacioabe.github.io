@@ -5,7 +5,7 @@ agno: 2019
 foto: /assets/img/mapa-violencia-vial/mapa-vv-portada.png
 # herramientas: "openrefine, mapboxGL.js"
 layout: proyecto
-enlace-ext: https://ignacioabe.cl/mapa-bip/
+enlace-ext: https://ignacioabe.cl/mapa-violencia-vial/
 texto-corto-es: Mapa web para identificar los puntos donde han ocurrido accidentes en bicicleta en Santiago, basado en los datos oficiales de CONASET.
 texto-corto-en:
 texto-largo-es: |
