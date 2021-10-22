@@ -19,11 +19,11 @@ layout: default
     <!-- <p>herramientas: {{ page.herramientas }}</p> -->
   </div>
 
-  <div class="ancho-completo fotoportada">
+  <!-- <div class="ancho-completo fotoportada">
     <img src="{{page.foto}}" alt="">
-  </div>
+  </div> -->
 
-  <div class="descripcion">
+  <div class="descripcion es celda-izquierda">
     <h2>txt.ES:</h2>
     {{page.texto-largo-es | markdownify }}
   </div>
@@ -39,9 +39,9 @@ layout: default
 
   <!-- bucle galería -->
   {% for imagen in page.galeria-img %}
-  <div class="galeria">
-    <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
-  </div>
+  <div class="galería ancho-completo">
+      <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
+    </div>
   {% endfor %}
 
   <div class="contenido-proy">

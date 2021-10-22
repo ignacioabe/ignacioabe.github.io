@@ -21,6 +21,15 @@ h3 {
   font-family: $fuenteTitulos;
 }
 
+div {
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  // object-fit: cover;
+}
+
 a {
   color: #ffea75;
   // color: $colorTexto;
@@ -33,6 +42,8 @@ a:hover {
 }
 
 .grilla {
+  margin-left: 30px;
+  margin-right: 30px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 280px);
@@ -76,16 +87,20 @@ a:hover {
   grid-column-start: 1;
 }
 
-.galeria {
-  grid-column-end: span 2;
-}
-
-.galeria img {
-  // background-color: white;
+.galería {
+  // box-sizing: border-box;
+  // justify-content: left;
   background-color: $colorTarjeta;
   padding: 10px;
-  box-sizing:border-box;
-  object-fit: scale-down;
+}
+
+.galería img {
+  // max-height: 50vh;
+  // display: flex;
+  // max-width: 80%;
+  // max-height: 100%;
+  // width: auto;
+  // object-fit: cover;
 }
 
 // colores etiquetas secciones
@@ -118,9 +133,7 @@ a:hover {
   background: #bb42b3;
 }
 
-img {
-  height: 100%;
-  width: 100%;
+.rectangulo img {
   object-fit: cover;
 }
 
