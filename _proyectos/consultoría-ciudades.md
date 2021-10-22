@@ -5,8 +5,8 @@ agno: 2019
 foto: "/assets/img/asesoria-corp-ciudades/portada-mapa-ibt.jpg"
 layout: proyecto
 enlace-ext:
-texto-corto-es: "Obtención, transformación y análisis de datos abiertos sobre desarrollo urbano para Corporación Ciudades (a ONG)"
-texto-corto-en: "Extraction, transformation and analysis of open data about urban development for Corporacion Ciudades"
+texto-corto-es: Obtención, transformación y análisis de datos abiertos sobre desarrollo urbano para Corporación Ciudades (una ONG).
+texto-corto-en: Extraction, transformation and analysis of open data about urban development for Corporacion Ciudades (an NGO).
 texto-largo-es: |
   Un encargo de la [Corporación Ciudades](http://corporacionciudades.cl/), una organización sin fines de lucro dedicada a promover una mejor planificación urbana, realizada junto a [Sergio Lucero](https://quant.cl) y [Nadinne Canto](https://twitter.com/cantonovoa).
   

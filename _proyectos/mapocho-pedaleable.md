@@ -4,7 +4,7 @@ agno: 2011
 foto: "/assets/img/mapocho-pedaleable/mapocho-caf-fm-pajaro.jpg"
 layout: proyecto
 enlace-ext: https://www.pedaleable.org/proyectos/mapocho-pedaleable/
-texto-corto-es: "Se trata de recuperar el espacio vacante del río mapocho para transformarlo en un parque urbano"
+texto-corto-es: Se trata de recuperar el espacio vacante del río mapocho para transformarlo en un parque urbano.
 texto-corto-en:
 texto-largo-es: |
   <escribir!!>

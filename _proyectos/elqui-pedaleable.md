@@ -6,7 +6,7 @@ agno: 2013
 foto: "/assets/img/elqui-pedaleable/elqui-fm-puente-yungay.jpg"
 layout: proyecto
 enlace-ext: "https://www.pedaleable.org/proyectos/elqui-pedaleable/"
-texto-corto-es: "Recuperación de una ferrovía en desuso para crear un corredor de movilidad activa en el valle del elqui, región de Coquimbo"
+texto-corto-es: Recuperación de una ferrovía en desuso para crear un corredor de movilidad activa en el valle del elqui, región de Coquimbo.
 texto-corto-en:
 texto-largo-es: |
   El ramal elquino fue una línea de tren que recorrió 90 km entre La Serena y Rivadavia, conectando la costa con el interior de la cordillera de los Andes. Las particulares condiciones de este estrecho valle hicieron que durante varias décadas el tren fuera la única opción de desplazamiento, hasta que este fue reemplazado por una carretera construída en el extremo opuesto del río.

@@ -1,12 +1,12 @@
 ---
-nombre: Plan integral de movilidad para Santiago.
+nombre: Plan integral de movilidad para Santiago
 cliente: I. Municipalidad de Santiago
 agno: 2015
 foto: ../assets/img/pims-santiago/contador-bicis.jpg
 layout: proyecto
 enlace-ext: https://www.munistgo.cl/plan-integral-de-movilidad-2019-2029-los-peatones-en-primer-lugar/
-texto-corto-es: "Replantea la movilidad en la comuna de Santiago, con un fuerte énfasis en la sostenibilidad"
-texto-corto-en: "Rethinks mobility in the municipality of Santiago, with a strong emphasis in sustainability"
+texto-corto-es: Replantea la movilidad en la comuna de Santiago, con un fuerte énfasis en la sostenibilidad.
+texto-corto-en: Rethinks mobility in the municipality of Santiago, with a strong emphasis in sustainability.
 texto-largo-es: |
   El plan de movilidad de Santiago (o PIMS) es un documento oficial, elaborado por el departamento de movilidad de la municipalidad de Santiago para modernizar la infraestructura y gestión del transporte en el territorio comunal. Su principal foco está en redistribuir el espacio vial, reduciendo la supremacía del automóvil particular y entregando espacios eficientes y seguras a modos más sostenibles.
 
@@ -22,7 +22,7 @@ texto-largo-en: |
 carpeta-img: ../assets/img/pims-santiago
 galeria-img: [
 plan-edición-1.jpg,
-pirámide-invertida.jpg,
+# pirámide-invertida.jpg,
 plan-edición-2.jpg,
 plan-edición-2-créditos.jpg,
 mercado-central-después.jpg,

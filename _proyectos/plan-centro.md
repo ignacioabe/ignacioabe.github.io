@@ -1,5 +1,5 @@
 ---
-nombre: Plan Centro
+nombre: Calles solo bus (plan centro)
 cliente: Municipalidad de Santiago
 agno: 2016
 foto: /assets/img/plan-centro/pc-peatones.jpg
