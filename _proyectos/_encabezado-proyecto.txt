@@ -16,5 +16,8 @@ texto-largo-en: |
 
   xxx xxx
 carpeta-img:
-galeria-img: []
+galeria-img:
+  - uno
+  - dos
+  - tres
 ---

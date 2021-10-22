@@ -16,8 +16,10 @@ texto-largo-en: |
 
   More details can be found on the [repository](https://github.com/ignacioabe/mapa-ciclovias){:target="_blank"}
 carpeta-img: ../assets/img/mapa-web-ciclovias
-galeria-img: [mapa-iu.png, mapa-detalle-3.jpg, mapa-detalle-2.jpg]
-
+galeria-img:
+- mapa-iu.png
+- mapa-detalle-3.jpg
+- mapa-detalle-2.jpg
 ---
 
 <!-- HOLA!

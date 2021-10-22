@@ -13,16 +13,15 @@ texto-largo-en: |
 
   The project required a good coordination between the municipality and other government agencies, and has been rewarded by several prizes (mentioned above).
 carpeta-img: ../assets/img/plan-centro
-galeria-img: [
-pc-merced-despues.jpg,
-pc-merced-antes.jpg,
-pc-esquina-despues.jpg,
-pc-esquina-antes.jpg,
-pc-calle-despues.jpg,
-pc-calle-antes.jpg,
-pc-plano-3.jpg,
-pc-plano-2.jpg,
-pc-plano-1.jpg
-]
+galeria-img:
+- pc-merced-despues.jpg
+- pc-merced-antes.jpg
+- pc-esquina-despues.jpg
+- pc-esquina-antes.jpg
+- pc-calle-despues.jpg
+- pc-calle-antes.jpg
+- pc-plano-3.jpg
+- pc-plano-2.jpg
+- pc-plano-1.jpg
 ---
 

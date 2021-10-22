@@ -21,9 +21,8 @@ texto-largo-en: |
 
   To highlight the potential of this route, on [Pedaleable.org](https://pedaleable.org){:target="_blank"} we developed diverse activities on the route, some of which were: bike rides, publications, spherical photo surveys with [google street view](https://www.google.com/maps/@-30.0201415,-70.7885979,3a,75y,140.98h,91.99t/data=!3m6!1e1!3m4!1s_0cybNHXejChwIYNU8PTEw!2e0!7i13312!8i6656){:target="_blank"}, geographic surveys, maps, websites, an expositive pavilion and more. Despite the coverage in local and national media, the project is stopped, waiting for approval of the (private) company that owns the line, called Ferronor.
 carpeta-img: ../assets/img/elqui-pedaleable
-galeria-img: [
-elqui-fm-puclaro.jpg,
-elqui-evento-cicletada.jpg
-]
+galeria-img:
+- elqui-fm-puclaro.jpg
+- elqui-evento-cicletada.jpg
 ---
 

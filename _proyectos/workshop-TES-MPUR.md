@@ -12,13 +12,12 @@ texto-largo-es: |
 texto-largo-en: |
   The workshop titled *A hidden city, geospatial tools in the era of data" was developed as a complement to the speciality studio of the master in urban project, of the architecture faculty of the *Universidad Católica de Chile*. The main goal was to give students tools so they could analyze open data, particularly geospatial, to deepen their understanding of the urban environment, so they could make better informed choices. Another relevant aspect is that all the software used in the workshop is open source, so students are free to use it in the future without worrying about license fees or other aspects. The main tools used to analyze the data were: QGIS, Kepler.gl and the programming language Python with the library Pandas.
 carpeta-img: ../assets/img/workshop-tes-mpur 
-galeria-img: [
-pantallazo-3.jpg,
-grupo-5.jpg,
-grupo-4.jpg,
-grupo-3.jpg,
-grupo-2.jpg,
-grupo-1.jpg
-]
+galeria-img:
+- pantallazo-3.jpg
+- grupo-5.jpg
+- grupo-4.jpg
+- grupo-3.jpg
+- grupo-2.jpg
+- grupo-1.jpg
 ---
 
