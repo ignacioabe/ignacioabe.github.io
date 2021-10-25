@@ -20,10 +20,9 @@ texto-largo-en: |
   
   Quisque venenatis arcu in lorem ornare, nec lacinia metus pulvinar. Vestibulum pulvinar in velit sed mollis. Nulla facilisi. Cras ex odio, faucibus id accumsan id, tristique ac libero. Vestibulum facilisis ullamcorper arcu, ut gravida lectus pulvinar malesuada. Nulla eleifend lacinia ligula, in vehicula nibh fermentum id. Suspendisse fringilla nisi dolor, a vulputate tortor vestibulum quis. Mauris sagittis quam scelerisque neque luctus laoreet. Pellentesque sagittis velit eget tellus hendrerit hendrerit. Etiam ac ipsum sem.
 carpeta-img: ../assets/img/mapa-santiago-ciclista
-galeria-img: [
-mapa-completo.jpg,
-mapa-recorte.jpg,
-mapa-impreso.jpg
-]
+galeria-img:
+  - mapa-completo.jpg
+  - mapa-recorte.jpg
+  - mapa-impreso.jpg
 ---
 

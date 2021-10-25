@@ -14,8 +14,8 @@ texto-largo-en: |
   This is a map of BIP points (where it is possible to recharge the transport card) Santiago, as the [official version](https://www.tarjetabip.cl/donde-puedo-cargar.php) does not have maps and only reaches to a municipal detail level, without allowing the user to actually search for a point close to his location.
 carpeta-img: ../assets/img/mapa-violencia-vial
 galeria-img:
-- mapa-vv-1.png
-- mapa-vv-2.png
-- mapa-vv-3.png
+  - mapa-vv-1.png
+  - mapa-vv-2.png
+  - mapa-vv-3.png
 ---
 
