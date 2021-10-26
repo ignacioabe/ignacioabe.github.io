@@ -33,16 +33,24 @@ layout: default
     {{page.texto-largo-en | markdownify }}
   </div>
 
+  <!-- prueba -->
+  <!-- <div class="flex-contenedor ancho-completo">
+    <img src="https://source.unsplash.com/random/500x500" alt="">
+    <img src="https://source.unsplash.com/random/500x500" alt="">
+    <img src="https://source.unsplash.com/random/500x500" alt="">
+  </div> -->
+
   <div class="título-sección">
     <h2 class="celda-izquierda">GALERÍA/</h2>
   </div>
 
+
   <!-- bucle galería -->
+  <div class="flex-contenedor ancho-completo">
   {% for imagen in page.galeria-img %}
-  <div class="galería ancho-completo">
       <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
-    </div>
-  {% endfor %}
+      {% endfor %}
+  </div>
 
   <div class="contenido-proy">
     {{ content }}
