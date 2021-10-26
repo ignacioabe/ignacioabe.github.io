@@ -13,7 +13,8 @@ texto-largo-en: |
 carpeta-img: ../assets/img/mapocho-pedaleable
 galeria-img:
   - mapocho-vista-valle.jpg
-  - mapocho-caf-fm-acceso-rio-normal.jpg, mapocho-caf-fm-acceso-rio-lleno.jpg
+  - mapocho-caf-fm-acceso-rio-normal.jpg
+  - mapocho-caf-fm-acceso-rio-lleno.jpg
   - mapocho-caf-fm-acceso-arriba.jpg
   - mapocho-caf-fm-bajo-puente.jpg
   - mapocho-foto-concurso.jpg
