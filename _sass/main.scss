@@ -48,9 +48,8 @@ a:hover {
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 280px);
   grid-gap: 20px;
-  @media (max-width: 480 px) {
-    grid-template-columns: repeat(90vw);
-    background-color: red;
+  @media (max-width:480px) {
+    grid-template-columns: repeat(auto-fit, 90vw);
   }
 }
 
