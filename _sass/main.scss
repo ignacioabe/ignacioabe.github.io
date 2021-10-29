@@ -47,6 +47,11 @@ a:hover {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 280px);
+  @media (max-width:500px) {
+    grid-template-columns: repeat(auto-fit, 90vw);
+    // background-color: yellowgreen;
+  }
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 0.75fr));
   grid-gap: 20px;
   @media (max-width:480px) {
     grid-template-columns: repeat(auto-fit, 90vw);
@@ -95,14 +100,17 @@ a:hover {
   padding: 10px;
 }
 
-.galería img {
-  // max-height: 50vh;
-  // display: flex;
-  // max-width: 80%;
-  // max-height: 100%;
-  height: auto;
-  // width: auto;
-  // object-fit: cover;
+.flex-contenedor {
+  display: flex;
+  height: 50vh;
+  background-color: $colorTarjeta;
+  padding: 10px;
+  overflow-x: scroll;
+}
+
+.flex-contenedor img {
+  width: auto;
+  margin-right: 15px;
 }
 
 // colores etiquetas secciones
