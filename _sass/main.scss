@@ -1,28 +1,28 @@
-$colorFondo: #212121;
-$colorTarjeta: #424242;
-$colorTexto: #eeeeee;
-$fuente: 'IBM Plex Mono';
-$fuenteTitulos: 'Space Mono',
-monospace;
-$fuenteBase: 'Work Sans',
-sans-serif;
+//@use "sass:color";
+
+$color-fondo: #212121;
+$color-tarjeta: #424242;
+$color-texto: #eeeeee;
+$color-texto-en: #bdbdbd;
+// $fuente: 'IBM Plex Mono';
+$fuente-base: 'Work Sans', sans-serif;
+$fuente-titulos: 'Space Mono', monospace;
 
 // todo el sitio
 
 body {
-  background: $colorFondo;
-  color: $colorTexto;
-  font-family: $fuenteBase;
+  background: $color-fondo;
+  color: $color-texto;
+  font-family: $fuente-base;
 }
 
 h1,
 h2,
 h3 {
-  font-family: $fuenteTitulos;
+  font-family: $fuente-titulos;
 }
 
-div {
-}
+//div {}
 
 img {
   height: 100%;
@@ -32,7 +32,7 @@ img {
 
 a {
   color: #ffea75;
-  // color: $colorTexto;
+  // color: $color-texto;
   // text-decoration-color: yellow;
   // text-decoration: none;
 }
@@ -47,12 +47,15 @@ a:hover {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 280px);
+
   @media (max-width:500px) {
     grid-template-columns: repeat(auto-fit, 90vw);
     // background-color: yellowgreen;
   }
+
   // grid-template-columns: repeat(auto-fit, minmax(300px, 0.75fr));
   grid-gap: 20px;
+
   @media (max-width:480px) {
     grid-template-columns: repeat(auto-fit, 90vw);
   }
@@ -64,29 +67,28 @@ a:hover {
 
 .tarjeta {
   padding: 10px;
-  color: $colorTexto;
+  color: $color-texto;
   // border: 2px solid white
 }
 
-//esto está raro
 .título-sección {
   grid-column-start: 1;
-  // color:red
 }
 
 .título-sección+.galería {
   grid-column-start: 1;
 }
+
 .título-sección+.proyecto {
   grid-column-start: 1;
 }
 
 .proyecto {
-  background: $colorTarjeta;
+  background: $color-tarjeta;
 }
 
 .vacío {
-  background-color: $colorFondo;
+  background-color: $color-fondo;
 }
 
 .celda-izquierda {
@@ -94,16 +96,14 @@ a:hover {
 }
 
 .galería {
-  // box-sizing: border-box;
-  // justify-content: left;
-  background-color: $colorTarjeta;
+  background-color: $color-tarjeta;
   padding: 10px;
 }
 
 .flex-contenedor {
   display: flex;
   height: 50vh;
-  background-color: $colorTarjeta;
+  background-color: $color-tarjeta;
   padding: 10px;
   overflow-x: scroll;
 }
@@ -116,7 +116,7 @@ a:hover {
 // colores etiquetas secciones
 
 #biografía {
-  background-color: $colorFondo;
+  background-color: $color-fondo;
 }
 
 #proyectos {
@@ -124,18 +124,9 @@ a:hover {
   grid-column-start: 1;
 }
 
-// #proyectos+.proyecto {
-//   grid-column-start: 1;
-// }
-
 #contacto {
   grid-column-start: 1;
   // background-color: #880E4F;
-}
-
-#redes {
-  // grid-column-start: 1;
-  // background-color: #B71C1C;
 }
 
 .rectangulo {
@@ -146,13 +137,6 @@ a:hover {
 .rectangulo img {
   object-fit: cover;
 }
-
-// proyecto
-
-
-// .ficha {
-//   grid-column-start: 1;
-// }
 
 .ancho-completo {
   // padding: 10px;
@@ -165,4 +149,5 @@ a:hover {
 
 .en {
   font-style: italic;
+  color: $color-texto-en;
 }
