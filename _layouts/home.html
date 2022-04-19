@@ -23,10 +23,10 @@ layout: default
   </div> -->
   <div>
     <h1 class="nombre-sección">HOLA!</h1>
-    <p>Soy Ignacio Abé, arquitecto y master en urbanismo, 
+    <p>Soy Ignacio Abé, arquitecto y master en urbanismo,
       especializado en movilidad sostenible, mapas y análisis de información geoespacial.</p>
-      <p>Bienvenido a mi sitio web.</p>
-    </div>
+    <p>Bienvenido a mi sitio web.</p>
+  </div>
 
   <!-- proyectos -->
   <div id="proyectos" class="título-sección">
@@ -48,6 +48,23 @@ layout: default
     <p>{{ proyecto.texto-corto-es }}</p>
   </div>
   {% endfor %}
+
+  <!-- blog -->
+  <div id="proyectos" class="título-sección">
+    <h2 class="nombre-sección">BLOG/</h2>
+    <!-- <p>La selección de proyectos aquí presente cubre un</p> -->
+  </div>
+
+  <!-- bucle blog -->
+  <div class="tarjeta proyecto">
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 
   <!-- contacto -->
   <div id="contacto" class="">

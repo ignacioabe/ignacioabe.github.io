@@ -42,6 +42,10 @@ O para dejar la base de datos siempre disponible
 - `brew services start postgresql` Comienza un servicio de brew para psql.
 - `brew services stop postgresql` Detiene un servicio de brew para psql.
 
+Si el computador se reinicia hay un archivo que se puede corromper. Eso se arrega con:
+
+- `rm /usr/local/var/postgres/postmaster.pid`
+
 ### Descarga datos
 
 - Bajar datos de OPENSTREETMAP como .osm (ocupar la exportación directa de <http://openstreetmap.org> o la opción de <http://overpass.turbo.eu> Ocupar un encuadre pequeño para las primeras pruebas.
