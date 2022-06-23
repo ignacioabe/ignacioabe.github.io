@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="grilla">
+<div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-8">
+
 
   <div id="titulo-sitio" class="celda-izquierda">
     <h2><a href="/">Ignacio Abé/</a></h2>
@@ -46,11 +47,11 @@ layout: default
 
 
   <!-- bucle galería -->
-  <div class="flex-contenedor ancho-completo">
   {% for imagen in page.galeria-img %}
-      <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
-      {% endfor %}
+  <div class="">
+    <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
   </div>
+  {% endfor %}
 
   <div class="contenido-proy">
     {{ content }}
