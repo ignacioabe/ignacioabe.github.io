@@ -12,7 +12,7 @@ layout: default
   </div> -->
 
   <div class="col-start-1">
-    <h2 class="text-3xl"><a href="/">Ignacio Abé</a></h2>
+    <h2 class="text-2xl"><a href="/">{{site.title}}</a></h2>
   </div>
 
   <!-- biografía -->
@@ -22,22 +22,22 @@ layout: default
     </div>
   </div> -->
   <div>
-    <h1 class="text-xl">HOLA!</h1>
-    <p>Soy Ignacio Abé, arquitecto y master en urbanismo,
-      especializado en movilidad sostenible, mapas y análisis de información geoespacial.</p>
+    <h1 class="text-2xl pb-4">HOLA!</h1>
+    <p>Mi nombre es Ignacio Abé, estudié arquitectura y un master en urbanismo,
+      estoy especializado en movilidad sostenible, mapas y análisis de información geoespacial.</p>
     <p>Bienvenido a mi sitio web.</p>
   </div>
 
   <!-- título proyectos -->
   <div class="col-start-1">
-    <h2 class=" text-xl">PROYECTOS</h2>
+    <h2 class=" text-2xl">PROYECTOS</h2>
     <!-- <p>La selección de proyectos aquí presente cubre un</p> -->
   </div>
 
   <!-- bucle proyectos -->
   {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
   {% for proyecto in proyectos %}
-  <div class="bg-slate-200">
+  <div class="bg-slate-200 hover:bg-slate-300">
     <div class="aspect-square">
       <a href="{{ proyecto.url }}">
         <img class="object-cover h-full" src="{{ proyecto.foto }}" alt="">
@@ -45,18 +45,18 @@ layout: default
     </div>
     <div class="p-4">
       <h3 class="text-xl pb-4"><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></h3>
-      <p class="font-serif">{{ proyecto.texto-corto-es }}</p>
+      <p class="">{{ proyecto.texto-corto-es }}</p>
     </div>
   </div>
   {% endfor %}
 
   <!-- título blog -->
-  <!-- <div class="col-start-1">
-    <h2 class="text-xl pb-4">BLOG/</h2>
-  </div> -->
+  <div class="col-start-1">
+    <h2 class="text-2xl">BLOG</h2>
+  </div>
 
   <!-- bucle blog -->
-  <!-- <div class="col-start-1">
+  <div class="">
     <ul>
       {% for post in site.posts %}
       <li>
@@ -64,12 +64,12 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-  </div> -->
+  </div>
 
 
   <!-- contacto -->
   <div class="col-start-1">
-    <h2 class="text-xl pb-4">CONTACTO/</h2>
+    <h2 class="text-2xl pb-4">CONTACTO</h2>
     <p>tel: +39 3313117722</p>
     <p>correo: <a href="mailto:ignacio.abe@gmail.com">ignacio.abe@gmail.com</a></p>
     <p> ubicación: Venecia, Italia</p>
@@ -77,9 +77,9 @@ layout: default
 
   <!-- redes -->
   <div>
-    <h2 class="text-xl pb-4">REDES/</h2>
+    <h2 class="text-2xl pb-4">REDES</h2>
     <p><a href="https://instagram.com/ignacioabe/" target="_blank">instagram</a></p>
     <p><a href="https://github.com/ignacioabe/" target="_blank">github</a></p>
     <p><a href="https://twitter.com/ignacioabe" target="_blank">twitter</a></p>
-    <p>otros</p>
+    <!-- <p>otros</p> -->
   </div>

@@ -3,10 +3,25 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:ital@0;1&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          'sans': ['"Work Sans"', "sans-serif"],
+          // 'serif': ['ui-serif', 'Georgia', ...],
+          // 'mono': ['"Space Mono"', "monospace"],
+          // 'display': ['Oswald', ...],
+          // 'body': ['"Open Sans"', ...],
+        }
+      }
+    }
+  </script>
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
 </head>
