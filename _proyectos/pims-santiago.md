@@ -21,12 +21,28 @@ texto-largo-en: |
   In its [second edition](https://issuu.com/munistgo/docs/pim_2019-2029_final?e=8313693/70339752), the plan did a review of the projects and strategies implemented in its first edition, most of them fairly successfully, and proposed strategies to continue them. My role was of editor and coordinator, together with [Miguel Olivares](https://twitter.com/mohauva) and [Alexis Arévalo](https://twitter.com/alex_arevalo_c).
 carpeta-img: ../assets/img/pims-santiago
 galeria-img:
-  - plan-edicion-1.jpg
-  - plan-edicion-2.jpg
-  - plan-edicion-2-creditos.jpg
-  - mercado-central-despues.jpg
-  - mercado-central-antes.jpg
-  - contador-bicis.jpg
-  - ciclovia-rosas.jpg
-  - A3_plan_peaton.jpg
+  - 1:
+    archivo:  plan-edicion-1.jpg
+    ancho: 1
+  - 2:
+    archivo: plan-edicion-2.jpg
+    ancho: 1
+  - 3:
+    archivo: plan-edicion-2-creditos.jpg
+    ancho: 1
+  - 4:
+    archivo: mercado-central-despues.jpg
+    ancho: full
+  - 5:
+    archivo: mercado-central-antes.jpg
+    ancho: full
+  - 6:
+    archivo: contador-bicis.jpg
+    ancho: full
+  - 7:
+    archivo: ciclovia-rosas.jpg
+    ancho: full
+  - 8:
+    archivo: A3_plan_peaton.jpg
+    ancho: full
 ---

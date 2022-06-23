@@ -48,8 +48,8 @@ layout: default
 
   <!-- bucle galería -->
   {% for imagen in page.galeria-img %}
-  <div class="">
-    <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
+  <div class="col-span-{{ imagen.ancho }}">
+    <img class="w-full" src="{{page.carpeta-img}}/{{ imagen.archivo }}" alt="" loading="lazy">
   </div>
   {% endfor %}
 

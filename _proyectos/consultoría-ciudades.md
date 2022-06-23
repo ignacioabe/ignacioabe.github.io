@@ -21,10 +21,22 @@ texto-largo-en: |
   To extract and transform the data, the main tool was the programming language Python, and Pandas, one of its libraries. The cleaned up data was visualized through graphics and maps (using Kepler.gl). The result was a complete analysis of parameters of urban development, organized by cities, and interactive maps that allow a deeper and clearer exploration of the geospatial data.
 carpeta-img: ../assets/img/asesoria-corp-ciudades
 galeria-img:
-  - mapa-permisos.jpg
-  - mapa-densidad.jpg
-  - grafico-violines.jpg
-  - grafico-monto-proyectos-ejecutor.jpg
-  - grafico-num-proyectos-mandante.jpg
-  - grafico-geocgr-agno.jpg
+  - 1:
+    archivo: mapa-permisos.jpg
+    ancho: full
+  - 2:
+    archivo: mapa-densidad.jpg
+    ancho: full
+  - 3:
+    archivo: grafico-violines.jpg
+    ancho: full
+  - 4:
+    archivo: grafico-monto-proyectos-ejecutor.jpg
+    ancho: 1
+  - 5:
+    archivo: grafico-num-proyectos-mandante.jpg
+    ancho: 1
+  - 6:
+    archivo: grafico-geocgr-agno.jpg
+    ancho: full
 ---
