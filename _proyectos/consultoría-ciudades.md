@@ -24,19 +24,19 @@ galeria-img:
   - 1:
     archivo: mapa-permisos.jpg
     ancho: full
-  - 2:
+  - 1:
     archivo: mapa-densidad.jpg
     ancho: full
-  - 3:
+  - 1:
     archivo: grafico-violines.jpg
     ancho: full
-  - 4:
-    archivo: grafico-monto-proyectos-ejecutor.jpg
-    ancho: 1
-  - 5:
-    archivo: grafico-num-proyectos-mandante.jpg
-    ancho: 1
-  - 6:
+  # - 1:
+  #   archivo: grafico-monto-proyectos-ejecutor.jpg
+  #   ancho: full
+  # - 1:
+  #   archivo: grafico-num-proyectos-mandante.jpg
+  #   ancho: full
+  - 1:
     archivo: grafico-geocgr-agno.jpg
     ancho: full
 ---

@@ -24,25 +24,25 @@ galeria-img:
   - 1:
     archivo:  plan-edicion-1.jpg
     ancho: 1
-  - 2:
+  - 1:
     archivo: plan-edicion-2.jpg
     ancho: 1
-  - 3:
+  - 1:
     archivo: plan-edicion-2-creditos.jpg
     ancho: 1
-  - 4:
+  - 1:
     archivo: mercado-central-despues.jpg
     ancho: full
-  - 5:
+  - 1:
     archivo: mercado-central-antes.jpg
     ancho: full
-  - 6:
+  - 1:
     archivo: contador-bicis.jpg
     ancho: full
-  - 7:
+  - 1:
     archivo: ciclovia-rosas.jpg
     ancho: full
-  - 8:
+  - 1:
     archivo: A3_plan_peaton.jpg
     ancho: full
 ---

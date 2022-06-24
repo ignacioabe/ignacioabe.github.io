@@ -18,8 +18,14 @@ texto-largo-en: |
   The project was developed together with [Carlos Busquets](https://carlosbusquets.com)
 carpeta-img: ../assets/img/mapa-santiago-ciclista
 galeria-img:
-  - mapa-completo.jpg
-  - mapa-recorte.jpg
-  - mapa-impreso.jpg
+  - 1:
+    archivo: mapa-completo.jpg
+    ancho: full
+  - 1:
+    archivo: mapa-recorte.jpg
+    ancho: 1
+  - 1:
+    archivo: mapa-impreso.jpg
+    ancho: 1
 ---
 

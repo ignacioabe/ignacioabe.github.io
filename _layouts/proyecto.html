@@ -12,7 +12,7 @@ layout: default
   <div class="col-start-1">
     <h2 class="text-2xl">PROYECTOS</h2>
   </div>
-  <div class="col-start-1">
+  <div class="">
     <h3 class="text-xl pb-4">{{ page.nombre | escape }}</h3>
     <p>cliente: {{ page.cliente }}</p>
     <p>año: {{ page.agno }}</p>
@@ -63,9 +63,12 @@ layout: default
   </div>
 
   <div class="col-start-1">
+    <ul>
+
+    </ul>
     {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
     {% for proyecto in proyectos %}
-    <p><a class="no-underline hover:underline" href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></p>
+    <li class="pb-1"><a class="no-underline hover:underline" href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></li>
     <!-- <p>{{ proyecto.texto-corto-es }}</p> -->
     {% endfor %}
     <!-- volver al inicio -->
