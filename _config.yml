@@ -6,3 +6,8 @@ collections:
     output: true
     sort_by: agno
     
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false

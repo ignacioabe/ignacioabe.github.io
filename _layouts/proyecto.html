@@ -65,13 +65,13 @@ layout: default
   <div class="col-start-1">
     <ul>
 
+      {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
+      {% for proyecto in proyectos %}
+      <li class="pb-1"><a class="" href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></li>
+      <!-- <p>{{ proyecto.texto-corto-es }}</p> -->
+      {% endfor %}
+      <!-- volver al inicio -->
     </ul>
-    {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
-    {% for proyecto in proyectos %}
-    <li class="pb-1"><a class="no-underline hover:underline" href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></li>
-    <!-- <p>{{ proyecto.texto-corto-es }}</p> -->
-    {% endfor %}
-    <!-- volver al inicio -->
   </div>
 
 
