@@ -1,13 +1,8 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "IGNACIO ABÉ (.cl)" # the name of your site, e.g. ACME Corp.
+title: "Ignacio Abé" # the name of your site, e.g. ACME Corp.
 collections:
   proyectos:
     output: true
     sort_by: agno
     
-plugins:
-  - jekyll-postcss
-
-postcss:
-  cache: false

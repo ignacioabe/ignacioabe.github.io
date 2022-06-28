@@ -1,49 +1,21 @@
 ---
 layout: default
 ---
-<article class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-8" itemscope
-  itemtype="http://schema.org/BlogPosting">
-  <!-- <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-8"> -->
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <div>
-    <h2 class="text-2xl hover:underline"><a href="/">{{site.title}}</a></h2>
-  </div>
-
-  <div class="col-start-1">
-    <h2 class="text-2xl">BLOG</h2>
-  </div>
-
-  <header class="col-start-1">
-    <h2 class="text-xl pb-4" itemprop="name headline">{{ page.title | escape }}</h1>
-      <p class="post-meta text-md italic">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
-          {{ page.date | date: date_format }}
-        </time>
-        {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
-            itemprop="name">{{ page.author }}</span></span>
-        {% endif %}</p>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}</p>
   </header>
 
-  <div class="prose post-content col-span-full" itemprop="articleBody">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  <!-- bucle otros proyectos -->
-  <div class="col-start-1">
-    <h2 class="text-2xl">OTROS BLOG(eos) (?)</h2>
-  </div>
-
-  <!-- bucle blog -->
-  <div class="col-start-1">
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <a class="no-underline hover:underline" href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
 </article>

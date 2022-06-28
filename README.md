@@ -19,7 +19,3 @@
 - `sips -s formatOptions normal -Z 1500 *.jpg`  Achica las imágenes a 1500 pixeles de (ancho? dimensión mayor?)
 
 - moverlas a la carpeta del proyecto que corresponda.
-
-## Notas
-
-- El sitio web usa las clases de css de tailwind. Para incorporarlas a jekyll usé [esta guía](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/)

@@ -2,21 +2,20 @@
 layout: default
 ---
 
-<div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-8">
+<div class="grilla">
 
+  <div id="titulo-sitio" class="celda-izquierda">
+    <h2><a href="/">Ignacio Abé/</a></h2>
+  </div>
 
   <div>
-    <h2 class="text-2xl hover:underline"><a href="/">{{site.title}}</a></h2>
-  </div>
-
-  <div class="col-start-1">
-    <h2 class="text-2xl">PROYECTOS</h2>
+    <h2>PROYECTOS/</h2>
   </div>
   <div class="">
-    <h3 class="text-xl pb-4">{{ page.nombre | escape }}</h3>
+    <h3 class="post-title" itemprop="name headline">{{ page.nombre | escape }}</h3>
     <p>cliente: {{ page.cliente }}</p>
     <p>año: {{ page.agno }}</p>
-    <p><a class="underline" href="{{ page.enlace-ext }}" target="_blank">SITIO WEB</a></p>
+    <p><a href="{{ page.enlace-ext }}" target="_blank">SITIO WEB</a></p>
     <!-- <p>herramientas: {{ page.herramientas }}</p> -->
   </div>
 
@@ -24,13 +23,13 @@ layout: default
     <img src="{{page.foto}}" alt="">
   </div> -->
 
-  <div class="col-start-1">
-    <h2 class="text-2xl">txt.ES:</h2>
+  <div class="descripcion es celda-izquierda">
+    <h2>txt.ES:</h2>
     {{page.texto-largo-es | markdownify }}
   </div>
 
-  <div class="italic">
-    <h2 class="text-2xl">txt.EN:</h2>
+  <div class="descripcion en">
+    <h2>txt.EN:</h2>
     {{page.texto-largo-en | markdownify }}
   </div>
 
@@ -41,43 +40,36 @@ layout: default
     <img src="https://source.unsplash.com/random/500x500" alt="">
   </div> -->
 
-  <div class="col-start-1">
-    <h2 class="text-2xl">GALERÍA</h2>
+  <div class="título-sección">
+    <h2 class="celda-izquierda">GALERÍA/</h2>
   </div>
 
 
   <!-- bucle galería -->
+  <div class="flex-contenedor ancho-completo">
   {% for imagen in page.galeria-img %}
-  <div class="col-span-{{ imagen.ancho }}">
-    <img class="w-full" src="{{page.carpeta-img}}/{{ imagen.archivo }}" alt="" loading="lazy">
+      <img src="{{page.carpeta-img}}/{{ imagen }}" alt="" loading="lazy">
+      {% endfor %}
   </div>
-  {% endfor %}
 
-  <div>
+  <div class="contenido-proy">
     {{ content }}
   </div>
 
   <!-- bucle otros proyectos -->
-  <div class="col-start-1">
-    <h2 class="text-2xl">OTROS PROYECTOS</h2>
+  <div class="celda-izquierda">
+    <h2>OTROS PROYECTOS/</h2>
+    {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
+    {% for proyecto in proyectos %}
+    <p><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></p>
+    <!-- <p>{{ proyecto.texto-corto-es }}</p> -->
+    {% endfor %}
+    <!-- volver al inicio -->
   </div>
 
-  <div class="col-start-1">
-    <ul>
-
-      {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
-      {% for proyecto in proyectos %}
-      <li class="pb-1"><a class="" href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></li>
-      <!-- <p>{{ proyecto.texto-corto-es }}</p> -->
-      {% endfor %}
-      <!-- volver al inicio -->
-    </ul>
-  </div>
-
-
-  <div class="col-start-1">
+  <div class="celda-izquierda">
     <h3>
-      <a href="#">↑ Volver arriba</a>
+      <a href="#titulo-sitio">↑ Volver arriba</a>
     </h3>
   </div>
 
