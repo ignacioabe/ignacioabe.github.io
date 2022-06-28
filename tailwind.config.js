@@ -1,3 +1,5 @@
+/** @type {import('tailwindcss').Config} */
+>>>>>>> tailwind-aparte
 module.exports = {
   content: [
     './_drafts/**/*.html',
