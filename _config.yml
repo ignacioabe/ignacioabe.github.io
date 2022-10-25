@@ -5,4 +5,6 @@ collections:
   proyectos:
     output: true
     sort_by: agno
+exclude:
+  - documentos/
     
