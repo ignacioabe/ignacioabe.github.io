@@ -5,11 +5,11 @@ layout: default
 <div class="grilla">
 
   <div id="titulo-sitio" class="celda-izquierda">
-    <h2><a href="/">Ignacio Abé/</a></h2>
+    <h1><a href="/">Ignacio Abé</a></h1>
   </div>
 
   <div>
-    <h2>PROYECTOS/</h2>
+    <h2>PROYECTOS</h2>
   </div>
   <div class="">
     <h3 class="post-title" itemprop="name headline">{{ page.nombre | escape }}</h3>
@@ -24,17 +24,17 @@ layout: default
   </div> -->
 
   <div class="descripcion es celda-izquierda">
-    <h2>txt.ES:</h2>
+    <h2>txt.ES</h2>
     {{page.texto-largo-es | markdownify }}
   </div>
 
   <div class="descripcion en">
-    <h2>txt.EN:</h2>
+    <h2>txt.EN</h2>
     {{page.texto-largo-en | markdownify }}
   </div>
 
   <div class="título-sección">
-    <h2 class="celda-izquierda">GALERÍA/</h2>
+    <h2 class="celda-izquierda">GALERÍA</h2>
   </div>
 
 
@@ -51,7 +51,7 @@ layout: default
 
   <!-- bucle otros proyectos -->
   <div class="celda-izquierda">
-    <h2>OTROS PROYECTOS/</h2>
+    <h2>OTROS PROYECTOS</h2>
     {% assign proyectos = site.proyectos | sort: 'agno' | reverse %}
     {% for proyecto in proyectos %}
     <p><a href="{{ proyecto.url }}">{{ proyecto.nombre }}</a></p>

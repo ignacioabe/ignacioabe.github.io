@@ -6,7 +6,8 @@ $color-texto: #eeeeee;
 $color-texto-en: #bdbdbd;
 // $fuente: 'IBM Plex Mono';
 $fuente-base: 'Work Sans', sans-serif;
-$fuente-titulos: 'Space Mono', monospace;
+$fuente-titulos: 'Work Sans', sans-serif;
+$fuente-mono: 'Space Mono', monospace; 
 
 // puntos de quiebre de tamaño de pantalla (ancho)
 $sm: 640px;
@@ -44,6 +45,12 @@ h1,
 h2,
 h3 {
   font-family: $fuente-titulos;
+  font-weight: 700;
+}
+
+code {
+  font-family: $fuente-mono;
+  font-size: 80%;
 }
 
 
