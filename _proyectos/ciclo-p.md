@@ -1,7 +1,7 @@
 ---
 nombre: Ciclo-P
 cliente: Universidad Católica
-agno: 2022
+agno: 2023
 foto: /assets/img/ciclo-p/arcos-cuadrada.png
 # herramientas: "openrefine, mapboxGL.js"
 layout: proyecto
