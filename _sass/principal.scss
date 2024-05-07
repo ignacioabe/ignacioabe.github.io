@@ -7,7 +7,7 @@ $color-texto-en: #bdbdbd;
 // $fuente: 'IBM Plex Mono';
 $fuente-base: 'Work Sans', sans-serif;
 $fuente-titulos: 'Work Sans', sans-serif;
-$fuente-mono: 'Space Mono', monospace; 
+$fuente-mono: 'Space Mono', monospace;
 
 // puntos de quiebre de tamaño de pantalla (ancho)
 $sm: 640px;
@@ -27,15 +27,15 @@ body {
   // @media (min-width: $sm) {
   //   background-color: rgb(33, 0, 0);
   // }
-  
+
   // @media (min-width: $md) {
   //   background-color: rgb(0, 45, 0);
   // }
-  
+
   // @media (min-width: $lg) {
   //   background-color: rgb(0, 0, 46);
   // }
-  
+
   // @media (min-width: $xl) {
   //   background-color: rgb(44, 44, 0);
   // }
@@ -127,16 +127,18 @@ a {
 .imagen-galería {
   padding: 10px;
   background: $color-tarjeta;
+
   @media (min-width: $sm) {
-  grid-column-start: 1;
-  grid-column-end: -1;
+    grid-column-start: 1;
+    grid-column-end: -1;
   }
+
   @media (min-width: $lg) {
     grid-column-start: 2;
     grid-column-end: -1;
   }
-  
-  @media (min-width: $xl) {    
+
+  @media (min-width: $xl) {
     grid-column-start: 3;
     grid-column-end: -1;
   }
