@@ -7,9 +7,21 @@ enlace-ext: https://www.pedaleable.org/proyectos/mapocho-pedaleable/
 texto-corto-es: Se trata de recuperar el espacio vacante del río mapocho para transformarlo en un parque urbano.
 texto-corto-en:
 texto-largo-es: |
-  <escribir!!>
+  El proyecto Mapocho Pedaleable se trata de la recuperación del río Mapocho, un espacio abandonado y estigmatizado, en un espacio público y una infraestructura de transporte sostenible.
+  
+  El río Mapocho, el más importante de Santiago (capital de Chile) fue desconectado de la ciudad, primero a través de su uso como infraestructura para la descarga de aguas servidas, removidas el 2010, y posteriormente con la construcción de autopistas urbanas. Ambas intervenciones le dieron al río fama de un lugar contaminado y peligroso.
+  
+  El proyecto Mapocho Pedaleable propone la incorporación de una ciclovía y un paseo peatonal en el costado sur del lecho del río, que se mantiene seco la mayor parte del año, con la excepción de unos 5 a 10 días (en promedio) de lluvias intensas.
+
+  El diseño del proyecto definitivo se complementa con una estrategia de intervenciones de urbanismo táctico, que en conjunto con las partes interesadas, abre el río a la ciudadanía y despliega una agenda de actividades destinadas a la apropiación de este "nuevo" espacio.
 texto-largo-en: |
-  This project is about the recovery of the Mapocho River, turning a neglected and abandonded urban space into a public one, integrating a quick and scenic cycleway and pedestrian promenade into the riverbed as strategic urban devices. The mapocho river, the most important of the Santiago, the capital of Chile, has been disconnected from the city, first used as a wastewater disposal (removed in the present) and then filled with urban highways which isolated it from the urban tissue and gave it fame of a dangerous and dirty place. The main intervention is the construction of a 7 km cycleway and walkway in the riverbed, in the most dense zone of the city and where most bridges are located (which the proposal conveniently bypasses).
+  The Mapocho Pedaleable project is about the recovery of the Mapocho River, a neglected and stigmatized space, transforming it into a public space and sustainable transportation infrastructure.
+
+  The Mapocho River, the most important river in Santiago (the capital of Chile), was disconnected from the city, first through its use as infrastructure for sewage discharge, removed in 2010, and later with the construction of urban highways. Both interventions gave the river a reputation as a polluted and dangerous place.
+
+  The Mapocho Pedaleable project proposes the incorporation of a bike path and a pedestrian walkway on the southern side of the riverbed, which remains dry for most of the year, except for an average of 5 to 10 days of heavy rainfall.
+
+  The design of the final project is complemented by a strategy of tactical urbanism interventions, which, together with stakeholders, opens the river to the public and deploys a schedule of activities aimed at the appropriation of this "new" space.
 carpeta-img: ../assets/img/mapocho-pedaleable
 galeria-img:
   - mapocho-vista-valle.jpg
