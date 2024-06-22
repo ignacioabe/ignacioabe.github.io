@@ -4,7 +4,7 @@ cliente: Pedaleable.org
 agno: 2020
 foto: "/assets/img/mapa-web-ciclovias/mapa-sin-iu.jpg"
 layout: proyecto
-enlace-ext: https://pedaleable.github.com/mapa-ciclovias
+enlace-ext: https://pedaleable.github.io/mapa-ciclovias
 texto-corto-es: Mapa web para planear y realizar viajes en bicicleta por Chile, basado en OpenStreetMap.
 texto-largo-en:
 texto-largo-es: |

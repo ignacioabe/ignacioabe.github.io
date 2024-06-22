@@ -5,7 +5,7 @@ cliente: Pedaleable.org
 agno: 2021
 foto: "/assets/img/mapa-santiago-ciclista/mapa-portada-2400.jpg"
 layout: proyecto
-enlace-ext: "https://santiagociclista.cl/"
+enlace-ext: https://www.instagram.com/stgociclista/
 texto-corto-es: "Mapa impreso de las ciclovías urbanas y de entorno natural en Santiago de Chile, a la venta en librerías y otros lugares autorizados"
 texto-corto-en:
 texto-largo-es: |
